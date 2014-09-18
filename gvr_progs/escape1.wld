@@ -1,0 +1,8 @@
+# give robot a beeper for beeperTest.gvr
+Robot 5 4 N 1
+Wall 3 2 N 6
+Wall 2 3 E 4
+Wall 3 6 N 6
+Wall 8 3 E 2
+Wall 8 6 E
+

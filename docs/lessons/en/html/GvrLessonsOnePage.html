@@ -1,0 +1,1085 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>GvR Lessons</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso-iso-8859-1">
+<STYLE TYPE="text/css">
+BODY { font-family: serif }
+H1 { font-family: sans-serif }
+H2 { font-family: sans-serif }
+H3 { font-family: sans-serif }
+H4 { font-family: sans-serif }
+H5 { font-family: sans-serif }
+H6 { font-family: sans-serif }
+SUB { font-size: smaller }
+SUP { font-size: smaller }
+PRE { font-family: monospace }
+</STYLE>
+</HEAD>
+<BODY>
+<CENTER><A HREF="#CONTENTS"><H1>GvR Lessons</H1></A><BR>
+</CENTER>
+<HR>
+<H1 ALIGN="CENTER"><A NAME="CONTENTS">Table of Contents</A></H1>
+<BR>
+<BR><B><A HREF="#1">The Roger Frank Lessons Introduction to Computer
+ Science: GvR Unit</A></B>
+<UL>
+<LI><A HREF="#1_1">Programming with GvR</A></LI>
+<LI><A HREF="#1_2">Acknowledgements</A></LI>
+</UL>
+<B><A HREF="#2">Guido's First Steps</A></B>
+<UL>
+<LI><A HREF="#2_1">Tutorial</A></LI>
+<LI><A HREF="#2_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#3">What's That Sound?</A></B>
+<UL>
+<LI><A HREF="#3_1">Tutorial</A></LI>
+<LI><A HREF="#3_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#4">Turn, Turn, Turn</A></B>
+<UL>
+<LI><A HREF="#4_1">Tutorial</A></LI>
+<LI><A HREF="#4_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#5">Just Another Brick in the Wall</A></B>
+<UL>
+<LI><A HREF="#5_1">Tutorial</A></LI>
+<LI><A HREF="#5_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#6">Do The Right Thing</A></B>
+<UL>
+<LI><A HREF="#6_1">Tutorial</A></LI>
+<LI><A HREF="#6_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#7">Robotics Times</A></B>
+<UL>
+<LI><A HREF="#7_1">Project</A></LI>
+</UL>
+<B><A HREF="#8">Birthday Message</A></B>
+<UL>
+<LI><A HREF="#8_1">Project</A></LI>
+</UL>
+<B><A HREF="#9">Decisions</A></B>
+<UL>
+<LI><A HREF="#9_1">Tutorial</A></LI>
+<LI><A HREF="#9_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#10">You Missed Some</A></B>
+<UL>
+<LI><A HREF="#10_1">Tutorial</A></LI>
+<LI><A HREF="#10_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#11">Let's Dance</A></B>
+<UL>
+<LI><A HREF="#11_1">Overview</A></LI>
+<LI><A HREF="#11_2">Assignment</A></LI>
+</UL>
+<B><A HREF="#12">Apple Pie or Cookies?</A></B>
+<UL>
+<LI><A HREF="#12_1">Tutorial</A></LI>
+<LI><A HREF="#12_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#13">Take Out the Trash</A></B>
+<UL>
+<LI><A HREF="#13_1">Tutorial</A></LI>
+<LI><A HREF="#13_2">Your Turn</A></LI>
+</UL>
+<B><A HREF="#14">World Traveler</A></B>
+<UL>
+<LI><A HREF="#14_1">Overview</A></LI>
+<LI><A HREF="#14_2">Assignment</A></LI>
+<LI><A HREF="#14_3">Extra for Experts</A></LI>
+</UL>
+<B><A HREF="#15">It's Going to Rain</A></B>
+<UL>
+<LI><A HREF="#15_1">Project</A></LI>
+</UL>
+<B><A HREF="#16">A Job to Do</A></B>
+<UL>
+<LI><A HREF="#16_1">Overview</A></LI>
+<LI><A HREF="#16_2">Project</A></LI>
+</UL>
+<B><A HREF="#17">Lunchbox</A></B>
+<UL>
+<LI><A HREF="#17_1">Project</A></LI>
+<LI><A HREF="#17_2">Assignment</A></LI>
+</UL>
+<B><A HREF="#18">Community Service Revisited</A></B>
+<UL>
+<LI><A HREF="#18_1">Project</A></LI>
+<LI><A HREF="#18_2">Assignment</A></LI>
+</UL>
+<B><A HREF="#19">Where to Go from Here...</A></B>
+<UL>
+<LI><A HREF="#19_1">Conclusion</A></LI>
+</UL>
+<B><A HREF="#20">Guido van Robot Language Reference</A></B>
+<UL>
+<LI><A HREF="#20_1">The Five Primitive Guido van Robot Instructions:</A></LI>
+<LI><A HREF="#20_2">Block Structuring</A></LI>
+<LI><A HREF="#20_3">Conditional Branching</A></LI>
+<LI><A HREF="#20_4">Conditionals</A></LI>
+<LI><A HREF="#20_5">Iteration</A></LI>
+<LI><A HREF="#20_6">Defining a New Instruction:</A></LI>
+<LI><A HREF="#20_7">Simplest GvR Program</A></LI>
+<LI><A HREF="#20_8">An Example Program</A></LI>
+</UL>
+<HR>
+<H1><A NAME="1"><EM>The Roger Frank Lessons</EM>
+<BR> Introduction to Computer Science: GvR Unit</A></H1>
+<H2><A NAME="1_1">Programming with GvR</A></H2>
+<P> Programming a computer in a language like Python requires a precise
+ sequencing of steps written in a language where details of syntax can
+ be overwhelming for a beginner. Everything must be exactly right, and
+ errors in just getting the program to run are frustrating. Often the
+ output of beginning computer programs are text-based and uninteresting,
+ at least to humans.</P>
+<P> To get acquainted with the concepts of computing without getting
+ bogged down in the syntax of a higher-level language such as Python, we
+ begin by programming Guido van Robot. GvR is a teaching tool that
+ presents the concepts in a visual way using a robot-language that is
+ simple, yet powerful and extensible.</P>
+<P> We program Guido, a simple robot that lives in a simple world.
+ Because Guido and his world are a visual simulation, we can watch the
+ effects of our programming statements. This activity is presented in a
+ series of steps -- tutorials with accompanying mini-labs.</P>
+<TABLE border="1"><TBODY></TBODY>
+<TR><TD><A href="#2">Step
+ 1</A></TD><TD>Guido's First Steps</TD><TD>creating .wld and .gvr files</TD>
+</TR>
+<TR><TD><A href="#3">Step
+ 2</A></TD><TD>What's That Sound?</TD><TD>beepers</TD></TR>
+<TR><TD><A href="#4">Step
+ 3</A></TD><TD>Turn, Turn, Turn</TD><TD>sequential instructions</TD></TR>
+<TR><TD><A href="#5">Step
+ 4</A></TD><TD>Just Another Brick in the Wall</TD><TD>world file: walls</TD>
+</TR>
+<TR><TD><A href="#6">Step
+ 5</A></TD><TD>Do The Right Thing</TD><TD>user-generated instruction</TD>
+</TR>
+<TR><TD><A href="#7">Step
+ 6</A></TD><TD>Robotics Times</TD><TD>Project</TD></TR>
+<TR><TD><A href="#8">Step
+ 7</A></TD><TD>Birthday Message</TD><TD>Project</TD></TR>
+<TR><TD><A href="#9">Step
+ 8</A></TD><TD>Decisions</TD><TD>if statement</TD></TR>
+<TR><TD><A href="#10">Step
+ 9</A></TD><TD>You Missed Some</TD><TD>do statement</TD></TR>
+<TR><TD><A href="#11">Step
+ 10</A></TD><TD>Let's Dance</TD><TD>nested user instructions</TD></TR>
+<TR><TD><A href="#12">Step
+ 11</A></TD><TD>Apple Pie or Cookies?</TD><TD>if..elif..else statement</TD>
+</TR>
+<TR><TD><A href="#13">Step
+ 12</A></TD><TD>Take Out the Trash</TD><TD>Conditional Looping</TD></TR>
+<TR><TD><A href="#14">Step
+ 13</A></TD><TD>World Traveler</TD><TD>Project</TD></TR>
+<TR><TD><A href="#15">Step
+ 14</A></TD><TD>It's Going to Rain</TD><TD>Project</TD></TR>
+<TR><TD><A href="#16">Step
+ 15</A></TD><TD>A Job to Do</TD><TD>Project</TD></TR>
+<TR><TD><A href="#17">Step
+ 16</A></TD><TD>Lunchbox</TD><TD>Project</TD></TR>
+<TR><TD><A href="#18">Step
+ 17</A></TD><TD>Community Service Revisted</TD><TD>Project</TD></TR>
+<TR><TD><A href="#19">Step
+ 18</A></TD><TD>Where to Go from Here...</TD><TD>Conclusion</TD></TR>
+</TABLE>
+<H2><A NAME="1_2">Acknowledgements</A></H2>
+<P> This series of Guido van Robot exercises was written by<A href="http://www.rfrank.net/">
+ Roger Frank</A>. Comments and suggestions about these lessons should be
+ sent to<A href="mailto:jeff@elkner.net"> Jeffrey Elkner</A>, who
+ converted them from Roger's Karel the Robot originals and who currently
+ maintains them.</P>
+<P> The Guido van Robot programming language is descended from two
+ parent languages: Karel the Robot and Python. Karel the Robot was
+ introduced by Richard Pattis in his book<EM> Karel the Robot: A Gentle
+ Introduction to the Art of Programming with Pascal, John Wiley &amp; Sons,
+ Inc., 1981.</EM> Python is the creation of Guido van Rossum and members
+ of the Python community. Information on Python can be found at:<A href="http://www.python.org/">
+ http://www.python.org</A></P>
+<P> GvR was developed by high school computer science students at
+ Yorktown High School in Arlington, VA, under guidance of mentor Steve
+ Howell.</P>
+
+<H1><A NAME="2">Guido's First Steps</A></H1>
+<H2><A NAME="2_1">Tutorial</A></H2>
+<P> Guido van Robot can face in one of four directions, north, east,
+ south, and west. He turns only 90 degrees at a time, so he can't face
+ northeast, for instance. In Guido's world, streets run east-west, and
+ are numbered starting at 1. There are no zero or negative street
+ numbers. Avenues run north-south, and are also numbered starting at 1,
+ with no zero or negative avenue numbers. At the intersection of a
+ street and avenue is a corner. Guido moves from one corner to to the
+ next in a single movement. Because he can only face in one of four
+ directions, when he moves he changes his location by one avenue, or by
+ one street, but not both! In this step we will create our first world,
+ place Guido van Robot, and have the little guy take his first few
+ steps.</P>
+<P> Create a file step01.wld with this line:</P>
+<PRE>Robot 4 3 N 0
+</PRE>
+<P> This creates a world with Guido at 4th Avenue and 3rd Street, facing
+ North. It should look like this:</P>
+<P><IMG alt="GvR Step 1" HEIGHT="350" src="01_files/step01.png" WIDTH="402">
+</P>
+<P> There are many intersections where Guido can be in this world, since
+ there are no walls other than those at the edge of the world. Remember,
+ in Guido's world, an &quot;avenue&quot; runs north and south and a &quot;street&quot; run
+ east and west.</P>
+<P> Now create your first GvR program, calling it step01.gvr</P>
+<PRE>move
+move
+move
+move
+turnoff
+</PRE>
+<P> The instructions to Guido will be to move four spaces and then to
+ turn off. Four small steps for a robot, one giant leap... never mind.
+ Note that each command is on its own line.</P>
+<P> Now load the world (.wld file) and the program (.gvr file) into GvR
+ and test the code provided.</P>
+<H2><A NAME="2_2">Your Turn</A></H2>
+<P> Make a world that has Guido start facing East in the lower left
+ corner. Have him take three steps and turn off.</P>
+<P> Hint: you may have to experiment with the numbers and letter after
+ the word<EM> Robot</EM> in the world definition file to place him and
+ face him facing the specified direction.</P>
+
+<H1><A NAME="3">What's That Sound?</A></H1>
+<H2><A NAME="3_1">Tutorial</A></H2>
+<P> You discovered that the initial robot placement was of the form:</P>
+<PRE>Robot 1 2 N 0
+</PRE>
+<P> where the numbers are:</P>
+<PRE>row
+column
+initial direction (N, W, S, or E)
+number of beepers.
+</PRE>
+<P> Beepers? What are they? A robot can carry beepers, which are little
+ sound devices Guido can hear. Guido can pick them up or put them down,
+ all at your command. A beeper is a device that Guido can hear only when
+ it's located on the same corner he's on. Guido has a beeper-bag he can
+ use to carry beepers he picks up. He can also take beepers out of the
+ bag and place them on the corner he occupies. You specify the initial
+ number of beepers in your world file.</P>
+<P> The commands to work with beepers are included in the basic robot
+ commands you will explore. The complete list is:</P>
+<PRE>move
+turnleft
+pickbeeper
+putbeeper
+turnoff
+</PRE>
+<H2><A NAME="3_2">Your Turn</A></H2>
+<P> Put a robot with four beepers at the corner of 1st Avenue and 5th
+ Street facing east. He should go two blocks east, drop one beeper, and
+ then continue going one block and dropping a beeper at each
+ intersection until he is out of beepers. Then he should take one more
+ step and then turn off. When he has finished, the display should look
+ like this:</P>
+<P><IMG alt="Step 2 image" HEIGHT="350" src="02_files/step02.png" WIDTH="402">
+</P>
+
+<H1><A NAME="4">Turn, Turn, Turn</A></H1>
+<H2><A NAME="4_1">Tutorial</A></H2>
+<P> If Guido could only move straight ahead, he would be sad since he
+ could never go home. The robot designers were caught in a budget crunch
+ right when they were making the steering mechanism. They only gave him
+ the ability to turn left. Staying at the same intersection, Guido can
+ rotate counter-clockwise, turning left to face a different direction.
+ The command for this is, not surprisingly, <CODE>turnleft</CODE>.
+<BR></P>
+<H2><A NAME="4_2">Your Turn</A></H2>
+<P> To see how this works, start Guido at the lower left corner facing
+ East. Have him take three steps, turn left, three more, turn left, and
+ so on until he is back at the starting point, facing East once again.</P>
+
+<H1><A NAME="5">Just Another Brick in the Wall</A></H1>
+<H2><A NAME="5_1">Tutorial</A></H2>
+<P> You can now program Guido to move around, pick up beepers, and drop
+ them off anywhere in his world. To make his world more interesting, we
+ will add walls to the world file that Guido will have to avoid. If
+ Guido is about to run into a wall, he does an error shut-off and your
+ program stops. This behavior is built-in to the robot. If he is asked
+ to do anything he cannot do, he shuts down. For example, if you tell
+ him to pick up a beeper that isn't there, he shuts off. The same goes
+ for <CODE>put_beeper</CODE> -- he shuts off if he doesn't have any in
+ his beeper-bag. So be careful and don't ask the robot to go into a
+ wall!</P>
+<P> Here is an example of a world file with walls:</P>
+<PRE>Robot 1 5 E 1
+Wall 2 4 N
+Wall 2 4 E
+Wall 3 4 E
+Wall 4 4 N 2
+Wall 2 5 N
+Wall 2 6 E
+Wall 3 6 E
+Wall 4 5 N 2
+</PRE>
+<P> The format of a Wall descriptor is:</P>
+<PRE>1st number: avenue
+2nd number: street 
+3rd number: intersection blocked to (N)orth, (S)outh, (E)ast, or (W)est
+4th number: (optional) wall length (extending East or North)
+</PRE>
+<P> Using this world file, GVR's graphical display starts like this:</P>
+<P><IMG alt="Step 4a image" HEIGHT="350" src="04_files/step04a.png" WIDTH="402">
+</P>
+<H2><A NAME="5_2">Your Turn</A></H2>
+<P> Modify the world file to change Guido's world such that his path is
+ completely enclosed as shown in this diagram.</P>
+<P><IMG alt="Step 4b image" HEIGHT="350" src="04_files/step04b.png" WIDTH="402">
+</P>
+<P> The default length of a wall section is one block, but you can use
+ an optional 4th number to make the wall section as long as you wish.
+ Lengths always extend in either the North or East direction. That means
+ there are two ways to describe a given section of wall. The longest
+ section of wall in the example above could be written as either <CODE>
+Wall 3 7 N 4</CODE> or <CODE>Wall 3 8 S 4</CODE>.</P>
+<P> You will find it much easier if you use a piece of grid paper to
+ sketch the world and then mark the intersections and walls' positions.</P>
+<P> Put a robot with one beeper at the corner of 1st Avenue and 5th
+ Street facing east as shown in the example world. In your program, he
+ should go two blocks east, drop the beeper, and continue three blocks
+ ahead. Facing a wall, he should turn left, go two blocks north, then
+ three blocks west, then two south back to where he dropped the beeper.
+ Then he picks it up and carries it three blocks south, drops it again,
+ goes one more block and turns off.</P>
+
+<H1><A NAME="6">Do The Right Thing</A></H1>
+<H2><A NAME="6_1">Tutorial</A></H2>
+<P> To keep manufacturing costs down, the factory only built gears in
+ Guido to move forward and to turn left. I read in the instruction
+ manual that Guido has the ability to learn to do other things. For
+ example, if Guido turns left three times, he will be facing right. But
+ you as the robot programmer need to tell Guido how to do this.</P>
+<P> We do this by defining a new instruction <CODE>turnright</CODE> as a
+ series of other instructions, specifically three <CODE>turnleft</CODE>
+ instructions. The definition looks like this:</P>
+<PRE>define turnright:
+    turnleft
+    turnleft
+    turnleft
+</PRE>
+<P> This is an example of a<EM> compound</EM> statement, which means it
+ is made up of two parts. The first part consists of <CODE>define</CODE>
+ followed by the name of the instruction you are defining, followed by a
+ colon (<CODE>:</CODE>). The second part consists of one or more
+ instructions indented the same number of spaces. See if you can figure
+ out what this complete program does.</P>
+<PRE>define turnright:
+    turnleft
+    turnleft
+    turnleft
+   
+move
+turnright
+move
+turnright
+move
+turnright
+move
+turnright
+turnoff
+</PRE>
+<P> The three<EM> turnleft</EM> instructions make up what is called a<EM>
+ block of code</EM>, several instructions acting together as one. All
+ GvR programs end with a<EM> turnoff</EM> instruction.</P>
+<P> You should be able to &quot;hand trace&quot; the operation of this program to
+ discover that Guido will walk in a small square, returning to his
+ starting position.</P>
+<H2><A NAME="6_2">Your Turn</A></H2>
+<P> Once you have defined a new instruction, you can use that
+ instruction as if it were built-in to GvR. Define an instruction <CODE>
+backup</CODE> that makes Guido back up one block, leaving him facing in
+ the same direction. Then use <CODE>backup</CODE> in a a complete
+ program that has Guido start at the corner of Second Street and Third
+ avenue, <CODE>move</CODE> three blocks north, <CODE>backup</CODE> one
+ block, <CODE>turnright</CODE>, and then <CODE>move</CODE> two blocks
+ east.</P>
+
+<H1><A NAME="7">Robotics Times</A></H1>
+<H2><A NAME="7_1">Project</A></H2>
+<P> Every day, Guido is awakened by the sound of the Robotics Times
+ newspaper hitting the front porch. Guido wants to stay current on news
+ about robotics, so he goes out and gets the paper each morning. Here is
+ a picture showing Guido asleep when the newspaper, represented by a
+ beeper, hits the porch. Write a program including your <CODE>turnright</CODE>
+ instruction and a new instruction, <CODE>turnaround</CODE>, to have him
+ go and get the newspaper and return to bed, where he likes to read.</P>
+<P> You also need to place the beeper, as shown, in the world. The
+ second line in the<A href="06_files/step06.wld">
+ step06.wld</A> file, <CODE>Beepers 4 4 1</CODE>, is used to place a
+ beeper. The first two numbers are the location and the last is how many
+ beepers are placed at that intersection.</P>
+<P><IMG alt="step 06 image" HEIGHT="350" src="06_files/step06.png" WIDTH="402">
+</P>
+<P> Have Guido start in the position shown facing West. Make him get the
+ beeper and then return to the same place, facing the same direction as
+ he started.</P>
+
+<H1><A NAME="8">Birthday Message</A></H1>
+<H2><A NAME="8_1">Project</A></H2>
+<P> Guido has just turned 18 and wants to let everyone in the universe
+ to know it. Since he cannot talk, he can only write the number eighteen
+ using beepers. Guido is a robot and only knows binary, so 18 in decimal
+ is represented as <CODE>10010</CODE>.</P>
+<P> Define these new instructions:</P>
+<UL>
+<LI><CODE>drawone</CODE> to draw a numeral 1 in beepers</LI>
+<LI><CODE>drawzero</CODE> to draw a numeral 0 in beepers</LI>
+</UL>
+<P> Use those instructions in a GvR program to create his birthday
+ message. Each instruction should properly position and orient Guido for
+ the next digit. The main program should use the <CODE>drawone</CODE>
+ and <CODE>drawzero</CODE> and instructions to make a binary 18.</P>
+<P> When the program starts, the display should look exactly like this:</P>
+<P><IMG alt="Birthday start image" HEIGHT="306" src="07_files/step07a.png"
+WIDTH="624"></P>
+<P> When he is done, the display should look exactly like this:</P>
+<P><IMG alt="Birthday finish image" HEIGHT="306" src="07_files/step07b.png"
+WIDTH="624"></P>
+
+<H1><A NAME="9">Decisions</A></H1>
+<H2><A NAME="9_1">Tutorial</A></H2>
+<P> When Guido was a teenager, he was a bit rebellious. His parents had
+ always told him every little thing to do: every turn to make and every
+ step to take. He finally proclaimed &quot;I can make my own decisions!&quot; and
+ went on to explain to his parents how to talk to him to have that
+ capability.</P>
+<P> He explained about<EM> boolean expressions</EM>, which could be only<EM>
+ true</EM> or<EM> false</EM>. Guido would do different things depending
+ on if some condition were true or false. Here was an example he gave:</P>
+<PRE>if next_to_a_beeper:
+    pickbeeper
+</PRE>
+<P> Guido has the ability to sense his world and to act accordingly.
+ &quot;Golly, you're growing up fast!&quot; proclaimed his parents. They asked
+ what things Guido could sense, and he provided this list:</P>
+<TABLE border="1"><TBODY></TBODY>
+<TR><TD>front_is_clear</TD><TD>True if there is no wall directly in
+ front of Guido. False if there is.</TD></TR>
+<TR><TD>front_is_blocked</TD><TD>True if there is a wall directly in
+ front of Guido. False otherwise.</TD></TR>
+<TR><TD>left_is_clear</TD><TD>True if there is no wall immediately to
+ Guido's left. False if there is.</TD></TR>
+<TR><TD>left_is_blocked</TD><TD>True if there is a wall immediately to
+ Guido's left. False otherwise.</TD></TR>
+<TR><TD>right_is_clear</TD><TD>True if there is no wall immediately to
+ Guido's right. False if there is.</TD></TR>
+<TR><TD>right_is_blocked</TD><TD>True if there is a wall immediately to
+ Guido's right. False otherwise.</TD></TR>
+<TR><TD>next_to_a_beeper</TD><TD>True if Guido is standing at an
+ intersection that has a beeper. False otherwise.</TD></TR>
+<TR><TD>not_next_to_a_beeper</TD><TD>True if there is not beeper at the
+ current intersection. False if there is a beeper at the current
+ intersection.</TD></TR>
+<TR><TD>any_beepers_in_beeper_bag</TD><TD>True if there is at least one
+ beeper in Guido's beeper bag. False if the beeper bag is empty.</TD></TR>
+<TR><TD>no_beepers_in_beeper_bag</TD><TD>True if Karel's beeper bag is
+ empty. False if there is at least one beeper in the beeper bag.</TD></TR>
+<TR><TD>facing_north</TD><TD>True if Guido is facing north. False
+ otherwise.</TD></TR>
+<TR><TD>not_facing_north</TD><TD>True if Guido is not facing north.
+ False if he is facing north.</TD></TR>
+<TR><TD>facing_south</TD><TD>True if Guido is facing south. False
+ otherwise.</TD></TR>
+<TR><TD>not_facing_south</TD><TD>True if Guido is not facing south.
+ False if he is facing south.</TD></TR>
+<TR><TD>facing_east</TD><TD>True if Guido is facing east. False
+ otherwise.</TD></TR>
+<TR><TD>not_facing_east</TD><TD>True if Guido is not facing east. False
+ if he is facing east.</TD></TR>
+<TR><TD>facing_west</TD><TD>True if Guido is facing west. False
+ otherwise.</TD></TR>
+<TR><TD>not_facing_west</TD><TD>True if Guido is not facing west. False
+ if he is facing west.</TD></TR>
+</TABLE>
+<H2><A NAME="9_2">Your Turn</A></H2>
+<P> Guido has not completed his community service to graduate from high
+ school, so he is assigned to pick up trash along 2nd Street. Construct
+ a world that has beepers spreadout along 2nd Street between 1st Avenue
+ and the wall on the East corner of 12th Avenue. There can only be one
+ beeper at any given corner, but a corner may or may not have a beeper
+ on it. Guido should start at 1st Avenue and 2nd Street facing East.</P>
+<P></P>
+<P> A starting world would look something like<A href="08_files/step08.wld">
+ this</A>:</P>
+<P> <IMG alt="Step 8 Starting Position" HEIGHT="352" src="08_files/step08.png"
+WIDTH="400"></P>
+<P> Have Guido go down 2nd Street, picking up all beepers he finds.
+ Remember if there isn't a beeper at an intersection and you ask Guido
+ to pick one up, he will complain and shutdown. Use one of the tests
+ from the table above to make a decision whether there is a beeper
+ available to pick up. After he gets to 12th Street, he should take all
+ the beepers with him back to his starting position, face East again,
+ and turnoff.</P>
+<P> With the starting position above things should end up like this:</P>
+<P> <IMG alt="Step 8 Finishing Position" HEIGHT="352" src="08_files/step08n2.png"
+WIDTH="400"></P>
+
+<H1><A NAME="10">You Missed Some</A></H1>
+<H2><A NAME="10_1">Tutorial</A></H2>
+<P> Recently, you wrote a program to have Guido go down 2nd Street and
+ pick up trash. You probably wrote code that used an <CODE>if</CODE>
+ statement (&quot;if trash is here, pick it up&quot;) followed by a <CODE>move</CODE>
+ statement. Then you copied and pasted that code until you had enough
+ copies of it so Guido would go all the way down 2nd Street, picking up
+ all the trash.</P>
+<P> There is a better way to do a group of statements over and over
+ again: the <CODE>do</CODE> instruction. The <CODE>do</CODE> instruction
+ allows you to repeat a set of actions a given number of times. For
+ instance,</P>
+<PRE>do 5:
+    move
+</PRE>
+<P> moves Guido 5 intersections forward. If you want to repeat multiple
+ actions, group them together by indenting the instructions the same
+ number of spaces:</P>
+<PRE>do 5:
+    putbeeper
+    move
+</PRE>
+<P> Using the same number of spaces to indent is mandatory if you want
+ to repeat multiple actions. If you mistakenly write</P>
+<PRE>do 5:
+    putbeeper
+move
+</PRE>
+<P> This code would put 5 beepers at one place and then move forward
+ just one intersection. That's probably<EM> not</EM> what you wanted to
+ happen. Be careful to keep indentation the same to keep groups of
+ instructions together as one block.</P>
+<H2><A NAME="10_2">Your Turn</A></H2>
+<P> Guido is smarter now and knows about the iterate statement. He is
+ assigned once again to pick up trash along Second Street. Rewrite your
+ solution to the previous assignment using Guido's new found power.</P>
+
+<H1><A NAME="11">Let's Dance</A></H1>
+<H2><A NAME="11_1">Overview</A></H2>
+<P> Here is a project that combines the <CODE>do</CODE> statement with a
+ user-defined instruction that uses another user-defined instruction.
+ The user-defined instruction is one to turn around. It is called by
+ another user-defined instruction that does one sequence of dance steps
+ described below. The sequence is repeated (or iterated) four times.</P>
+<H2><A NAME="11_2">Assignment</A></H2>
+<P> Guido lives in Colorado, where country music is popular. He would
+ like you to teach him how to line dance. Line dancing is a series of
+ steps, up and back, with turns and rotations, with each sequence ending
+ facing in a different direction. If the line dancing pattern is
+ repeated, eventually the dancer will end up at the starting place.</P>
+<P> The line dance Guido wants to learn is like this. From the starting
+ position, take two steps forward, turn around, then three steps back.
+ Then three times: turn right, step. This puts Guido back at his
+ starting spot, but facing in a different direction. Repeat this basic
+ step pattern four times to let Guido dance and have some fun.</P>
+
+<H1><A NAME="12">Apple Pie or Cookies?</A></H1>
+<H2><A NAME="12_1">Tutorial</A></H2>
+<P> You already know about the <CODE>if</CODE> statement. You use it to
+ make a decision, as in<EM> if next to a beeper, pick it up.</EM>
+ Sometimes you have a more complicated decision to make. Guido likes
+ apple pie, but his Mom doesn't always have it available. She does have
+ cookies all the time, though. He wants to make a statement like this:
+ &quot;Mom, I'd like some apple pie, but if you don't have it, then I'd like
+ a cookie.&quot; You can use the <CODE>if...else...</CODE> statement to allow
+ this two-way kind of decision.</P>
+<P> It's like the <CODE>if</CODE> statement, but we add the optional <CODE>
+else</CODE> part, providing a different course of action if the <CODE>if</CODE>
+ condition is<EM> not</EM> met.</P>
+<P> The form of the conditional instruction with an <CODE>else</CODE>
+ clause is:</P>
+<PRE>if <EM>test-condition</EM>:
+    <EM>instruction</EM>
+else:
+    <EM>other-instruction</EM>
+</PRE>
+<P> where<EM> instruction</EM> can be either a simple instruction (like
+ &quot;<TT>move</TT>&quot;) or an instruction block. Code to pick up a beeper or
+ else just move on could be written as</P>
+<PRE>if next-to-a-beeper:
+    pickbeeper
+    move
+else:
+    move
+</PRE>
+<P> Remember the <CODE>else</CODE> part is optional. Use it if it makes
+ sense.</P>
+<H2><A NAME="12_2">Your Turn</A></H2>
+<P> In this project, Guido is going to circumnavigate a bounded world.
+ He does not know the dimensions of the world (but you do, since you
+ will create it). What he does know is that there is a beeper marking
+ every corner of the world except the one where he starts.</P>
+<P> Guido starts facing East in the lower left corner. If he's not next
+ to a beeper, he moves forward, otherwise he picks up the beeper, turns
+ left and moves. Create a world where it will take exactly 32 moves to
+ circumnavigate. You can choose the dimensions, but don't tell Guido!
+ Put beepers in three of the corners (southeast, northeast, northwest).
+ Then use a <CODE>do</CODE> statement (32 times) and an <CODE>if...else</CODE>
+ statement to go around the world.</P>
+<P> Your starting world should look somthing like this, though the
+ dimensions may differ:</P>
+<P><IMG alt="step 11 image" HEIGHT="399" src="11_files/step11.png" WIDTH="314">
+</P>
+
+<H1><A NAME="13">Take Out the Trash</A></H1>
+<H2><A NAME="13_1">Tutorial</A></H2>
+<P> The <CODE>do</CODE> instruction lets Guido do an action more than
+ once, but it has a limitation: you must know in advance how many times
+ the action should be executed. If you are at an intersection and you
+ need to pick up several beepers there but you don't know how many there
+ are, you cannot use a <CODE>do</CODE> statement. The <CODE>while</CODE>
+ statement can work in this situation.</P>
+<P> The general format of the while instruction is</P>
+<PRE>while <EM>test-condition-is-true</EM>:
+    <EM>action</EM>
+</PRE>
+<P> where<EM> test-condition-is-true</EM> is some conditional that
+ evaluates to either <TT>true</TT> or <TT>false</TT>, and<EM> action</EM>
+ is either a single command (like <CODE>move;</CODE>) or a sequence of
+ commands in a block. As long as the tested condition is true, the<EM>
+ action</EM> will be performed. Thus <CODE>while</CODE> is similar to <CODE>
+do</CODE> except that where <CODE>do</CODE> specifies a number of times
+ to execute an instruction, <CODE>while</CODE> specifies a test
+ condition. As long as the test condition is <TT>true</TT>, the
+ instructions will be executed over and over.</P>
+<P> For example, to pick up a stack of beepers you could write</P>
+<PRE>while next-to-a-beeper:
+    pickbeeper
+</PRE>
+<P> This says that as long as there are beepers at this intersection,
+ pick one up and check again. The result will be that there won't be any
+ beepers at the current intersection. They will all be in Guido's beeper
+ bag.</P>
+<P> Writing a <CODE>while</CODE> loop is tricky; there are many details
+ to get right. The general steps are</P>
+<OL>
+<LI>Identify the condition that must be true when Guido is<EM> finished</EM>
+ with the loop.</LI>
+<LI>Set up your while loop with the test being the<EM> opposite</EM>
+ condition than the one that should finish it:
+<PRE>    while <EM>opposite condition</EM>:
+        ...statements here...
+  </PRE>
+</LI>
+<LI>Make sure any setup code is complete before starting the loop so you
+ start in a known condition. If conditions are specified, they are
+ called<EM> preconditions</EM>.</LI>
+<LI>Make sure each pass through the loop makes progress towards
+ completing the loop.</LI>
+<LI>Make sure the test for the loop eventually becomes false so you can
+ get out.</LI>
+<LI>Write code for any cleanup work that needs to be done after
+ executing the loop. When exiting the loop, of<EM> postconditions</EM>
+ are specified, they will have been met if the<EM> preconditions</EM>
+ were met when the loop was entered.</LI>
+</OL>
+<P> Watch out for<EM> infinite loops</EM>, that is, loops that never
+ terminate.</P>
+<H2><A NAME="13_2">Your Turn</A></H2>
+<P> It's Monday morning, again. Before he goes to school, Guido has to
+ take out the trash. He's not sure how many bags of trash there are
+ (represented by beeper bags), but he knows they are in the corner of
+ the room as shown in<A href="12_files/step12.wld">
+ this</A> world view:</P>
+<P><IMG alt="Step 12 image" HEIGHT="352" src="12_files/step12.png" WIDTH="400">
+</P>
+<P> He needs to pick up all the trash and put it in the dumpster in one
+ trip. Use one or more <CODE>while</CODE> statements to instruct Guido
+ to take out the trash. After depositing the trash, have Guido step back
+ to see that the trash is properly in the dumpster.</P>
+
+<H1><A NAME="14">World Traveler</A></H1>
+<H2><A NAME="14_1">Overview</A></H2>
+<P> Guido wants to explore his world again. Last time, he picked up the
+ beepers at the corners of his rectangular, bounded world. He also new
+ how many steps it would take him to complete the journey. This time he
+ will need to rely on detecting the walls around him to make the
+ decision as to which way to turn.</P>
+<P> Since he won't know the the size of his world in advance, he will
+ not know how many steps it will take to get home. To solve this
+ problem, he will drop a beeper at his starting point. Knowing there are
+ no other beepers in the world, he will continue his journey until he is
+ home. He knows he's home when he finds his beeper again.</P>
+<H2><A NAME="14_2">Assignment</A></H2>
+<P> Guido starts facing East in the lower left corner of a rectangular,
+ bounded world with one beeper in his beeper-bag. The world is of
+ unknown size - your choice. He starts on his journey and continues
+ until he is home. Use a <CODE>while</CODE> statement (looking for his
+ home beeper) and an <CODE>if...else</CODE> to have him complete his
+ adventure. Note: Guido cannot use a <CODE>do</CODE> statement at all,
+ since he has no idea of the dimensions of the world.</P>
+<H2><A NAME="14_3">Extra for Experts</A></H2>
+<P> Guido's world has become a lot more interesting. No longer a simple
+ rectangle, Guido now finds himself inside a polygon. If you haven't
+ finished Geometry yet, a polygon is a closed geometric figure made up
+ of line segments joining end to end. A polygon world for Guido might
+ look something like<A href="13_files/step13.wld">
+ this</A>:</P>
+<P><IMG alt="Step 13 image" HEIGHT="472" src="13_files/step13.png" WIDTH="360">
+</P>
+<P> Your mission is get Guido to circumnavigate his new polygonal world.
+ He should once again drop a beeper at his starting position and
+ continue walking along the boarder of his world until he finds the
+ beeper again. This time staying along the wall this time wil be
+ trickier, but that's the challenge.</P>
+
+<H1><A NAME="15">It's Going to Rain</A></H1>
+<H2><A NAME="15_1">Project</A></H2>
+<P> Guido is capable of doing more complex tasks, even when the world he
+ lives in is not well understood. Guido must be able to achieve a goal
+ by testing his environment and, based on those tests, doing some
+ action. The steps Guido would take to solve a problem are called an<EM>
+ algorithm</EM>.</P>
+<P> Before writing a GvR program, the programmer needs to understand the
+ algorithm. Then it can be coded, combined with an appropriate world,
+ and tested. Think of the simple but powerful equation<EM> Algorithms +
+ Data Structures = Programs</EM>.</P>
+<P> In this lesson, the data structure is a world describing Guido's
+ house. Guido is standing by the only door looking out. He sees a storm
+ coming and decides to close all the windows in the house. First he
+ closes the door by depositing a beeper where he stands. Then he will
+ close the windows by depositing a beeper in each window (represented by
+ wall openings). He loves storms, so after closing the windows, he will
+ step outside to watch. Here is the initial world for this scenario.</P>
+<P><IMG alt="Step 14a image" HEIGHT="352" src="14_files/step14a.png" WIDTH="400">
+</P>
+<P> You need to figure out the algorithm for this and code it, as well
+ as generate the world. Guido hasn't lived in this house very long, so
+ he is not sure exactly where the windows are. You cannot hard code a
+ number of steps to get to a window -- instead, Guido must check for an
+ open window as he walks around the inside perimeter of his house. As
+ for any algorithm, you must also be sure the task will complete. For
+ example, how does Guido know he is back at the door?</P>
+<P> The final world in this scenario should look like this:</P>
+<P><IMG alt="Step 14b image" HEIGHT="352" src="14_files/step14b.png" WIDTH="400">
+</P>
+
+<H1><A NAME="16">A Job to Do</A></H1>
+<H2><A NAME="16_1">Overview</A></H2>
+<P> You have learned a lot about programming Guido. Congratulations!
+ What you may not realize is that you have learned a lot about
+ programming in any language. Most programs are a sequence of steps,
+ interspersed with conditional decisions and groups of instructions that
+ repeat. All of the projects have been successively more complex.</P>
+<P> Implementing the solutions to the assignments so far has required a
+ little more thought at each step. You understand the question and the
+ desired result, but it's not immediately clear sometimes how to get it
+ done. You should have realized that the way you would do it if you were
+ Guido is often the way Guido would do it, using the instructions
+ available.</P>
+<P> Often, then, it's best to figure out how you would accomplish a
+ task. Write the steps down in your own words with pencil and paper.
+ This is sometimes called pseudocode because it isn't really
+ instructions that Guido could use. But it helps you understand what
+ needs to happen. Then you code it -- write the real instructions -- to
+ create a GvR program.</P>
+<P> Be sure to think this assignment through before you start coding.
+ First figure out the algorithm, or sequence of steps, required. Then,
+ looking at the sample world, simulate in your mind the execution of the
+ program you are going to write. If it does what you expect, then and
+ only then should you start coding.</P>
+<H2><A NAME="16_2">Project</A></H2>
+<P> Guido's Dad is a farmer. When Guido is not doing his homework, he
+ helps in the field. Today he has to harvest the crop. The field always
+ has 6 rows and 6 columns, but the crop did not grow in all the
+ locations, as shown. Create a world with a mostly populated 6x6 field
+ in the middle as shown.</P>
+<P><IMG alt="Step 15 image" HEIGHT="352" src="15_files/step15.png" WIDTH="400">
+</P>
+<P> Harvest the crop using a nested iterate statement - one or more
+ iterate statements within an iterate statement - to perform the
+ harvesting operation. In<EM> pseudocode</EM>, this would be something
+ like:</P>
+<PRE>iterate six times 
+    go across, harvesting beepers
+    go back to left edge
+    go up one
+stop
+</PRE>
+<P>but the &quot;go across, harvesting beepers&quot; is an iteration itself:</P>
+<PRE>iterate six times 
+    iterate six times
+        go one to the right
+        harvest if possible
+        go back to left edge
+        go up one
+stop
+</PRE>
+<P> Note that<EM> pseudocode</EM> is not GvR code but a description of
+ the algorithm in code-like structure. In this form, curly braces
+ indicate a block of code that should be done together. Once the
+ pseudocode is written, turn it into Karel code, compile it, and execute
+ it to complete this assignment.</P>
+<P> Here is a sample world file for this project, to save you some
+ typing:</P>
+<PRE>Robot 2 2 E 0
+
+Beepers 3 2 1
+Beepers 4 2 1
+Beepers 5 2 1
+Beepers 6 2 1
+Beepers 7 2 1
+Beepers 8 2 1
+
+Beepers 4 3 1
+Beepers 5 3 1
+Beepers 6 3 1
+Beepers 7 3 1
+Beepers 8 3 1
+
+Beepers 3 4 1
+Beepers 4 4 1
+Beepers 5 4 1
+Beepers 6 4 1
+Beepers 7 4 1
+Beepers 8 4 1
+
+Beepers 3 5 1
+Beepers 4 5 1
+Beepers 5 5 1
+Beepers 8 5 1
+
+Beepers 3 6 1
+Beepers 5 6 1
+Beepers 6 6 1
+Beepers 7 6 1
+Beepers 8 6 1
+
+Beepers 3 7 1
+Beepers 4 7 1
+Beepers 5 7 1
+Beepers 6 7 1
+Beepers 7 7 1
+Beepers 8 7 1
+</PRE>
+
+<H1><A NAME="17">Lunchbox</A></H1>
+<H2><A NAME="17_1">Project</A></H2>
+<P> Congratulations! If you are here, you are probably ahead of most of
+ your classmates, and have done an excellent job programming Guido. Your
+ classmates need a little more time to catch up, and you are ready for
+ an extra challenge.</P>
+<P> As you begin this project, you may want to go back and re-read the
+ Overview from Step 15, about planning your work on paper before coding
+ it. I'll help you out with the algorithm, but I suggest that you
+ pseudocode it and walk through it in your head before writing your
+ program.</P>
+<H2><A NAME="17_2">Assignment</A></H2>
+<P> Guido has lost his lunchbox. He was playing in a maze and set it
+ down and then wandered around. Now he is hungry. Luckily he left a
+ beeper in his lunchbox. His situation looks like<A href="step16_files/step16.wld">
+ this</A>:</P>
+<P><IMG alt="Step 16 image" HEIGHT="352" src="16_files/step16.png" WIDTH="400">
+</P>
+<P> Write a program to help Guido find his lunchbox. The secret is to
+ have Guido follow along the right edge of the maze, turning right if he
+ can, or straight ahead if he can't, or turning left as a last resort.
+ Write a program using an <CODE>if..elif..else</CODE> statement so Guido
+ can eat his lunch.</P>
+<P> By the way, if you think you've solved this problem before, you are
+ right ;-)</P>
+
+<H1><A NAME="18">Community Service Revisited</A></H1>
+<H2><A NAME="18_1">Project</A></H2>
+<P> Guido learned a lot from the community service project he did back
+ in<A href="#8"> step 8</A>
+. Motivated to give even more to his community, he has volunteered to
+ pick up all the trash in Central Park.</P>
+<H2><A NAME="18_2">Assignment</A></H2>
+<P> The park is represented by a bounded rectangular area of unknown
+ dimensions. Guido starts out in a random place in the park. Trash
+ (represented by beepers) is spread throughout the park. Neither the
+ amount nor the location of the trash is known at the start of the
+ cleanup. Several pieces of trash can be at the same location. Guido's
+ job is to pick up all the trash in the park and deposit it at the
+ north-east corner of the park. He should then go to the south-west
+ corner of the park facing north and turn himself off for some well
+ deserved rest under a tree while he waits for his ride home.</P>
+<P> A sample world for this problem might look something like<A href="17_files/step17.wld">
+ this</A>:</P>
+<P></P>
+<P><IMG alt="Step 17 Image" HEIGHT="549" src="17_files/step17.png" WIDTH="633">
+</P>
+
+<H1><A NAME="19">Where to Go from Here...</A></H1>
+<H2><A NAME="19_1">Conclusion</A></H2>
+<P> Guido is starting to realize that there are some things he cannot
+ do. In the projects where Guido traveled, he had no memory of how big
+ the world was. He has no way to keep track of a count. He tried to tell
+ his parents about the journey but when they asked
+<!--q-->
+ How far did you go?
+ he didn't know. In the
+<!--q-->
+ rain project where Guido had to close the
+ windows, he had no way to remember where he started, at the door. He
+ had to leave a beeper there to know when he had gone all around the
+ house.</P>
+<P> What Guido would like is a way to remember things. He read in a
+ computer programming book about a part of a program called a<B>
+ variable</B> that could be used to store numbers or letters or even
+ words. Variables can hold a number value and that value can be changed.
+ If he had a variable, he could increase the value in his variable by
+ one for each step and know how many steps he had taken. If he had a two
+ variables, he could store the street and the avenue where he stood at
+ the door in the
+<!--q-->
+ rain project and wouldn't have needed to drop a beeper
+ there.</P>
+<P> Alas, Guido does not have variables. Sadly, he knows he never will.
+ He has heard rumors about other programming languages, such as<B>
+ Python</B>, which have all of his capabilities and much more, including
+ variables and the ability to listen and speak (input and output
+ instructions) and even the ability to create whole new types of robots
+ (object oriented programming and inheritance).</P>
+<P> Its time to say goodbye to Guido and his world. He will wait
+ patiently for the next class of students while you move on and learn
+ more about programming as you continue your journey in Computer
+ Science.</P>
+
+<H1><A NAME="20">Guido van Robot Language Reference</A></H1>
+<H2><A NAME="20_1">The Five Primitive Guido van Robot Instructions:</A></H2>
+<PRE>    move
+    turnleft
+    pickbeeper
+    putbeeper
+    turnoff
+</PRE>
+<H2><A NAME="20_2">
+<BR>Block Structuring</A></H2>
+<P> Each Guido van Robot instruction must be on a separate line. A
+ sequence of one or more Guido van Robot instructions that are all
+ indented the same number of spaces compose a<STRONG> block</STRONG> of
+ code. &nbsp; <CODE>&lt;instruction&gt;</CODE> refers to any of the five primitive
+ instructions above, the conditional branching or iteration instructions
+ below, or a user defined instruction.</P>
+<PRE>    &lt;instruction&gt;
+    &lt;instruction&gt;
+      ...
+    &lt;instruction&gt;
+</PRE>
+<H2><A NAME="20_3">
+<BR>Conditional Branching</A></H2>
+<P><STRONG> Conditional branching</STRONG> refers to the ability of a
+ program to alter it's<STRONG> flow of execution</STRONG> based on the
+ result of the evaluation of a<STRONG> conditional</STRONG>. The three
+ types of conditional branching instructions in Guido van Robot are <CODE>
+if</CODE> and <CODE>if/else</CODE> and <CODE>if/elif/else</CODE>.  &nbsp; <CODE>
+&lt;test&gt;</CODE> refers to one of the eighteen conditionals above.</P>
+<PRE>    if &lt;test&gt;:
+        &lt;block&gt;
+
+</PRE>
+<PRE>    if &lt;test&gt;:
+        &lt;block&gt;
+    else:
+        &lt;block&gt;
+
+</PRE>
+<PRE>    if &lt;test&gt;:
+        &lt;block&gt;
+    elif &lt;test&gt;:
+        &lt;block&gt;
+    ...
+    elif &lt;test&gt;:
+        &lt;block&gt;
+    else:
+        &lt;block&gt;
+</PRE>
+<H2><A NAME="20_4">
+<BR>Conditionals</A></H2>
+<P> GvR has eighteen built-in tests that are divided into three groups:
+ the first six are wall tests, the next four are beeper tests, and the
+ last eight are compass tests:</P>
+<PRE>    front_is_clear
+    front_is_blocked
+    left_is_clear
+    left_is_blocked
+    right_is_clear
+    right_is_blocked
+
+    next_to_a_beeper
+    not_next_to_a_beeper
+    any_beepers_in_beeper_bag
+    no_beepers_in_beeper_bag
+
+    facing_north
+    not_facing_north
+    facing_south
+    not_facing_south
+    facing_east
+    not_facing_east
+    facing_west
+    not_facing_west
+</PRE>
+<H2><A NAME="20_5">
+<BR>Iteration</A></H2>
+<P><STRONG> Iteration</STRONG> refers to the ability of a program to
+ repeate an instruction (or block of instructions) over and over until
+ some condition is met. The two types of iteration instructions are the <CODE>
+do</CODE> and <CODE>while</CODE> instructions.  &nbsp; <CODE>
+&lt;positive_number&gt;</CODE> must be an integer greater than 0.</P>
+<PRE>    do &lt;positive_number&gt;:
+        &lt;block&gt;
+
+</PRE>
+<PRE>    while &lt;test&gt;:
+        &lt;block&gt;
+</PRE>
+<H2><A NAME="20_6">
+<BR>Defining a New Instruction:</A></H2>
+<P> New instructions can be created for Guido van Robot using the <CODE>
+define</CODE> statement.  &nbsp; <CODE>&lt;new_name&gt;</CODE> can be any sequence
+ of letters or digits as long as it begins with a letter and is not
+ already used as an instruction.<STRONG> Letters</STRONG> for Guido van
+ Robot are A..Z, a..z, and the underscore (_) character. Guido van Robot
+ is case sensitive, so TurnRight, turnright, and turnRight are all
+ different names.</P>
+<PRE>    define &lt;new_name&gt;:
+        &lt;block&gt;
+</PRE>
+<H2><A NAME="20_7">
+<BR>Simplest GvR Program</A></H2>
+<P> Execution of a GvR program ends with the <CODE>turnoff</CODE>
+ instruction. Any program which reaches the end of its instruction
+ sequence without encountering <CODE>turnoff</CODE> is considered in
+ error. Thus the simplest GvR program is:</P>
+<PRE>    turnoff
+</PRE>
+<H2><A NAME="20_8">
+<BR>An Example Program</A></H2>
+<P> Given the following world:</P>
+<P><IMG alt="rightWall world" HEIGHT="343" src="langref_files/rightWall.png"
+WIDTH="309"></P>
+<P> The following program will make Guido follow the right wall until he
+ encouters a beeper:</P>
+<PRE>    define turnright:
+        do 3:
+            turnleft
+
+    define follow_right_wall:
+        if right_is_clear:
+            turnright
+            move
+        elif front_is_clear:
+            move
+        else:
+            turnleft
+
+    while not_next_to_a_beeper:
+        follow_right_wall
+
+    turnoff
+</PRE>
+
+<P class="copyleft"><A href="http://www.gnu.org/copyleft/copyleft.html">
+ Copyright</A>  &copy; 2004<A href="http://www.elkner.net/"> Jeffrey Elkner</A>
+</P>
+</BODY>
+</HTML>

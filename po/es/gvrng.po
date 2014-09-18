@@ -1,0 +1,887 @@
+# Spanish translation of 0.1.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# David Suarez Pascal <david@linux.ajusco.upn.mx>, 2005.
+#
+msgid	""
+msgstr	"Project-Id-Version: 0.1\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2008-03-18 09:46:55.092971\n"
+	"PO-Revision-Date: 2005-09-23 00:28-0600\n"
+	"Last-Translator: Carlos David Suarez Pascal <david@linux.ajusco.upn."
+	"mx>\n"
+	"Language-Team: Spanish <david@linux.ajusco.upn.mx>\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=UTF-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+
+#. file 'gvrparser.py', line 378
+msgid	"\"%s\" has already been defined"
+msgstr	""
+
+#. file 'gvrparser.py', line 374
+msgid	"\"%s\" is not a valid name"
+msgstr	""
+
+#. file 'gvrparser.py', line 370
+msgid	"\"%s\" is not a valid test"
+msgstr	""
+
+#. file 'gvrparser.py', line 366
+msgid	"\"%s\" not defined"
+msgstr	""
+
+#. file 'gvrparser.py', line 358
+msgid	"'%s' statement is incomplete"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Alter the arguments for the 'robot' statement.</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Code Editor</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Guido's World</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>World Editor</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Abort"
+msgstr	"Abortar"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"About GvR"
+msgstr	"Acerca de"
+
+#. file 'worldMap.py', line 22
+#. file 'worldMap.py', line 114
+msgid	"BEEPERS"
+msgstr	"ZUMBADORES"
+
+#. file 'world.py', line 179
+msgid	"Bad x value for positioning robot: %s"
+msgstr	"Valor x incorrecto para posicionar robot: %s"
+
+#. file 'world.py', line 181
+msgid	"Bad y value for positioning robot: %s"
+msgstr	"Valor y incorrecto para posicionar robot: %s"
+
+#. file 'gui-gtk/gvr_gtk.py', line 363
+msgid	"Can't find the lessons.\n"
+	"Make sure you have installed the GvR-Lessons package.\n"
+	"Check the GvR website for the lessons package.\n"
+	"http://gvr.sf.net"
+msgstr	"No se encuentran las lecciones.\n"
+	"Asegúrate de haber instalado el paquete GvR-Lessons.\n"
+	"Busca en el sitio web de GvR el paquete de lecciones.\n"
+	"http://gvr.sf.net"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Catalan\n"
+	"Dutch\n"
+	"English\n"
+	"French\n"
+	"Norwegian\n"
+	"Romenian\n"
+	"Spanish\n"
+	"Italian"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Change the language used\n"
+	"(After you restart GvR)"
+msgstr	"Cambiar el idioma usado"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Choose a file"
+msgstr	"Escoge mundo para abrir"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Direction robot is facing (N,E,S,W)"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Do you really want to quit ?"
+msgstr	"¿Realmente deseas salir?\n"
+	"Todos los cambios se perderán."
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 537
+#. file 'gui-gtk/Widgets.py', line 540
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid	"E"
+msgstr	"E"
+
+#. file 'worldMap.py', line 135
+msgid	"Error in line %s:\n"
+	"%s\n"
+	"Check your world file for syntax errors"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Execute"
+msgstr	"Ejecutar"
+
+#. file 'gvrparser.py', line 362
+msgid	"Expected '%s' statement to end in ':'"
+msgstr	""
+
+#. file 'gvrparser.py', line 354
+msgid	"Expected code to be indented here"
+msgstr	""
+
+#. file 'gvrparser.py', line 342
+msgid	"Expected positive integer\n"
+	"Got: %s"
+msgstr	""
+
+#. file 'utils.py', line 246
+msgid	"Failed to save the file.\n"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Fast"
+msgstr	"Rápido"
+
+#. file 'gui-gtk/Widgets.py', line 737
+msgid	"Go back one page"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 743
+msgid	"Go one page forward"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot - Robot arguments"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot Programming Summary"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido's World"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"GvR - Editor"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 285
+#, fuzzy
+msgid	"GvR - Worldbuilder"
+msgstr	"ConstructorDeMundos GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"GvR Worldbuilder"
+msgstr	"ConstructorDeMundos GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Gvr Lessons"
+msgstr	"Lecciones GvR"
+
+#. file 'gvrparser.py', line 348
+msgid	"Indentation error"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Instant"
+msgstr	"Instantáneo"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Instant\n"
+	"Fast\n"
+	"Medium\n"
+	"Slow"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Introduction"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Language reference"
+msgstr	"Refencia del lenguaje GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Lessons"
+msgstr	"Lecciones GvR"
+
+#. file 'gvrparser.py', line 338
+msgid	"Line %i:\n"
+	"%s"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 67
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Medium"
+msgstr	"Medio"
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 544
+#. file 'gui-gtk/Widgets.py', line 547
+msgid	"N"
+msgstr	"N"
+
+#. file 'guiWorld.py', line 47
+msgid	"No beepers to pick up."
+msgstr	""
+
+#. file 'guiWorld.py', line 43
+msgid	"No beepers to put down."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 612
+msgid	"No content to save"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 102
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Number of beepers:"
+msgstr	"Número de zumbadores < 100"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Open worldbuilder"
+msgstr	"ConstructorDeMundos GvR"
+
+#. file 'gui-gtk/Widgets.py', line 592
+msgid	"Please give the number of beepers\n"
+	"to place on %d,%d"
+msgstr	""
+
+#. file 'GvrModel.py', line 91
+msgid	"Please load a world and program before executing."
+msgstr	"Por favor carga un mundo y un programa antes de ejecutar."
+
+#. file 'gui-gtk/gvr_gtk.py', line 533
+#, fuzzy
+msgid	"Programs"
+msgstr	"Nuevo Programa"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Quit ?"
+msgstr	"Salir"
+
+#. file 'worldMap.py', line 20
+#. file 'worldMap.py', line 98
+msgid	"ROBOT"
+msgstr	"ROBOT"
+
+#. file 'guiWorld.py', line 31
+msgid	"Ran into a wall"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Reload"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robot Speed"
+msgstr	"Velocidad del robot"
+
+#. file 'GvrModel.py', line 146
+msgid	"Robot turned off"
+msgstr	"Robot apagado"
+
+#. file 'gui-gtk/Widgets.py', line 702
+msgid	"Robots position is %s %s %s and carrying %s beepers"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the x-axes:"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the y-axes:"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 323
+#, fuzzy
+msgid	"Running Worldbuilder"
+msgstr	"ConstructorDeMundos GvR"
+
+#. file 'worldMap.py', line 46
+msgid	"S"
+msgstr	"S"
+
+#. file 'worldMap.py', line 23
+#. file 'worldMap.py', line 119
+msgid	"SIZE"
+msgstr	"TAMAÑO"
+
+#. file 'gui-gtk/gvr_gtk.py', line 718
+msgid	"Selected path is not a program file"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 765
+msgid	"Selected path is not a world file"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set Robot Speed"
+msgstr	"Establecer velocidad del robot"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Set language"
+msgstr	"Establecer idioma..."
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Set speed..."
+msgstr	"Establecer &velocidad"
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Slow"
+msgstr	"Lento"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Step"
+msgstr	"Paso"
+
+#. file 'gui-gtk/gvr_gtk.py', line 643
+msgid	"The editor's content is changed.\n"
+	"Do you want to save it?"
+msgstr	""
+
+#. file 'worldMap.py', line 46
+msgid	"W"
+msgstr	"O"
+
+#. file 'worldMap.py', line 21
+#. file 'worldMap.py', line 92
+msgid	"WALL"
+msgstr	"PARED"
+
+#. file 'gui-gtk/gvr_gtk.py', line 528
+#, fuzzy
+msgid	"Worlds"
+msgstr	"Nuevo mundo"
+
+#. file 'utils.py', line 264
+#, fuzzy
+msgid	"Written the new configuration to disk\n"
+	"You have to restart GvRng to see the effect"
+msgstr	"La nueva configuración ha sido guardada\n"
+	"Tienes que reiniciar GvR para ver el efecto"
+
+#. file 'gui-gtk/gvr_gtk.py', line 231
+msgid	"You don't have a program file loaded."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 224
+msgid	"You don't have a world file loaded."
+msgstr	""
+
+#. file 'gvrparser.py', line 331
+msgid	"Your program must have commands."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_About"
+msgstr	"Acerca de"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Edit"
+msgstr	"Sa&lir"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_File"
+msgstr	"A&rchivo"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_GvR"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Help"
+msgstr	"Ayuda"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Setup"
+msgstr	"&Configuración"
+
+#. file 'gvrparser.py', line 55
+msgid	"any_beepers_in_beeper_bag"
+msgstr	"zumbadores_en_bolsa"
+
+#. file 'gui-gtk/Widgets.py', line 593
+#. file 'gui-gtk/Widgets.py', line 605
+#, fuzzy
+msgid	"beepers"
+msgstr	"Zumbadores"
+
+#. file 'gvrparser.py', line 81
+msgid	"cheat"
+msgstr	"trampa"
+
+#. file 'gvrparser.py', line 89
+msgid	"define"
+msgstr	"definir"
+
+#. file 'gvrparser.py', line 95
+msgid	"do"
+msgstr	"hacer"
+
+#. file 'gvrparser.py', line 92
+msgid	"elif"
+msgstr	"sinosi"
+
+#. file 'gvrparser.py', line 93
+msgid	"else"
+msgstr	"sino"
+
+#. file 'gvrparser.py', line 90
+#. file 'gvrparser.py', line 96
+msgid	"end"
+msgstr	"fin"
+
+#. file 'gvrparser.py', line 57
+msgid	"facing_east"
+msgstr	"viendo_este"
+
+#. file 'gvrparser.py', line 56
+msgid	"facing_north"
+msgstr	"viendo_norte"
+
+#. file 'gvrparser.py', line 58
+msgid	"facing_south"
+msgstr	"viendo_sur"
+
+#. file 'gvrparser.py', line 59
+msgid	"facing_west"
+msgstr	"viendo_oeste"
+
+#. file 'gvrparser.py', line 60
+msgid	"front_is_blocked"
+msgstr	"frente_bloqueado"
+
+#. file 'gvrparser.py', line 61
+msgid	"front_is_clear"
+msgstr	"frente_libre"
+
+#. file 'gvrparser.py', line 91
+msgid	"if"
+msgstr	"si"
+
+#. file 'gvrparser.py', line 69
+msgid	"left_is_blocked"
+msgstr	"izquierda_bloqueado"
+
+#. file 'gvrparser.py', line 70
+msgid	"left_is_clear"
+msgstr	"izquierda_libre"
+
+#. file 'gvrparser.py', line 76
+msgid	"move"
+msgstr	"mover"
+
+#. file 'gvrparser.py', line 63
+msgid	"next_to_a_beeper"
+msgstr	"proximo_a_zumbador"
+
+#. file 'gvrparser.py', line 62
+msgid	"no_beepers_in_beeper_bag"
+msgstr	"sin_zumbadores_en_bolsa"
+
+#. file 'gvrparser.py', line 66
+msgid	"not_facing_east"
+msgstr	"no_viendo_este"
+
+#. file 'gvrparser.py', line 65
+msgid	"not_facing_north"
+msgstr	"no_viendo_norte"
+
+#. file 'gvrparser.py', line 67
+msgid	"not_facing_south"
+msgstr	"no_viendo_sur"
+
+#. file 'gvrparser.py', line 68
+msgid	"not_facing_west"
+msgstr	"no_viendo_oeste"
+
+#. file 'gvrparser.py', line 64
+msgid	"not_next_to_a_beeper"
+msgstr	"no_proximo_a_zumbador"
+
+#. file 'gvrparser.py', line 77
+msgid	"pickbeeper"
+msgstr	"tomarzumbador"
+
+#. file 'gvrparser.py', line 78
+msgid	"putbeeper"
+msgstr	"ponerzumbador"
+
+#. file 'gvrparser.py', line 71
+msgid	"right_is_blocked"
+msgstr	"derecha_bloqueado"
+
+#. file 'gvrparser.py', line 72
+msgid	"right_is_clear"
+msgstr	"derecha_libre"
+
+#. file 'gui-gtk/Widgets.py', line 558
+#. file 'gui-gtk/gvr_gtk.py', line 298
+#, fuzzy
+msgid	"robot"
+msgstr	"Robot"
+
+#. file 'gvrparser.py', line 79
+msgid	"turnleft"
+msgstr	"girarizquierda"
+
+#. file 'gvrparser.py', line 80
+msgid	"turnoff"
+msgstr	"apagar"
+
+#. file 'gui-gtk/Widgets.py', line 533
+#, fuzzy
+msgid	"wall"
+msgstr	"Pared"
+
+#. file 'gvrparser.py', line 94
+msgid	"while"
+msgstr	"mientras"
+
+#~ msgid	"  I obey your command: turning myself off."
+#~ msgstr	"Obedezco tu orden: apagándome."
+
+#~ msgid	"&About"
+#~ msgstr	"&Acerca de"
+
+#~ msgid	"&Help"
+#~ msgstr	"A&yuda"
+
+#~ msgid	"&Open Program for Editing..."
+#~ msgstr	"Abrir &programa para edición..."
+
+#~ msgid	"&Open World for Editing..."
+#~ msgstr	"Abrir un &mundo para edición..."
+
+#~ msgid	"&Program Window"
+#~ msgstr	"Ventana de &programa"
+
+#~ msgid	"&Save Program"
+#~ msgstr	"Guardar p&rograma"
+
+#~ msgid	"&Save World"
+#~ msgstr	"Guardar m&undo"
+
+#~ msgid	"&World Builder"
+#~ msgstr	"&Constructor de mundos"
+
+#~ msgid	"&World Window"
+#~ msgstr	"Ventana de &mundo"
+
+#~ msgid	"About WorldBuilder"
+#~ msgstr	"Acerca de ConstructorDeMundos"
+
+#~ msgid	"About this program"
+#~ msgstr	"Acerca de este programa"
+
+#~ msgid	"BDFL"
+#~ msgstr	"BDFL"
+
+#~ msgid	"Can't make the default directory.\n"
+#~ 	" The error message was: %s"
+#~ msgstr	"No se puede crear el directorio predeterminado.\n"
+#~ 	" El mensaje de error fue: %s"
+
+#~ msgid	"Can't save the file to chosen location,\n"
+#~ 	"make sure you have the proper permissions."
+#~ msgstr	"No se puede guardar el archivo en el lugar indicado,\n"
+#~ 	" asegúrate de tener los permisos necesarios."
+
+#~ msgid	"Cannot understand: %s"
+#~ msgstr	"No puedo comprender: %s"
+
+#~ msgid	"Change the time Guido pauses between moves"
+#~ msgstr	"Cambiar el tiempo que Guido tarda entre movimientos"
+
+#~ msgid	"Choose a filename for your program"
+#~ msgstr	"Escoge un nombre de archivo para tu programa"
+
+#~ msgid	"Choose a program to open"
+#~ msgstr	"Escoger programa para abrir"
+
+#~ msgid	"Close Program Window"
+#~ msgstr	"Cerrar Ventana de programa"
+
+#~ msgid	"Close World Window"
+#~ msgstr	"Cerrar Ventana de mundo"
+
+#~ msgid	"Code window"
+#~ msgstr	"Ventana de código"
+
+#~ msgid	"Create a new blank program"
+#~ msgstr	"Crear un programa en blanco"
+
+#~ msgid	"Create a new blank world"
+#~ msgstr	"Crear un mundo en blanco"
+
+#~ msgid	"Execute the GvR program"
+#~ msgstr	"Ejecutar el programa GvR"
+
+#~ msgid	"Export"
+#~ msgstr	"Exportar"
+
+#~ msgid	"Export your world map into a GvR format"
+#~ msgstr	"Exportar tu mapa del mundo en formato GvR"
+
+#~ msgid	"General info about this application"
+#~ msgstr	"Información general sobre esta aplicación"
+
+#~ msgid	"Get some help about usage"
+#~ msgstr	"Obtener ayuda sobre el uso"
+
+#~ msgid	"GvR Lessons in HTML format"
+#~ msgstr	"Lecciones GvR en formato HTML"
+
+#~ msgid	"GvR Reference"
+#~ msgstr	"Referencia GvR"
+
+#~ msgid	"Hey! There are no beepers here!"
+#~ msgstr	"¡Oye! ¡No hay zumbadores aquí!"
+
+#~ msgid	"Hides the Program Window"
+#~ msgstr	"Oculta Ventana de programa"
+
+#~ msgid	"Hides the World Window"
+#~ msgstr	"Ocultar Ventana de mundo"
+
+#~ msgid	"Hit execute to resume"
+#~ msgstr	"Presiona ejecutar para continuar"
+
+#~ msgid	"I don't have any beepers left!"
+#~ msgstr	"¡No me quedan zumbadores!"
+
+#~ msgid	"In line %d:\n"
+#~ 	"%s is not a valid direction -- use N, S, E, or W"
+#~ msgstr	"En línea %d:\n"
+#~ 	"%s no es una dirección válida -- usar N, S, E u O"
+
+#~ msgid	"Invalid input"
+#~ msgstr	"Entrada inválida"
+
+#~ msgid	"Language to use"
+#~ msgstr	"Idioma a usar"
+
+#~ msgid	"Language used"
+#~ msgstr	"Idioma usado"
+
+#~ msgid	"Modified "
+#~ msgstr	"Modificado"
+
+#~ msgid	"New %s"
+#~ msgstr	"Nuevo %s"
+
+#~ msgid	"New program"
+#~ msgstr	"Nuevo programa"
+
+#~ msgid	"New world"
+#~ msgstr	"Nuevo mundo"
+
+#~ msgid	"Next to %d beepers"
+#~ msgstr	"Próximo a %d zumbadores"
+
+#~ msgid	"Number of beepers > 100"
+#~ msgstr	"Número de zumbadores > 100"
+
+#~ msgid	"Ok"
+#~ msgstr	"De acuerdo"
+
+#~ msgid	"Open Program..."
+#~ msgstr	"Abrir programa"
+
+#~ msgid	"Open World..."
+#~ msgstr	"Abrir mundo"
+
+#~ msgid	"Open a Guido program"
+#~ msgstr	"Abrir un programa  de Guido"
+
+#~ msgid	"Open a file in the %s"
+#~ msgstr	"Abrir un archivo en el %s"
+
+#~ msgid	"Open a program and edit it"
+#~ msgstr	"Abre un programa y edítalo"
+
+#~ msgid	"Open a world and edit it"
+#~ msgstr	"Abrir un mundo y editarlo"
+
+#~ msgid	"Open a world for Guido to explore"
+#~ msgstr	"Abrir un mundo para Guido"
+
+#~ msgid	"Ouch! I hit a wall!"
+#~ msgstr	"¡Ay! ¡Choqué con una pared!"
+
+#~ msgid	"Please open a 'world' file first.\n"
+#~ 	"The world will now be reset to a empty world."
+#~ msgstr	"Por favor abre antes un archivo de 'mundo'.\n"
+#~ 	"El mundo será reiniciado a un mundo vacío."
+
+#~ msgid	"Please use the 'quit' option in the 'file' menu"
+#~ msgstr	"Por favor utiliza la opción 'salir' en el menu 'archivo'"
+
+#~ msgid	"Quit the WorldBuilder"
+#~ msgstr	"Salir del ConstructorDeMundos"
+
+#~ msgid	"Reset"
+#~ msgstr	"Reiniciar"
+
+#~ msgid	"Reset World"
+#~ msgstr	"Reiniciar mundo"
+
+#~ msgid	"Robot has %d beepers"
+#~ msgstr	"Robot tiene %d zumbadores"
+
+#~ msgid	"Robot has unlimited beepers"
+#~ msgstr	"Robot tiene zumbadores ilimitados"
+
+#~ msgid	"S&ave Program As..."
+#~ msgstr	"Guardar el pr&ograma como..."
+
+#~ msgid	"S&ave World As..."
+#~ msgstr	"Guardar mu&ndo como..."
+
+#~ msgid	"Save"
+#~ msgstr	"Guardar"
+
+#~ msgid	"Save the program you are currently editing"
+#~ msgstr	"Guarda el programa que estás editando actualmente"
+
+#~ msgid	"Save the program you are currently editing to a specific "
+#~ 	"file name"
+#~ msgstr	"Guarda el programa que estás editando con un nombre de "
+#~ 	"archivo particular"
+
+#~ msgid	"Save the world you are currently editing"
+#~ msgstr	"Guardar el mundo que estás editando actualmente"
+
+#~ msgid	"Save the world you are currently editing under another file "
+#~ 	"name"
+#~ msgstr	"Guarda el mundo que estás editando con otro nombre"
+
+#~ msgid	"Save your world map into a GvR format"
+#~ msgstr	"Guardar tu mapa del mundo en formato GvR"
+
+#~ msgid	"Select the desired value, or sum of values as the number\n"
+#~ 	"of beepers in the robot's beeper bag."
+#~ msgstr	"Elige el valor deseado, o suma de valores como el número\n"
+#~ 	"de zumbadores en la bolsa del robot."
+
+#, fuzzy
+#~ msgid	"Select the desired world dimensions (streets and avenues).\n"
+#~ 	"WARNING: The existing walls and beepers will be removed."
+#~ msgstr	"Elige las dimensiones del mundo que deseas (calles y "
+#~ 	"avenidas).\n"
+#~ 	"Se removeran las paredes y zumbadores existentes."
+
+#~ msgid	"Show/Hide the Program Window"
+#~ msgstr	"Mostrar/Ocultar la Ventana de programa"
+
+#~ msgid	"Show/Hide the World Builder"
+#~ msgstr	"Mostrar/ocultar la ventana del Constructor de Mundos"
+
+#~ msgid	"Show/Hide the World Window"
+#~ msgstr	"Mostrar/Ocultar la Ventana de mundo"
+
+#~ msgid	"Size"
+#~ msgstr	"Tamaño"
+
+#~ msgid	"Size coordinates must be at least 7"
+#~ msgstr	"Las coordenadas de tamaño deben ser al menos 7"
+
+#~ msgid	"Size statement should have 2 integers"
+#~ msgstr	"La definición de tamaño debería tener 2 enteros"
+
+#~ msgid	"Step through one instruction"
+#~ msgstr	"Paso a través de una instrucción"
+
+#~ msgid	"Success!"
+#~ msgstr	"¡Éxito!"
+
+#~ msgid	"Terminate the program"
+#~ msgstr	"Terminar el programa"
+
+#~ msgid	"The %s file has been modified. Would you like to save it "
+#~ 	"before exiting?"
+#~ msgstr	"El archivo %s ha sido modificado. ¿Deseas guardarlo antes de "
+#~ 	"salir?"
+
+#~ msgid	"The world file, %s, is not readable."
+#~ msgstr	"El archivo de mundo, %s, no se puede leer."
+
+#~ msgid	"The world map seems to be missing information."
+#~ msgstr	"Parece que falta información en el mapa del mundo."
+
+#~ msgid	"There was an error in the program\n"
+#~ 	"%s"
+#~ msgstr	"Hubo un error en el programa\n"
+#~ 	"%s"
+
+#~ msgid	"Turn off"
+#~ msgstr	"Apagar"
+
+#~ msgid	"User aborted program"
+#~ msgstr	"Programa de usuario abortado"
+
+#~ msgid	"World window"
+#~ msgstr	"Ventana de mundo"
+
+#~ msgid	"WorldBuilder question"
+#~ msgstr	"Pregunta del ConstructorDeMundos"
+
+#~ msgid	"Would you like to create default directories for your worlds "
+#~ 	"and programs? "
+#~ msgstr	"¿Deseas crear los directorios predeterminados para los "
+#~ 	"mundos y programas?"
+
+#~ msgid	"You may only have one robot definition."
+#~ msgstr	"Sólo puedes tener una definición de robot."
+
+#~ msgid	"You may only have one size statement"
+#~ msgstr	"Sólo puedes tener una definición de tamaño."
+
+#~ msgid	"You must be next to a beeper before you can pick it up."
+#~ msgstr	"Debes estar próximo a un zumbador antes de tomarlo."
+
+#~ msgid	"You must make sure that there is no wall in front of me!"
+#~ msgstr	"¡Deberías asegurarte de que no hay pared enfrente de mí!"
+
+#~ msgid	"move failed.\n"
+#~ msgstr	"movimiento fallido.\n"
+
+#~ msgid	"pick_beeper failed.\n"
+#~ msgstr	"falló tomarzumbador.\n"
+
+#~ msgid	"put_beeper failed.\n"
+#~ 	" You are not carrying any beepers."
+#~ msgstr	"falló poner_zumbador.\n"
+#~ 	" No traes cargando zumbadores."
+
+#, fuzzy
+#~ msgid	"window-xo"
+#~ msgstr	"Venta&na"

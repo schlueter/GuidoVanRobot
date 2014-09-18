@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="gvr_no" version="1.0" _section="Scripts" 
+    mimetypes="text/x-gvr_no">
+    
+    <escape-char>\</escape-char>
+
+    <string _name = "Multiline String" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&quot;&quot;&quot;</start-regex>
+        <end-regex>&quot;&quot;&quot;</end-regex>
+    </string>
+
+    <string _name = "Multiline String 2" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&apos;&apos;&apos;</start-regex>
+        <end-regex>&apos;&apos;&apos;</end-regex>
+    </string>
+
+    <string _name = "String" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&quot;</start-regex>
+        <end-regex>&quot;</end-regex>
+    </string>
+
+    <string _name = "String 2" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&apos;</start-regex>
+        <end-regex>&apos;</end-regex>
+    </string>
+
+    <line-comment _name = "Line Comment" style= "Comment">
+        <start-regex>#</start-regex>
+    </line-comment>
+    
+    <keyword-list _name = "World language" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>robot</keyword>
+        <keyword>vegg</keyword>
+        <keyword>støerrelse</keyword>
+        <keyword>beeper</keyword>       
+    </keyword-list>
+
+    <keyword-list _name = "Program statements" style = "Comment" case-sensitive="TRUE">
+        <keyword>flytt</keyword>
+        <keyword>vendvenstre</keyword>
+        <keyword>plukkalarm</keyword>
+        <keyword>settalarm</keyword>
+        <keyword>slåav</keyword>
+        <keyword>definer</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program test" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>fronten_er_fri</keyword>
+        <keyword>fronten_er_blokkert</keyword>
+        <keyword>venstre_er_fri</keyword>
+        <keyword>venstre_er_blokkert</keyword>
+        <keyword>høyre_er_fri</keyword>
+        <keyword>høyre_er_blokkert</keyword>
+        <keyword>ved_en_alarm</keyword>
+        <keyword>ikke_ved_en_alarm</keyword>
+        <keyword>noen_alarmer_i_sekken</keyword>
+        <keyword>ingen_alarmer_i_sekken</keyword>
+        <keyword>vendt_nord</keyword>
+        <keyword>ikke_vendt_nord</keyword>
+        <keyword>vendt_sør</keyword>
+        <keyword>ikke_vendt_sør</keyword>
+        <keyword>vendt_øst</keyword>
+        <keyword>ikke_vendt_øst</keyword>
+        <keyword>vendt_vest</keyword>
+        <keyword>ikke_vendt_vest</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program others" style = "Others" case-sensitive="TRUE">
+        <keyword>hvis</keyword>
+        <keyword>ellers</keyword>
+        <keyword>ellhvis</keyword>
+        <keyword>gjør</keyword>
+        <keyword>mens</keyword>
+    </keyword-list>
+
+    <pattern-item _name = "Decimal" style = "Decimal">
+        <regex>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</regex>
+    </pattern-item>
+
+</language>
+
+
+

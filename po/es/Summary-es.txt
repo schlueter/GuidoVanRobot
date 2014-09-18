@@ -1,0 +1,104 @@
+Guía de programación de Guido van Robot
+Las cinco instrucciones primitivas de Guido van Robot
+
+   1. mover
+   2. girarizquierda
+   3. tomarzumbador
+   4. ponerzumbador
+   5. apagar
+
+Estructura de bloques
+
+Cada instrucción de Guido van Robot debe ir en una línea separada.
+Una secuencia de intrucciones de Guido van Robot puede ser tratada
+como una sola instrucción indentandolas el mismo número de espacios.
+<instruccion> se refiere a cualquiera de las cinco primitivas
+mencionadas, a las instrucciones de ramificación condicional y de
+iteración, o a intrucciones definidas por el usuario.
+
+    <instruccion>
+    <instruccion>
+      ...
+    <instruccion>
+
+Condicionales
+
+GvR tiene dieciocho pruebas incluídas que se dividen en tres grupos:
+las primeras seis son pruebas de pared,
+las siguientes cuatro son pruebas de zumbador,
+y las últimas ocho son pruebas de compás:
+
+   1. frente_libre
+   2. frente_bloqueado
+   3. izquierda_libre
+   4. izquierda_bloqueado
+   5. derecha_libre
+   6. derecha_bloqueado
+   7. proximo_a_zumbador
+   8. no_proximo_a_zumbador
+   9. zumbadores_en_bolsa
+  10. sin_zumbadores_en_bolsa
+  11. viendo_norte
+  12. no_viendo_norte
+  13. viendo_sur
+  14. no_viendo_sur
+  15. viendo_este
+  16. no_viendo_este
+  17. viendo_oeste
+  18. no_viendo_oeste
+
+Ramificación condicional
+
+La ramificación condicional se refiere a la habilidad de un programa para
+alterar su flujo de ejecución basado en el resultado de la evaluación
+de un condicional. Los tres tipos de intrucciones condicionales en Guido
+van Robot son si, si/sino y si/nosi/sino.
+<prueba> se refiere a una de las dieciocho condicionales mencionadas
+arriba.
+
+si <prueba>:
+    <instruccion>
+
+if <prueba>:
+    <instruccion>
+sino:
+    <instruccion>
+
+si <prueba>:
+    <instruccion>
+nosi <prueba>:
+    <instruccion>
+...
+nosi <prueba>:
+    <instruccion>
+sino:
+    <instruccion>
+
+
+Iteración
+
+La iteración se refiere a la habilidad de un programa para repetir una
+instrucción (o bloque de instrucciones) una y otra vez hasta que se
+cumpla una condición. Los dos tipos de instrucciones de iteración son
+las instrucciones hacer y mientras. <numero_positivo> debe ser un entero
+mayor que 0.
+
+hacer <numero_positivo>:
+    <instruccion>
+
+mientras <prueba>:
+    <instruccion>
+
+Definiendo una nueva instrucción
+
+Las nuevas instrucciones para Guido van Robot pueden ser creadas usando
+la declaración definir. <nuevo_nombre> puede ser cualquier secuencia de
+letras o dígitos que comienze con una letra y no haya sido ya usada como
+instrucción.
+Para Guido van Robot las letras válidas son A..Z, a..z, y el guión
+bajo (_). Guido van Robot reconoce mayúsculas y minúsculas, de manera que
+GirarIzquierda, girarizquierda y girarIzquierda son todos nombres
+diferentes.
+
+definir <nuevo_nombre>:
+    <instruccion>

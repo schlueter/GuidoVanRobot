@@ -1,0 +1,33 @@
+Welcome to the Guido van Robot world.
+
+Guido van Robot, or GvR for short, is a programming language
+and free software application designed to introduce beginners
+to the fundamentals of programming.
+GvR runs on GNU/Linux, XO, Windows, and Macintosh, in a variety
+of languages!
+It's great in both the classroom and the home as a way of
+introducing people to the basic concepts of programming.
+
+
+At this point, you are probably asking yourself, 
+What is GvR, specifically? 
+The gist of it is that it is a robot represented by a triangle
+on the screen that moves around in a world made up of streets
+and avenues, walls and beepers, which Guido can collect or set.
+His actions are completely guided by a program written
+by the user.
+
+GvR comes with 18 lessons and assignments and 
+a language reference.
+See the "Lessons" tab and start with lesson 1.
+Use the "Language reference" tab to get a overview
+of the GvR language.
+
+Additional help and information:
+OLPC: http://wiki.laptop.org/go/Guido_van_Robot
+GvR web page: http://gvr.sourceforge.net/index.php
+GvR contact: http://gvr.sourceforge.net/contact/
+GvR project page: http://sourceforge.net/projects/gvr/
+
+
+

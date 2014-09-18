@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>Guido's First Steps</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+
+<h1>Guido's First Steps</h1>
+<h2>Tutorial</h2>
+<p>
+Guido van Robot can face in one of four directions, north, east, south, and
+west. He turns only 90 degrees at a time, so he can't face northeast, for
+instance.  In Guido's world, streets run east-west, and are numbered starting
+at 1. There are no zero or negative street numbers.  Avenues run north-south,
+and are also numbered starting at 1, with no zero or negative avenue numbers.
+At the intersection of a street and avenue is a corner.  Guido moves from
+one corner to to the next in a single movement. Because he can only face in one 
+of four directions, when he moves he changes his location by one avenue, or by
+one street, but not both!  In this step we will create our first world, place
+Guido van Robot, and have the little guy take his first few steps.
+</p>
+<p>
+Create a file step01.wld with this line:
+</p>
+<pre>Robot 4 3 N 0
+</pre>
+<p>
+This creates a world with Guido at 4th Avenue and 3rd Street, facing North.
+It should look like this:
+</p>
+<p><img alt="GvR Step 1" src="01_files/step01.png"></p>
+<p>
+There are many intersections where Guido can be in this world, since there are
+no walls other than those at the edge of the world.  Remember, in Guido's
+world, an "avenue" runs north and south and a "street" run
+east and west.
+</p>
+<p>
+Now create your first GvR program, calling it step01.gvr
+</p>
+<pre>move
+move
+move
+move
+turnoff
+</pre>
+<p>
+The instructions to Guido will be to move four spaces and then to turn off.
+Four small steps for a robot, one giant leap... never mind.  Note that each
+command is on its own line.
+</p>
+<p>
+Now load the world (.wld file) and the program (.gvr file) into GvR and
+test the code provided.
+</p>
+
+<h2>Your Turn</h2>
+<p>
+Make a world that has Guido start facing East in the lower left corner.  Have
+him take three steps and turn off.
+</p>
+<p>
+Hint: you may have to experiment with the numbers and letter after the word
+<em>Robot</em> in the world definition file to place him and face him facing
+the specified direction.
+</p>
+<hr>
+<p style="text-align: center;">
+<a href="index.html">Index</a> | <a href="02.html">Next</a></p>
+
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

@@ -1,0 +1,787 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid	""
+msgstr	"Project-Id-Version: GVR CVS\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2008-03-18 09:46:55.092971\n"
+	"PO-Revision-Date: 2005-02-03 09:22+0200\n"
+	"Last-Translator: Peter Damoc <pdamoc@gmx.net>\n"
+	"Language-Team: ROMANIA <pdamoc@gmx.net>\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=UTF-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+	"X-Poedit-Language: Romanian\n"
+	"X-Poedit-Country: ROMANIA\n"
+
+#. file 'gvrparser.py', line 378
+msgid	"\"%s\" has already been defined"
+msgstr	""
+
+#. file 'gvrparser.py', line 374
+msgid	"\"%s\" is not a valid name"
+msgstr	""
+
+#. file 'gvrparser.py', line 370
+msgid	"\"%s\" is not a valid test"
+msgstr	""
+
+#. file 'gvrparser.py', line 366
+msgid	"\"%s\" not defined"
+msgstr	""
+
+#. file 'gvrparser.py', line 358
+msgid	"'%s' statement is incomplete"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Alter the arguments for the 'robot' statement.</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Code Editor</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Guido's World</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>World Editor</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Abort"
+msgstr	"Opreşte"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"About GvR"
+msgstr	"Despre GvR"
+
+#. file 'worldMap.py', line 22
+#. file 'worldMap.py', line 114
+msgid	"BEEPERS"
+msgstr	"PIUITOARE"
+
+#. file 'world.py', line 179
+msgid	"Bad x value for positioning robot: %s"
+msgstr	"Valoarea x este incorectă: %s"
+
+#. file 'world.py', line 181
+msgid	"Bad y value for positioning robot: %s"
+msgstr	"Valoarea y este incorectă: %s"
+
+#. file 'gui-gtk/gvr_gtk.py', line 363
+#, fuzzy
+msgid	"Can't find the lessons.\n"
+	"Make sure you have installed the GvR-Lessons package.\n"
+	"Check the GvR website for the lessons package.\n"
+	"http://gvr.sf.net"
+msgstr	"Nu găsesc lecţiile! \n"
+	"Asiguraţi-vă că aveţi pachetul GvR-Lessons instalat.\n"
+	"Accesaţi site-ul GvR pentru pachetul cu lecţii gvr.sf.net"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Catalan\n"
+	"Dutch\n"
+	"English\n"
+	"French\n"
+	"Norwegian\n"
+	"Romenian\n"
+	"Spanish\n"
+	"Italian"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Change the language used\n"
+	"(After you restart GvR)"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Choose a file"
+msgstr	"Alege o lume pentru a fi deschisă"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Direction robot is facing (N,E,S,W)"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Do you really want to quit ?"
+msgstr	""
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 537
+#. file 'gui-gtk/Widgets.py', line 540
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid	"E"
+msgstr	"E"
+
+#. file 'worldMap.py', line 135
+msgid	"Error in line %s:\n"
+	"%s\n"
+	"Check your world file for syntax errors"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Execute"
+msgstr	"Execută"
+
+#. file 'gvrparser.py', line 362
+msgid	"Expected '%s' statement to end in ':'"
+msgstr	""
+
+#. file 'gvrparser.py', line 354
+msgid	"Expected code to be indented here"
+msgstr	""
+
+#. file 'gvrparser.py', line 342
+msgid	"Expected positive integer\n"
+	"Got: %s"
+msgstr	""
+
+#. file 'utils.py', line 246
+msgid	"Failed to save the file.\n"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Fast"
+msgstr	"Rapid"
+
+#. file 'gui-gtk/Widgets.py', line 737
+msgid	"Go back one page"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 743
+msgid	"Go one page forward"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot - Robot arguments"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot Programming Summary"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido's World"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"GvR - Editor"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 285
+#, fuzzy
+msgid	"GvR - Worldbuilder"
+msgstr	"Fereastră Lume"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"GvR Worldbuilder"
+msgstr	"Fereastră Lume"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Gvr Lessons"
+msgstr	"Lecţii GvR"
+
+#. file 'gvrparser.py', line 348
+msgid	"Indentation error"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Instant"
+msgstr	"Instant"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Instant\n"
+	"Fast\n"
+	"Medium\n"
+	"Slow"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Introduction"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Language reference"
+msgstr	"Referinţă limbaj GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Lessons"
+msgstr	"Lecţii GvR"
+
+#. file 'gvrparser.py', line 338
+msgid	"Line %i:\n"
+	"%s"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 67
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Medium"
+msgstr	"Mediu"
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 544
+#. file 'gui-gtk/Widgets.py', line 547
+msgid	"N"
+msgstr	"N"
+
+#. file 'guiWorld.py', line 47
+msgid	"No beepers to pick up."
+msgstr	""
+
+#. file 'guiWorld.py', line 43
+msgid	"No beepers to put down."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 612
+msgid	"No content to save"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 102
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Number of beepers:"
+msgstr	"În vecinătatea a %d piuitoare"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Open worldbuilder"
+msgstr	"Fereastră Lume"
+
+#. file 'gui-gtk/Widgets.py', line 592
+msgid	"Please give the number of beepers\n"
+	"to place on %d,%d"
+msgstr	""
+
+#. file 'GvrModel.py', line 91
+msgid	"Please load a world and program before executing."
+msgstr	"Încărcaţi vă rog o lume şi un program inainte de execuţie"
+
+#. file 'gui-gtk/gvr_gtk.py', line 533
+#, fuzzy
+msgid	"Programs"
+msgstr	"Program Nou"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Quit ?"
+msgstr	""
+
+#. file 'worldMap.py', line 20
+#. file 'worldMap.py', line 98
+msgid	"ROBOT"
+msgstr	"ROBOT"
+
+#. file 'guiWorld.py', line 31
+msgid	"Ran into a wall"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Reload"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robot Speed"
+msgstr	"Viteză Robot"
+
+#. file 'GvrModel.py', line 146
+msgid	"Robot turned off"
+msgstr	"Robotul s-a oprit"
+
+#. file 'gui-gtk/Widgets.py', line 702
+msgid	"Robots position is %s %s %s and carrying %s beepers"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the x-axes:"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the y-axes:"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 323
+#, fuzzy
+msgid	"Running Worldbuilder"
+msgstr	"Fereastră Lume"
+
+#. file 'worldMap.py', line 46
+msgid	"S"
+msgstr	"S"
+
+#. file 'worldMap.py', line 23
+#. file 'worldMap.py', line 119
+msgid	"SIZE"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 718
+msgid	"Selected path is not a program file"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 765
+msgid	"Selected path is not a world file"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set Robot Speed"
+msgstr	"Setează viteza robotului"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set language"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Set speed..."
+msgstr	"Setează Viteza"
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Slow"
+msgstr	"Încet"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Step"
+msgstr	"Paşeşte"
+
+#. file 'gui-gtk/gvr_gtk.py', line 643
+msgid	"The editor's content is changed.\n"
+	"Do you want to save it?"
+msgstr	""
+
+#. file 'worldMap.py', line 46
+msgid	"W"
+msgstr	"V"
+
+#. file 'worldMap.py', line 21
+#. file 'worldMap.py', line 92
+msgid	"WALL"
+msgstr	"PERETE"
+
+#. file 'gui-gtk/gvr_gtk.py', line 528
+#, fuzzy
+msgid	"Worlds"
+msgstr	"Lume Nouă"
+
+#. file 'utils.py', line 264
+msgid	"Written the new configuration to disk\n"
+	"You have to restart GvRng to see the effect"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 231
+msgid	"You don't have a program file loaded."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 224
+msgid	"You don't have a world file loaded."
+msgstr	""
+
+#. file 'gvrparser.py', line 331
+msgid	"Your program must have commands."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_About"
+msgstr	"Despre GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Edit"
+msgstr	"Ieşire"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_File"
+msgstr	"Fişier"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_GvR"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Help"
+msgstr	"Ajutor"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Setup"
+msgstr	"Setări"
+
+#. file 'gvrparser.py', line 55
+msgid	"any_beepers_in_beeper_bag"
+msgstr	"orice_piuitoare_in_punga_cu_piuitoare"
+
+#. file 'gui-gtk/Widgets.py', line 593
+#. file 'gui-gtk/Widgets.py', line 605
+#, fuzzy
+msgid	"beepers"
+msgstr	"punepiuitoare"
+
+#. file 'gvrparser.py', line 81
+msgid	"cheat"
+msgstr	"trisare"
+
+#. file 'gvrparser.py', line 89
+msgid	"define"
+msgstr	"defineste"
+
+#. file 'gvrparser.py', line 95
+msgid	"do"
+msgstr	"fa"
+
+#. file 'gvrparser.py', line 92
+msgid	"elif"
+msgstr	"altfeldaca"
+
+#. file 'gvrparser.py', line 93
+msgid	"else"
+msgstr	"altfel"
+
+#. file 'gvrparser.py', line 90
+#. file 'gvrparser.py', line 96
+msgid	"end"
+msgstr	"sfarsit"
+
+#. file 'gvrparser.py', line 57
+msgid	"facing_east"
+msgstr	"cu_fata_la_est"
+
+#. file 'gvrparser.py', line 56
+msgid	"facing_north"
+msgstr	"cu_fata_la_nord"
+
+#. file 'gvrparser.py', line 58
+msgid	"facing_south"
+msgstr	"cu_fata_la_sud"
+
+#. file 'gvrparser.py', line 59
+msgid	"facing_west"
+msgstr	"cu_fata_la_vest"
+
+#. file 'gvrparser.py', line 60
+msgid	"front_is_blocked"
+msgstr	"fata_e_blocata"
+
+#. file 'gvrparser.py', line 61
+msgid	"front_is_clear"
+msgstr	"fata_e_libera"
+
+#. file 'gvrparser.py', line 91
+msgid	"if"
+msgstr	"daca"
+
+#. file 'gvrparser.py', line 69
+msgid	"left_is_blocked"
+msgstr	"stanga_e_blocata"
+
+#. file 'gvrparser.py', line 70
+msgid	"left_is_clear"
+msgstr	"stanga_e_libera"
+
+#. file 'gvrparser.py', line 76
+msgid	"move"
+msgstr	"muta"
+
+#. file 'gvrparser.py', line 63
+msgid	"next_to_a_beeper"
+msgstr	"langa_o_piuitoare"
+
+#. file 'gvrparser.py', line 62
+msgid	"no_beepers_in_beeper_bag"
+msgstr	"fara_piuitoare_in_punga_cu_piuitoare"
+
+#. file 'gvrparser.py', line 66
+msgid	"not_facing_east"
+msgstr	"nu_cu_fata_la_est"
+
+#. file 'gvrparser.py', line 65
+msgid	"not_facing_north"
+msgstr	"nu_cu_fata_la_nord"
+
+#. file 'gvrparser.py', line 67
+msgid	"not_facing_south"
+msgstr	"nu_cu_fata_la_sud"
+
+#. file 'gvrparser.py', line 68
+msgid	"not_facing_west"
+msgstr	"nu_cu_fata_la_vest"
+
+#. file 'gvrparser.py', line 64
+msgid	"not_next_to_a_beeper"
+msgstr	"nu_langa_o_piuitoare"
+
+#. file 'gvrparser.py', line 77
+msgid	"pickbeeper"
+msgstr	"ridicapiuitoare"
+
+#. file 'gvrparser.py', line 78
+msgid	"putbeeper"
+msgstr	"punepiuitoare"
+
+#. file 'gvrparser.py', line 71
+msgid	"right_is_blocked"
+msgstr	"dreapta_e_blocata"
+
+#. file 'gvrparser.py', line 72
+msgid	"right_is_clear"
+msgstr	"dreapta_e_libera"
+
+#. file 'gui-gtk/Widgets.py', line 558
+#. file 'gui-gtk/gvr_gtk.py', line 298
+#, fuzzy
+msgid	"robot"
+msgstr	"Viteză Robot"
+
+#. file 'gvrparser.py', line 79
+msgid	"turnleft"
+msgstr	"intoarcerestanga"
+
+#. file 'gvrparser.py', line 80
+msgid	"turnoff"
+msgstr	"opreste"
+
+#. file 'gui-gtk/Widgets.py', line 533
+msgid	"wall"
+msgstr	""
+
+#. file 'gvrparser.py', line 94
+msgid	"while"
+msgstr	"cattimp"
+
+#~ msgid	"&About"
+#~ msgstr	"Despre GvR"
+
+#~ msgid	"&Help"
+#~ msgstr	"Ajutor"
+
+#~ msgid	"&Open Program for Editing..."
+#~ msgstr	"Deschide Program pentru Editare"
+
+#~ msgid	"&Open World for Editing..."
+#~ msgstr	"&Deschide o lume pentru editare...."
+
+#~ msgid	"&Program Window"
+#~ msgstr	"Fereastră &Program"
+
+#~ msgid	"&Save Program"
+#~ msgstr	"&Salvează Program"
+
+#~ msgid	"&Save World"
+#~ msgstr	"&Salvează Lume"
+
+#~ msgid	"&World Window"
+#~ msgstr	"Fereastră Lume"
+
+#~ msgid	"About this program"
+#~ msgstr	"Despre acest program"
+
+#~ msgid	"BDFL"
+#~ msgstr	"BDFL"
+
+#~ msgid	"Can't make the default directory.\n"
+#~ 	" The error message was: %s"
+#~ msgstr	"Nu pot crea directorul prestabilit.\n"
+#~ 	"Mesajul de eroare a fost: %s"
+
+#~ msgid	"Can't save the file to chosen location,\n"
+#~ 	"make sure you have the proper permissions."
+#~ msgstr	"Nu pot salva fişierul la locaţia aleasa, \n"
+#~ 	"asigurativă că aveţi drepturi de scriere."
+
+#~ msgid	"Cannot understand: %s"
+#~ msgstr	"Nu pot întelege: %s"
+
+#~ msgid	"Change the time Guido pauses between moves"
+#~ msgstr	"Schimbă intervalul de pauze între miscările lui Guido"
+
+#~ msgid	"Choose a filename for your program"
+#~ msgstr	"Alegeţi un nume de fişier pentru programul dumneavoastră"
+
+#~ msgid	"Choose a program to open"
+#~ msgstr	"Alege un program pentru a fi deschis"
+
+#~ msgid	"Close Program Window"
+#~ msgstr	"Închide Fereastra Program"
+
+#~ msgid	"Close World Window"
+#~ msgstr	"Închide Fereastră Lume"
+
+#~ msgid	"Code window"
+#~ msgstr	"Fereastră Cod"
+
+#~ msgid	"Create a new blank program"
+#~ msgstr	"Crează un program nou"
+
+#~ msgid	"Create a new blank world"
+#~ msgstr	"Crează o lume nouă"
+
+#~ msgid	"Execute the GvR program"
+#~ msgstr	"Execută programul GvR"
+
+#~ msgid	"GvR Lessons in HTML format"
+#~ msgstr	"Lecţii GvR în format HTML"
+
+#~ msgid	"GvR Reference"
+#~ msgstr	"Referinţă GvR"
+
+#~ msgid	"Hides the Program Window"
+#~ msgstr	"Ascunde Fereastra Program"
+
+#~ msgid	"Hides the World Window"
+#~ msgstr	"Ascunde Fereastră Lume"
+
+#~ msgid	"Hit execute to resume"
+#~ msgstr	"Apăsaţi Execută pentru a relua"
+
+#, fuzzy
+#~ msgid	"In line %d:\n"
+#~ 	"%s is not a valid direction -- use N, S, E, or W"
+#~ msgstr	"In linia %s:\n"
+#~ 	"%s nu este o directie validă -- folositi N, S, E sau V"
+
+#~ msgid	"Invalid input"
+#~ msgstr	"Intrare Invalidă"
+
+#~ msgid	"Modified "
+#~ msgstr	"Modificat"
+
+#~ msgid	"New %s"
+#~ msgstr	"%s nouă"
+
+#, fuzzy
+#~ msgid	"New program"
+#~ msgstr	"Program Nou"
+
+#, fuzzy
+#~ msgid	"New world"
+#~ msgstr	"Lume Nouă"
+
+#~ msgid	"Open Program..."
+#~ msgstr	"Deschide Program"
+
+#~ msgid	"Open World..."
+#~ msgstr	"Deschide Lume"
+
+#~ msgid	"Open a Guido program"
+#~ msgstr	"Deschide un program pentru Guido"
+
+#~ msgid	"Open a file in the %s"
+#~ msgstr	"Deschide fişierul în %s"
+
+#~ msgid	"Open a program and edit it"
+#~ msgstr	"Deschide un program pentru editare"
+
+#~ msgid	"Open a world and edit it"
+#~ msgstr	"Deschide o lume si o editează."
+
+#~ msgid	"Open a world for Guido to explore"
+#~ msgstr	"Deschide o Lume pe care Guido să o exploreze"
+
+#~ msgid	"Please open a 'world' file first.\n"
+#~ 	"The world will now be reset to a empty world."
+#~ msgstr	"Dechideţi un fişier 'lume' mai întai. \n"
+#~ 	"Lumea va fi resetată acum la o lume goala."
+
+#, fuzzy
+#~ msgid	"Quit the WorldBuilder"
+#~ msgstr	"Ascunde Fereastră Lume"
+
+#~ msgid	"Reset"
+#~ msgstr	"Resetează"
+
+#~ msgid	"Reset World"
+#~ msgstr	"Resetează Lumea"
+
+#~ msgid	"Robot has %d beepers"
+#~ msgstr	"Robotul are %d piuitoare"
+
+#~ msgid	"Robot has unlimited beepers"
+#~ msgstr	"Robotul are un număr nelimitat de piuitoare"
+
+#~ msgid	"S&ave Program As..."
+#~ msgstr	"S&alvează Programul ca...."
+
+#~ msgid	"S&ave World As..."
+#~ msgstr	"S&alvează Lumea ca...."
+
+#~ msgid	"Save the program you are currently editing"
+#~ msgstr	"Salvează programul pe care il editezi"
+
+#~ msgid	"Save the program you are currently editing to a specific "
+#~ 	"file name"
+#~ msgstr	"Salveză programul pe care îl editezi sub un alt nume"
+
+#~ msgid	"Save the world you are currently editing"
+#~ msgstr	"Salvează lumea pe care o editezi."
+
+#~ msgid	"Save the world you are currently editing under another file "
+#~ 	"name"
+#~ msgstr	"Salvează lumea pe care o editezi sub un alt nume"
+
+#~ msgid	"Show/Hide the Program Window"
+#~ msgstr	"Arată/Ascunde Fereastră Program"
+
+#, fuzzy
+#~ msgid	"Show/Hide the World Builder"
+#~ msgstr	"Arată/Ascunde Fereastră Lume"
+
+#~ msgid	"Show/Hide the World Window"
+#~ msgstr	"Arată/Ascunde Fereastră Lume"
+
+#~ msgid	"Step through one instruction"
+#~ msgstr	"Paşeşte printr-o intrucţiune."
+
+#~ msgid	"Terminate the program"
+#~ msgstr	"Opreşte programul"
+
+#, fuzzy
+#~ msgid	"The %s file has been modified. Would you like to save it "
+#~ 	"before exiting?"
+#~ msgstr	"%s a fost modificat. Doriti să salvaţi inainte de a ieşi?"
+
+#~ msgid	"The world file, %s, is not readable."
+#~ msgstr	"Fişierul lume %s nu poate fi citit."
+
+#~ msgid	"The world map seems to be missing information."
+#~ msgstr	"Se pare ca lipeşte informaţie din harta lumii"
+
+#, fuzzy
+#~ msgid	"Turn off"
+#~ msgstr	"opreste"
+
+#~ msgid	"User aborted program"
+#~ msgstr	"Utilizatorul a oprit programul"
+
+#~ msgid	"World window"
+#~ msgstr	"Fereastră Lume"
+
+#~ msgid	"Would you like to create default directories for your worlds "
+#~ 	"and programs? "
+#~ msgstr	"Doriţi să creeaţi directoare prestabilite pentru lumile şi "
+#~ 	"programele dumneavoastră?"
+
+#~ msgid	"You may only have one robot definition."
+#~ msgstr	"Poate exista doar o singură definire a robotului"
+
+#, fuzzy
+#~ msgid	"You may only have one size statement"
+#~ msgstr	"Poate exista doar o singură definire a robotului"
+
+#, fuzzy
+#~ msgid	"pick_beeper failed.\n"
+#~ msgstr	"ridicapiuitoare"
+
+#, fuzzy
+#~ msgid	"window-xo"
+#~ msgstr	"Fereastră"

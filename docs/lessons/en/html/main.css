@@ -1,0 +1,65 @@
+body {
+    margin: 50px 50px 50px 50px;
+    color: #000000;
+    background-color: #ffffff;
+}
+a, :visited {
+    color: #990000;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: #000077;
+    background-color: #ffffff;
+    font-size: xx-large;
+}
+h2, h3, h4 {
+    color: #000077;
+    background-color: #ffffff;
+}
+img {
+    border: 0;
+}
+p {
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
+}
+pre {
+    color: #4444cc;
+    margin: 20px 20px 20px 40px;
+}
+code {
+    color: #4444cc;
+}
+.copyleft {
+    text-align: center;
+    font-size: small;
+}
+.heading {
+    width: 100%;
+}
+.side {
+    width: 138px;
+    text-align: center;
+}
+.middle {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+.buttons {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    padding: 5px 5px 5px 5px;
+}

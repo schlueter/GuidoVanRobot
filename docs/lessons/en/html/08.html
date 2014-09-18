@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. --><script>function PrivoxyWindowOpen(){return(null);}</script>
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>Decisions</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+
+<h1>Decisions</h1>
+<h2>Tutorial</h2>
+<p>
+When Guido was a teenager, he was a bit rebellious.  His parents had always
+told him every little thing to do: every turn to make and every step to take.
+He finally proclaimed "I can make my own decisions!" and went on to
+explain to his parents how to talk to him to have that capability.
+</p>
+<p>
+He explained about <em>boolean expressions</em>, which could be only
+<em>true</em> or <em>false</em>.  Guido would do different things depending on
+if some condition were true or false.  Here was an example he gave:
+</p>
+<pre>if next_to_a_beeper:
+    pickbeeper
+</pre>
+<p>
+Guido has the ability to sense his world and to act accordingly.  "Golly,
+you're growing up fast!" proclaimed his parents.  They asked what things
+Guido could sense, and he provided this list:
+</p>
+<table border="1">
+<tbody><tr>
+  <td>front_is_clear</td>
+  <td>True if there is no wall directly in front of Guido. False if there is.
+  </td>
+</tr>
+<tr>
+  <td>front_is_blocked</td>
+  <td>True if there is a wall directly in front of Guido. False otherwise.</td>
+</tr>
+<tr>
+  <td>left_is_clear</td>
+  <td>True if there is no wall immediately to Guido's left.  False if there is.   </td>
+</tr>
+<tr>
+  <td>left_is_blocked</td>
+  <td>True if there is a wall immediately to Guido's left. False otherwise.</td>
+</tr>
+<tr>
+  <td>right_is_clear</td>
+  <td>True if there is no wall immediately to Guido's right. False if there is. 
+  </td>
+</tr>
+<tr>
+  <td>right_is_blocked</td>
+  <td>True if there is a wall immediately to Guido's right. False otherwise.
+  </td>
+</tr>
+<tr>
+  <td>next_to_a_beeper </td>
+  <td>True if Guido is standing at an intersection that has a beeper. False
+  otherwise.</td>
+</tr>
+<tr>
+  <td>not_next_to_a_beeper</td>
+  <td>True if there is not beeper at the current intersection. 
+  False if there is a beeper at the current intersection.</td>
+</tr>
+<tr>
+  <td>any_beepers_in_beeper_bag</td>
+  <td>True if there is at least one beeper in Guido's beeper bag. 
+  False if the beeper bag is empty.</td>
+</tr>
+<tr>
+  <td>no_beepers_in_beeper_bag</td>
+  <td>True if Karel's beeper bag is empty.
+  False if there is at least one beeper in the beeper bag.</td>
+</tr>
+<tr>
+  <td>facing_north </td>
+  <td>True if Guido is facing north. False otherwise.</td>
+</tr>
+<tr>
+  <td>not_facing_north</td>
+  <td>True if Guido is not facing north. False if he is facing north.</td>
+</tr>
+<tr>
+  <td>facing_south</td>
+  <td>True if Guido is facing south. False otherwise.</td>
+</tr>
+<tr>
+  <td>not_facing_south</td>
+  <td>True if Guido is not facing south. False if he is facing south.</td>
+</tr>
+<tr>
+  <td>facing_east</td>
+  <td>True if Guido is facing east. False otherwise.</td>
+</tr>
+<tr>
+  <td>not_facing_east</td>
+  <td>True if Guido is not facing east. False if he is facing east.</td>
+</tr>
+<tr>
+  <td>facing_west</td>
+  <td>True if Guido is facing west. False otherwise.</td>
+</tr>
+<tr>
+  <td>not_facing_west</td>
+  <td>True if Guido is not facing west. False if he is facing west.</td>
+</tr>
+</tbody></table>
+
+<h2>Your Turn</h2>
+<p>
+Guido has not completed his community service to graduate from high school,
+so he is assigned to pick up trash along 2nd Street.  Construct a world
+that has beepers spreadout along 2nd Street between 1st Avenue and the
+wall on the East corner of 12th Avenue.  There can only be one beeper
+at any given corner, but a corner may or may not have a beeper on it.
+Guido should start at 1st Avenue and 2nd Street facing East.
+</p><p>
+</p><p>
+A starting world would look something like <a href="08_files/step08.wld">
+this</a>:
+</p>
+<p>
+<img alt="Step 8 Starting Position" src="08_files/step08.png">
+</p>
+
+<p>
+Have Guido go down 2nd Street, picking up all beepers he finds.  Remember if
+there isn't a beeper at an intersection and you ask Guido to pick one up, he
+will complain and shutdown.  Use one of the tests from the table above to make
+a decision whether there is a beeper available to pick up. After he gets to
+12th Street, he should take all the beepers with him back to his starting
+position, face East again, and turnoff.
+</p>
+<p>
+With the starting position above things should end up like this:
+</p>
+<p>
+<img alt="Step 8 Finishing Position" src="08_files/step08n2.png">
+</p>
+<hr>
+<p style="text-align: center;">
+<a href="07.html">Previous</a> | <a href="index.html">Index</a> | <a href="09.html">Next</a></p>
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

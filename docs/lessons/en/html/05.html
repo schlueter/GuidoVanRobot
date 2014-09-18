@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>Do The Right Thing</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+
+<h1>Do The Right Thing</h1>
+<h2>Tutorial</h2>
+<p>
+To keep manufacturing costs down, the factory only built gears in Guido to move
+forward and to turn left.  I read in the instruction manual that Guido has the
+ability to learn to do other things.  For example, if Guido turns left three
+times, he will be facing right.  But you as the robot programmer need to tell
+Guido how to do this.
+</p>
+<p>
+We do this by defining a new instruction <code>turnright</code> as a series of
+other instructions, specifically three <code>turnleft</code> instructions.
+The definition looks like this:
+</p>
+<pre>define turnright:
+    turnleft
+    turnleft
+    turnleft
+</pre>
+<p>
+This is an example of a <em>compound</em> statement, which means it is made
+up of two parts.  The first part consists of <code>define</code> followed
+by the name of the instruction you are defining, followed by a colon
+(<code>:</code>).  The second part consists of one or more instructions
+indented the same number of spaces.  See if you can figure out what this
+complete program does.
+</p>
+<pre>define turnright:
+    turnleft
+    turnleft
+    turnleft
+   
+move
+turnright
+move
+turnright
+move
+turnright
+move
+turnright
+turnoff
+</pre>
+
+<p>
+The three <em>turnleft</em> instructions make up what is called a
+<em>block of code</em>, several instructions acting together as one.  All GvR
+programs end with a <em>turnoff</em> instruction.
+</p>
+<p>
+You should be able to "hand trace" the operation of this program to
+discover that Guido will walk in a small square, returning to his starting
+position.
+</p>
+
+<h2>Your Turn</h2>
+<p>
+Once you have defined a new instruction, you can use that instruction as if it
+were built-in to GvR.  Define an instruction <code>backup</code> that makes
+Guido back up one block, leaving him facing in the same direction.  Then use
+<code>backup</code> in a a complete program that has Guido start at the corner
+of Second Street and Third avenue, <code>move</code> three blocks north,
+<code>backup</code> one block, <code>turnright</code>, and then
+<code>move</code> two blocks east.
+</p>
+<hr>
+<p style="text-align: center;">
+<a href="04.html">Previous</a> | <a href="index.html">Index</a> | <a href="06.html">Next</a></p>
+
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

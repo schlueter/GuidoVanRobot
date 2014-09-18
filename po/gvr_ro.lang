@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="gvr_ro" version="1.0" _section="Scripts" 
+    mimetypes="text/x-gvr_ro">
+    
+    <escape-char>\</escape-char>
+
+    <string _name = "Multiline String" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&quot;&quot;&quot;</start-regex>
+        <end-regex>&quot;&quot;&quot;</end-regex>
+    </string>
+
+    <string _name = "Multiline String 2" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&apos;&apos;&apos;</start-regex>
+        <end-regex>&apos;&apos;&apos;</end-regex>
+    </string>
+
+    <string _name = "String" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&quot;</start-regex>
+        <end-regex>&quot;</end-regex>
+    </string>
+
+    <string _name = "String 2" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&apos;</start-regex>
+        <end-regex>&apos;</end-regex>
+    </string>
+
+    <line-comment _name = "Line Comment" style= "Comment">
+        <start-regex>#</start-regex>
+    </line-comment>
+    
+    <keyword-list _name = "World language" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>robot</keyword>
+        <keyword>perete</keyword>
+        <keyword>size</keyword>
+        <keyword>beeper</keyword>       
+    </keyword-list>
+
+    <keyword-list _name = "Program statements" style = "Comment" case-sensitive="TRUE">
+        <keyword>muta</keyword>
+        <keyword>intoarcerestanga</keyword>
+        <keyword>ridicapiuitoare</keyword>
+        <keyword>punepiuitoare</keyword>
+        <keyword>opreste</keyword>
+        <keyword>defineste</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program test" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>fata_e_libera</keyword>
+        <keyword>fata_e_blocata</keyword>
+        <keyword>stanga_e_libera</keyword>
+        <keyword>stanga_e_blocata</keyword>
+        <keyword>dreapta_e_libera</keyword>
+        <keyword>dreapta_e_blocata</keyword>
+        <keyword>langa_o_piuitoare</keyword>
+        <keyword>nu_langa_o_piuitoare</keyword>
+        <keyword>orice_piuitoare_in_punga_cu_piuitoare</keyword>
+        <keyword>fara_piuitoare_in_punga_cu_piuitoare</keyword>
+        <keyword>cu_fata_la_nord</keyword>
+        <keyword>nu_cu_fata_la_nord</keyword>
+        <keyword>cu_fata_la_sud</keyword>
+        <keyword>nu_cu_fata_la_sud</keyword>
+        <keyword>cu_fata_la_est</keyword>
+        <keyword>nu_cu_fata_la_est</keyword>
+        <keyword>cu_fata_la_vest</keyword>
+        <keyword>nu_cu_fata_la_vest</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program others" style = "Others" case-sensitive="TRUE">
+        <keyword>daca</keyword>
+        <keyword>altfel</keyword>
+        <keyword>altfeldaca</keyword>
+        <keyword>fa</keyword>
+        <keyword>cattimp</keyword>
+    </keyword-list>
+
+    <pattern-item _name = "Decimal" style = "Decimal">
+        <regex>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</regex>
+    </pattern-item>
+
+</language>
+
+
+

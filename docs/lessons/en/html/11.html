@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>Apple Pie or Cookies?</title>
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+<h1>Apple Pie or Cookies?</h1>
+<h2>Tutorial</h2>
+
+<p>
+You already know about the <code>if</code> statement.  You use it to make a
+decision, as in <em>if next to a beeper, pick it up.</em>  Sometimes you
+have a more complicated decision to make.  Guido likes apple pie, but
+his Mom doesn't always have it available.  She does have cookies all
+the time, though.  He wants to make a statement like this:  "Mom, I'd
+like some apple pie, but if you don't have it, then I'd like a cookie."
+You can use the <code>if...else...</code> statement to allow this two-way kind
+of decision.
+</p>
+<p>
+It's like the <code>if</code> statement, but we add the optional
+<code>else</code> part, providing a different course of action if the
+<code>if</code> condition is <em>not</em> met.
+</p>
+<p>
+The form of the conditional instruction with an <code>else</code> clause is:
+</p>
+<pre>if <em>test-condition</em>:
+    <em>instruction</em>
+else:
+    <em>other-instruction</em>
+</pre>
+<p>
+where <em>instruction</em> can be either a simple instruction (like
+"<tt>move</tt>") or an instruction block. Code to pick up a beeper or else
+just move on could be written as
+</p>
+<pre>if next-to-a-beeper:
+    pickbeeper
+    move
+else:
+    move
+</pre>
+<p>
+Remember the <code>else</code> part is optional.  Use it if it makes sense.
+</p>
+
+<h2>Your Turn</h2>
+<p>
+In this project, Guido is going to circumnavigate a bounded world.  He does not 
+know the dimensions of the world (but you do, since you will create it).  What
+he does know is that there is a beeper marking every corner of the world except 
+the one where he starts.
+</p>
+<p>
+Guido starts facing East in the lower left corner.  If he's not next to
+a beeper, he moves forward, otherwise he picks up the beeper, turns left and
+moves.  Create a world where it will take exactly 32 moves to circumnavigate.  
+You can choose the dimensions, but don't tell Guido!  Put beepers in three of
+the corners (southeast, northeast, northwest).  Then use a <code>do</code>
+statement (32 times) and an <code>if...else</code> statement to go around the
+world.
+</p>
+<p>
+Your starting world should look somthing like this, though the dimensions
+may differ:
+</p>
+<p><img alt="step 11 image" src="11_files/step11.png"></p>
+<p style="text-align: center;">
+<a href="10.html">Previous</a> | <a href="index.html">Index</a> | <a href="12.html">Next</a></p>
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

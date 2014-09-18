@@ -1,0 +1,85 @@
+Sommario programmazione di Guido van Robot
+Le 5 istruzioni primitive di Guido van Robot:
+
+   1. muovi
+   2. gira_sinistra
+   3. prendi_sirena
+   4. posa_sirena
+   5. spento
+
+Struttura a blocchi
+Ogni istruzione di GvR deve stare da sola su una riga. 
+Diverse istruzioni possono essere trattate come una singola istruzione se sono spostate a destra dello stesso numero di spazi.
+Con il nome istruzione si intende una delle 5 primitive, una delle condizioni o delle iterazioni (vedi sotto) o una nuova istruzione creata dall'utente.
+
+    <istruzione>
+      ...
+    <istruzione>
+
+Condizioni
+
+GvR ha diciotto test divisi in tre gruppi: sei per i muri,quattro per le sirene e otto test di direzione:
+
+   1. libero_davanti
+   2. chiuso_davanti
+   3. libero_a_sinistra
+   4. chiuso_a_sinistra
+   5. libero_a_destra
+   6. chiuso_a_destra
+   7. vicino_sirena
+   8. non_vicino_sirena
+   9. qualche_sirena_in_borsa
+  10. nessuna_sirena_in_borsa
+  11. faccia_nord
+  12. non_faccia_nord
+  13. faccia_sud
+  14. non_faccia_sud
+  15. faccia_est
+  16. non_faccia_est
+  17. faccia_ovest
+  18. non_faccia_ovest
+
+Ramificazione condizionale
+E' la capacità di alterare il flusso di un programma in base alla valutazione di una condizione.
+Ci sono tre tipi di istruzioni in GvR: se, se/altrimenti e se/se_altrimenti
+<test> si riferisce ad una delle 18 condizioni di cui sopra.
+
+se <test>:
+    <istruzione>
+
+se <test>:
+    <istruzione>
+altrimenti:
+    <istruzione>
+
+se <test>:
+    <istruzione>
+se_altrimenti <test>:
+    <istruzione>
+...
+se_altrimenti <test>:
+    <istruzione>
+altrimenti:
+    <istruzione>
+
+
+Iterazione
+
+Iterazione è la capacità di un programma di ripetere un'istruzione (o un blocco di istruzioni) fino al verificarsi di una condizione.
+Le due istruzioni di iterazione sono ripeti e mentre.
+<numero_positivo> è un intero maggiore di zero.
+
+ripeti <numero_positivo>:
+    <istruzione>
+
+mentre <test>:
+    <istruzione>
+
+Definire una nuova istruzione:
+Si possono creare nuove istruzioni per GvR usando definisci.
+<nuovo_nome> è una qualsiasi sequenza di lettere o numeri che inizia con una lettera e non è ancora usata come istruzione.
+Le lettere sono A..Z a..z e il carattere _ . Guido distingue maiuscole e minuscole, quindi GiraDestra, giradestra e giraDestra sono nomi diversi.
+
+definisci <nuovo_nome>:
+    <istruzione>
+

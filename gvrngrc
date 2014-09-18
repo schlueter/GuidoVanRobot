@@ -1,0 +1,62 @@
+
+# Configuration file for GvRng, Guido van Robot Next Generation.
+# You can set the language and the printer GvRng will use.
+#
+
+# Possible languages are:
+# system > Use the systems default language, this defaults to English when the
+#          systems language is not supported.
+#
+# The language is specified by given the locale for that language, so for
+# Dutch one should do: lang=nl_NL@euro
+# You can only give valid locales. A valid locale is a locale you have
+# configured properly on your system.
+# For example; you do this, lang=nl_NL@euro, but your system only has a locale
+# nl_NL. In this case you will see a error message (stderr) and the GUI would
+# be mostly be in English.  
+#
+# These are examples of locales, the languages are the ones that are currently
+# supported by gvrng
+#
+# nl_NL@euro > Dutch
+# ca_Es@euro > Catalan
+# fr_FR@euro > French
+# ro_RO.utf8 > Romanian
+# nb_NO > Norwegian bokmal
+# de_DE@euro > German
+# es_ES@euro > Spanish
+
+# Printer commands you can use as the value for the 'printercmd' option.
+# For example, you have a  Cups printer locally called Epson-Stylus.
+# The command should be: lp -d Epson-Stylus
+# For a remote Cups printer : lp -h myprinters.com -d Epson-Stylus
+# A local default Cups printer: lp
+# 
+# Expert information
+# The printer command is called like this 'printercmd filename'
+# So besides a printer command you can use a2ps, enscript etc.
+
+[default]
+# locale to use
+lang = system
+# printer command to use
+printercmd = lp
+# show intro text?
+intro = yes
+
+[printer_options]
+# The next values are used to format the page in cups.
+# They only used when printer=lp
+# See also the cups manual
+
+# chars per inch
+cpi=12
+# lines per inch 
+lpi=6 
+# margins used in points. 50 is 50/72 inch or 1,75 cm
+page-left=50 
+page-top=30 
+page-bottom=50
+page-right=50
+
+

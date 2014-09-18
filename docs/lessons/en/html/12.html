@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>Take Out the Trash</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+<h1>Take Out the Trash</h1>
+<h2>Tutorial</h2>
+<p>
+The <code>do</code> instruction lets Guido do an action more than once, but
+it has a limitation: you must know in advance how many times the action should
+be executed.  If you are at an intersection and you need to pick up several
+beepers there but you don't know how many there are, you cannot use a
+<code>do</code> statement.  The <code>while</code> statement can work in this
+situation.
+</p>
+<p>
+The general format of the while instruction is
+</p>
+<pre>while <em>test-condition-is-true</em>:
+    <em>action</em>
+</pre>
+<p>
+where <em>test-condition-is-true</em> is some conditional that evaluates
+to either <tt>true</tt> or <tt>false</tt>, and <em>action</em>
+is either a single command (like <code>move;</code>) or a sequence of commands
+in a block.  As long as the tested condition is true, the <em>action</em> will
+be performed.  Thus <code>while</code> is similar to <code>do</code> except
+that where <code>do</code> specifies a number of times to execute an
+instruction, <code>while</code> specifies a test condition.  As long as the
+test condition is <tt>true</tt>, the instructions will be executed over
+and over.
+</p>
+<p>
+For example, to pick up a stack of beepers you could write
+</p>
+<pre>while next-to-a-beeper:
+    pickbeeper
+</pre>
+<p>
+This says that as long as there are beepers at this intersection, pick one up
+and check again.  The result will be that there won't be any beepers at the
+current intersection.  They will all be in Guido's beeper bag.
+</p>
+<p>
+Writing a <code>while</code> loop is tricky; there are many details to get
+right.  The general steps are
+</p>
+<ol>
+  <li>Identify the condition that must be true when Guido is <em>finished</em>
+  with the loop.</li>
+
+  <li>Set up your while loop with the test being the <em>opposite</em>
+  condition than the one that should finish it:
+  <pre>    while <em>opposite condition</em>:
+        ...statements here...
+  </pre></li>
+
+  <li>Make sure any setup code is complete before starting the loop so you
+  start in a known condition.  If conditions are specified, they are called
+  <em>preconditions</em>.</li>
+
+  <li>Make sure each pass through the loop makes progress towards completing
+  the loop.</li>
+
+  <li>Make sure the test for the loop eventually becomes false so you can get
+  out.</li>
+
+  <li>Write code for any cleanup work that needs to be done after executing
+  the loop.  When exiting the loop, of <em>postconditions</em> are specified,
+  they will have been met if the <em>preconditions</em> were met when the loop
+  was entered.</li> 
+</ol>
+<p>
+Watch out for <em>infinite loops</em>, that is, loops that never terminate.  
+</p>
+
+<h2>Your Turn</h2>
+<p>
+It's Monday morning, again.  Before he goes to school, Guido has to take out
+the trash.  He's not sure how many bags of trash there are (represented by
+beeper bags), but he knows they are in the corner of the room as shown in
+<a href="12_files/step12.wld">this</a> world view:
+</p>
+<p><img alt="Step 12 image" src="12_files/step12.png"></p>
+<p>
+He needs to pick up all the trash and put it in the dumpster in one trip.
+Use one or more <code>while</code> statements to instruct Guido to take out
+the trash.  After depositing the trash, have Guido step back to see that
+the trash is properly in the dumpster.
+</p>
+<p style="text-align: center;">
+<a href="11.html">Previous</a> | <a href="index.html">Index</a> | <a href="13.html">Next</a></p>
+
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

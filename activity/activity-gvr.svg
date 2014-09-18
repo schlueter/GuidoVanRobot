@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" 
+[
+  <!ENTITY fill_color "#FFFFFF">
+  <!ENTITY stroke_color "#000000">
+]>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50"
+   height="50"
+   id="svg2259"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:docname="activity-gvr.svg"
+   sodipodi:docbase="/home/stas/SVN-WORK/GvRng-olpc/activity"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <metadata
+     id="metadata2266">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2264" />
+  <sodipodi:namedview
+     inkscape:window-height="585"
+     inkscape:window-width="778"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="7.64"
+     inkscape:cx="25"
+     inkscape:cy="25"
+     inkscape:window-x="92"
+     inkscape:window-y="27"
+     inkscape:current-layer="svg2259" />
+  <path
+     style="fill:&fill_color;;fill-rule:evenodd;stroke:&stroke_color;;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M 25.26178,3.6649215 L 4.0575916,46.335078 L 45.287958,46.204188 L 25.26178,3.6649215 z "
+     id="path2268" />
+  <text
+     xml:space="preserve"
+     style="font-size:25.54194832px;font-style:normal;font-weight:normal;fill:&stroke_color;;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     x="14.38579"
+     y="43.246376"
+     id="text2738"
+     transform="scale(1.0201139,0.9802827)"><tspan
+       sodipodi:role="line"
+       id="tspan2740"
+       x="14.38579"
+       y="43.246376">G</tspan></text>
+</svg>

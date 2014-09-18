@@ -1,0 +1,870 @@
+# DONT REMOVE THESE THREE LINES.
+# Catalan translation of Guido van Robot.
+# Copyright © 2005 Free Software Foundation, Inc.
+# Jordi Mallach <jordi@sindominio.net>, 2005.
+#
+msgid	""
+msgstr	"Project-Id-Version: gvr\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2008-03-18 09:46:55.092971\n"
+	"PO-Revision-Date: 2008-01-29 14:21+0100\n"
+	"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+	"Language-Team: Catalan <ca@dodds.net>\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=UTF-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+	"X-Poedit-Language: Catalan\n"
+	"X-Poedit-Country: SPAIN\n"
+
+#. file 'gvrparser.py', line 378
+msgid	"\"%s\" has already been defined"
+msgstr	"\"%s\" està realment ben definida"
+
+#. file 'gvrparser.py', line 374
+msgid	"\"%s\" is not a valid name"
+msgstr	"\"%s\" no és un nom vàlid"
+
+#. file 'gvrparser.py', line 370
+msgid	"\"%s\" is not a valid test"
+msgstr	"\"%s\" no és una prova vàlida"
+
+#. file 'gvrparser.py', line 366
+msgid	"\"%s\" not defined"
+msgstr	"\"%s\" no definida"
+
+#. file 'gvrparser.py', line 358
+msgid	"'%s' statement is incomplete"
+msgstr	"Declaració '%s' és incompleta"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Alter the arguments for the 'robot' statement.</b>"
+msgstr	"<b>Modifica els paràmetres de la posició del robot.</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Code Editor</b>"
+msgstr	"<b>Editor de Codi</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Guido's World</b>"
+msgstr	"<b> Món de Guido</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>World Editor</b>"
+msgstr	"<b>Editor del Món</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Abort"
+msgstr	"Avorta"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"About GvR"
+msgstr	"Quant a GvR"
+
+#. file 'worldMap.py', line 22
+#. file 'worldMap.py', line 114
+msgid	"BEEPERS"
+msgstr	"BRUNZIDORS"
+
+#. file 'world.py', line 179
+msgid	"Bad x value for positioning robot: %s"
+msgstr	"El valor x és invàlid per a posicionar el robot: %s"
+
+#. file 'world.py', line 181
+msgid	"Bad y value for positioning robot: %s"
+msgstr	"El valor y és invàlid per posicionar el robot: %s"
+
+#. file 'gui-gtk/gvr_gtk.py', line 363
+msgid	"Can't find the lessons.\n"
+	"Make sure you have installed the GvR-Lessons package.\n"
+	"Check the GvR website for the lessons package.\n"
+	"http://gvr.sf.net"
+msgstr	"No es troben les lliçons. \n"
+	"Assegureu-vos d'haver instal·lat el paquet de les lliçons del GvR. \n"
+	"Consulteu el web del GvR per a obtindre els paquets de lliçons.\n"
+	"http://gvr.sf.net/"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Catalan\n"
+	"Dutch\n"
+	"English\n"
+	"French\n"
+	"Norwegian\n"
+	"Romenian\n"
+	"Spanish\n"
+	"Italian"
+msgstr	"Català\n"
+	"Dutch\n"
+	"English\n"
+	"French\n"
+	"Norwegian\n"
+	"Romenian\n"
+	"Español\n"
+	"Italian"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Change the language used\n"
+	"(After you restart GvR)"
+msgstr	"Canvia l'idioma utilitzat\n"
+	"(Després de reiniciar GvR )"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Choose a file"
+msgstr	"Seleccioneu un fitxer"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Direction robot is facing (N,E,S,W)"
+msgstr	"La direcció del robot està encarat ( N,E,S,O)"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Do you really want to quit ?"
+msgstr	"Esteu segur de voler sortir?"
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 537
+#. file 'gui-gtk/Widgets.py', line 540
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid	"E"
+msgstr	"E"
+
+#. file 'worldMap.py', line 135
+msgid	"Error in line %s:\n"
+	"%s\n"
+	"Check your world file for syntax errors"
+msgstr	"Error a la línia %s:\n"
+	"%s\n"
+	"Mireu el vostre fitxer Món per buscar errors sintàctics"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Execute"
+msgstr	"Executa"
+
+#. file 'gvrparser.py', line 362
+msgid	"Expected '%s' statement to end in ':'"
+msgstr	"Declaració esperada '%s' al final"
+
+#. file 'gvrparser.py', line 354
+msgid	"Expected code to be indented here"
+msgstr	"Codi esperat per indentar aquí"
+
+#. file 'gvrparser.py', line 342
+msgid	"Expected positive integer\n"
+	"Got: %s"
+msgstr	"Esperat nombre enter: \n"
+	"%s"
+
+#. file 'utils.py', line 246
+msgid	"Failed to save the file.\n"
+msgstr	"Errada al desar el fitxer.\n"
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Fast"
+msgstr	"Ràpida"
+
+#. file 'gui-gtk/Widgets.py', line 737
+msgid	"Go back one page"
+msgstr	"Torna enrere una pàgina"
+
+#. file 'gui-gtk/Widgets.py', line 743
+msgid	"Go one page forward"
+msgstr	"Avança una pàgina"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot - Robot arguments"
+msgstr	" Paràmetres del robot Guido van Robot "
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot Programming Summary"
+msgstr	" Resum de Programació de Guido van robot"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido's World"
+msgstr	"Món de Guido"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"GvR - Editor"
+msgstr	"GvR - Editor"
+
+#. file 'gui-gtk/gvr_gtk.py', line 285
+msgid	"GvR - Worldbuilder"
+msgstr	"Creador de mons GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"GvR Worldbuilder"
+msgstr	"Creador de mons GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Gvr Lessons"
+msgstr	"Lliçons del GvR"
+
+#. file 'gvrparser.py', line 348
+msgid	"Indentation error"
+msgstr	"Error d'indentació "
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Instant"
+msgstr	"Instantani"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Instant\n"
+	"Fast\n"
+	"Medium\n"
+	"Slow"
+msgstr	"Instant\n"
+	"Ràpid\n"
+	"Mitjana\n"
+	"Lenta"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Introduction"
+msgstr	"Introducció"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Language reference"
+msgstr	"Referència del llenguatge"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Lessons"
+msgstr	"Lliçons"
+
+#. file 'gvrparser.py', line 338
+msgid	"Line %i:\n"
+	"%s"
+msgstr	"Línia %i:\n"
+	"%s"
+
+#. file 'gui-gtk/gvr_gtk.py', line 67
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Medium"
+msgstr	"Mitjana"
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 544
+#. file 'gui-gtk/Widgets.py', line 547
+msgid	"N"
+msgstr	"N"
+
+#. file 'guiWorld.py', line 47
+msgid	"No beepers to pick up."
+msgstr	"No hi ha brunzidors per recollir."
+
+#. file 'guiWorld.py', line 43
+msgid	"No beepers to put down."
+msgstr	"No hi ha brunzidors per desar."
+
+#. file 'gui-gtk/gvr_gtk.py', line 612
+msgid	"No content to save"
+msgstr	"No hi ha contingut per desar"
+
+#. file 'gui-gtk/Widgets.py', line 102
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Number of beepers:"
+msgstr	"Nombre de brunzidors:"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Open worldbuilder"
+msgstr	"Obrir Creador de mons GvR"
+
+#. file 'gui-gtk/Widgets.py', line 592
+msgid	"Please give the number of beepers\n"
+	"to place on %d,%d"
+msgstr	"Si-us-plau poseu el nombre de brunzidors \n"
+	"per col·locar %d,%d "
+
+#. file 'GvrModel.py', line 91
+msgid	"Please load a world and program before executing."
+msgstr	"Carregueu un món i programa abans d'executar."
+
+#. file 'gui-gtk/gvr_gtk.py', line 533
+msgid	"Programs"
+msgstr	"Programes"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Quit ?"
+msgstr	"Surt ?"
+
+#. file 'worldMap.py', line 20
+#. file 'worldMap.py', line 98
+msgid	"ROBOT"
+msgstr	"ROBOT"
+
+#. file 'guiWorld.py', line 31
+msgid	"Ran into a wall"
+msgstr	"Corre per un mur"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Reload"
+msgstr	"Recarregar"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robot Speed"
+msgstr	"Velocitat del robot"
+
+#. file 'GvrModel.py', line 146
+msgid	"Robot turned off"
+msgstr	"Robot apagat"
+
+#. file 'gui-gtk/Widgets.py', line 702
+msgid	"Robots position is %s %s %s and carrying %s beepers"
+msgstr	"La posició del robot és %s %s %s i està carregant %s brunzidors"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the x-axes:"
+msgstr	"Posició del robots a l'eix 'x':"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the y-axes:"
+msgstr	"Posició del robots a l'eix 'y':"
+
+#. file 'gui-gtk/gvr_gtk.py', line 323
+msgid	"Running Worldbuilder"
+msgstr	"Executant el Creador de mons"
+
+#. file 'worldMap.py', line 46
+msgid	"S"
+msgstr	"S"
+
+#. file 'worldMap.py', line 23
+#. file 'worldMap.py', line 119
+msgid	"SIZE"
+msgstr	"MIDA"
+
+#. file 'gui-gtk/gvr_gtk.py', line 718
+msgid	"Selected path is not a program file"
+msgstr	"El camí seleccionat no té un fitxer programa"
+
+#. file 'gui-gtk/gvr_gtk.py', line 765
+msgid	"Selected path is not a world file"
+msgstr	"El camí seleccionat no té un fitxer Món"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set Robot Speed"
+msgstr	"Ajusta la velocitat del robot"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set language"
+msgstr	"Estableix l'idioma"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set speed..."
+msgstr	"Estableix la velocitat..."
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Slow"
+msgstr	"Lenta"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Step"
+msgstr	"Pas"
+
+#. file 'gui-gtk/gvr_gtk.py', line 643
+msgid	"The editor's content is changed.\n"
+	"Do you want to save it?"
+msgstr	"El contingut de l'editor ha canviat. \n"
+	"Voleu desar el contingut ?"
+
+#. file 'worldMap.py', line 46
+msgid	"W"
+msgstr	"O"
+
+#. file 'worldMap.py', line 21
+#. file 'worldMap.py', line 92
+msgid	"WALL"
+msgstr	"MUR"
+
+#. file 'gui-gtk/gvr_gtk.py', line 528
+msgid	"Worlds"
+msgstr	"Mons"
+
+#. file 'utils.py', line 264
+msgid	"Written the new configuration to disk\n"
+	"You have to restart GvRng to see the effect"
+msgstr	"S'ha escrit la configuració nova al disc\n"
+	"Heu de tornar a iniciar el GvRng per a que tinga efecte"
+
+#. file 'gui-gtk/gvr_gtk.py', line 231
+msgid	"You don't have a program file loaded."
+msgstr	"No heu carregat cap programa."
+
+#. file 'gui-gtk/gvr_gtk.py', line 224
+msgid	"You don't have a world file loaded."
+msgstr	"No heu carregat cap fitxer Món."
+
+#. file 'gvrparser.py', line 331
+msgid	"Your program must have commands."
+msgstr	"Al seu programa li calen ordres."
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_About"
+msgstr	"_Quant a"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_Edit"
+msgstr	"_Edita"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_File"
+msgstr	"_Fitxer"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_GvR"
+msgstr	"_GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_Help"
+msgstr	"_Ajuda"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_Setup"
+msgstr	"_Configurar"
+
+#. file 'gvrparser.py', line 55
+msgid	"any_beepers_in_beeper_bag"
+msgstr	"algun_brunzidor_a_la_bossa"
+
+#. file 'gui-gtk/Widgets.py', line 593
+#. file 'gui-gtk/Widgets.py', line 605
+msgid	"beepers"
+msgstr	"brunzidor"
+
+#. file 'gvrparser.py', line 81
+msgid	"cheat"
+msgstr	"trampa"
+
+#. file 'gvrparser.py', line 89
+msgid	"define"
+msgstr	"defineix"
+
+#. file 'gvrparser.py', line 95
+msgid	"do"
+msgstr	"fes"
+
+#. file 'gvrparser.py', line 92
+msgid	"elif"
+msgstr	"osi"
+
+#. file 'gvrparser.py', line 93
+msgid	"else"
+msgstr	"sino"
+
+#. file 'gvrparser.py', line 90
+#. file 'gvrparser.py', line 96
+msgid	"end"
+msgstr	"fi"
+
+#. file 'gvrparser.py', line 57
+msgid	"facing_east"
+msgstr	"encarat_est"
+
+#. file 'gvrparser.py', line 56
+msgid	"facing_north"
+msgstr	"encarat_nord"
+
+#. file 'gvrparser.py', line 58
+msgid	"facing_south"
+msgstr	"encarat_sud"
+
+#. file 'gvrparser.py', line 59
+msgid	"facing_west"
+msgstr	"encarat_oest"
+
+#. file 'gvrparser.py', line 60
+msgid	"front_is_blocked"
+msgstr	"davant_bloquejat"
+
+#. file 'gvrparser.py', line 61
+msgid	"front_is_clear"
+msgstr	"davant_net"
+
+#. file 'gvrparser.py', line 91
+msgid	"if"
+msgstr	"si"
+
+#. file 'gvrparser.py', line 69
+msgid	"left_is_blocked"
+msgstr	"esquerra_bloquejat"
+
+#. file 'gvrparser.py', line 70
+msgid	"left_is_clear"
+msgstr	"esquerra_net"
+
+#. file 'gvrparser.py', line 76
+msgid	"move"
+msgstr	"mou"
+
+#. file 'gvrparser.py', line 63
+msgid	"next_to_a_beeper"
+msgstr	"junt_a_un_brunzidor"
+
+#. file 'gvrparser.py', line 62
+msgid	"no_beepers_in_beeper_bag"
+msgstr	"cap_brunzidor_a_la_bossa"
+
+#. file 'gvrparser.py', line 66
+msgid	"not_facing_east"
+msgstr	"no_encarat_est"
+
+#. file 'gvrparser.py', line 65
+msgid	"not_facing_north"
+msgstr	"no_encarat_nord"
+
+#. file 'gvrparser.py', line 67
+msgid	"not_facing_south"
+msgstr	"no_encarat_sud"
+
+#. file 'gvrparser.py', line 68
+msgid	"not_facing_west"
+msgstr	"no_encarat_oest"
+
+#. file 'gvrparser.py', line 64
+msgid	"not_next_to_a_beeper"
+msgstr	"no_junt_a_un_brunzidor"
+
+#. file 'gvrparser.py', line 77
+msgid	"pickbeeper"
+msgstr	"recullbrunzidor"
+
+#. file 'gvrparser.py', line 78
+msgid	"putbeeper"
+msgstr	"desabrunzidor"
+
+#. file 'gvrparser.py', line 71
+msgid	"right_is_blocked"
+msgstr	"dreta_bloquejat"
+
+#. file 'gvrparser.py', line 72
+msgid	"right_is_clear"
+msgstr	"dreta_net"
+
+#. file 'gui-gtk/Widgets.py', line 558
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid	"robot"
+msgstr	"robot"
+
+#. file 'gvrparser.py', line 79
+msgid	"turnleft"
+msgstr	"giraesquerra"
+
+#. file 'gvrparser.py', line 80
+msgid	"turnoff"
+msgstr	"apaga"
+
+#. file 'gui-gtk/Widgets.py', line 533
+msgid	"wall"
+msgstr	"mur"
+
+#. file 'gvrparser.py', line 94
+msgid	"while"
+msgstr	"mentre"
+
+#~ msgid	"  I obey your command: turning myself off."
+#~ msgstr	"  Obeïsc la teua ordre: m'estic apagant."
+
+#~ msgid	"&About"
+#~ msgstr	"&Quant a"
+
+#~ msgid	"&Help"
+#~ msgstr	"A&juda"
+
+#~ msgid	"&Open Program for Editing..."
+#~ msgstr	"&Obre un programa per a editar..."
+
+#~ msgid	"&Open World for Editing..."
+#~ msgstr	"&Obre un món per a editar..."
+
+#~ msgid	"&Program Window"
+#~ msgstr	"&Finestra del programa"
+
+#~ msgid	"&Save Program"
+#~ msgstr	"&Desa el programa"
+
+#~ msgid	"&Save World"
+#~ msgstr	"&Desa el món"
+
+#~ msgid	"&World Builder"
+#~ msgstr	"&Creador de mons"
+
+#~ msgid	"&World Window"
+#~ msgstr	"Finestra del &món"
+
+#~ msgid	"About WorldBuilder"
+#~ msgstr	"Quant al creador de mons"
+
+#~ msgid	"About this program"
+#~ msgstr	"Quant a aquest programa"
+
+#~ msgid	"Can't make the default directory.\n"
+#~ 	" The error message was: %s"
+#~ msgstr	"No es pot crear el directori per defecte. \n"
+#~ 	"El missatge d'error ha estat: %s"
+
+#~ msgid	"Can't save the file to chosen location,\n"
+#~ 	"make sure you have the proper permissions."
+#~ msgstr	"No puc desar al lloc escollit,\n"
+#~ 	"assegura't que teniu els permissos adequats."
+
+#~ msgid	"Cannot understand: %s"
+#~ msgstr	"No es pot entendre: %s"
+
+#~ msgid	"Change the time Guido pauses between moves"
+#~ msgstr	"Canvia el retard entre els moviments de Guido"
+
+#~ msgid	"Choose a filename for your program"
+#~ msgstr	"Seleccioneu un nom de fitxer per al vostre programa"
+
+#~ msgid	"Choose a program to open"
+#~ msgstr	"Seleccioneu un programa per a obrir"
+
+#~ msgid	"Close Program Window"
+#~ msgstr	"Tanca la finestra del programa"
+
+#~ msgid	"Close World Window"
+#~ msgstr	"Tanca la finestra del món"
+
+#~ msgid	"Code window"
+#~ msgstr	"Finestra del codi"
+
+#~ msgid	"Create a new blank program"
+#~ msgstr	"Crea un nou programa en blanc"
+
+#~ msgid	"Create a new blank world"
+#~ msgstr	"Crea un món nou en blanc"
+
+#~ msgid	"Execute the GvR program"
+#~ msgstr	"Executa el programa GvR"
+
+#~ msgid	"Export"
+#~ msgstr	"Exporta"
+
+#~ msgid	"Export your world map into a GvR format"
+#~ msgstr	"Exporteu el vostre mapa del món amb el format GvR"
+
+#~ msgid	"General info about this application"
+#~ msgstr	"Informació general sobre aquesta aplicació"
+
+#~ msgid	"Get some help about usage"
+#~ msgstr	"Obteniu ajuda sobre l'ús"
+
+#~ msgid	"GvR Lessons in HTML format"
+#~ msgstr	"Lliçons del GvR en format HTML"
+
+#~ msgid	"GvR Reference"
+#~ msgstr	"Referència de GvR"
+
+#~ msgid	"Hey! There are no beepers here!"
+#~ msgstr	"Ei! No hi ha brunzidors ací!"
+
+#~ msgid	"Hides the Program Window"
+#~ msgstr	"Amaga la finestra del programa"
+
+#~ msgid	"Hides the World Window"
+#~ msgstr	"Amaga la finestra del món"
+
+#~ msgid	"Hit execute to resume"
+#~ msgstr	"Premeu «executa» per a continuar"
+
+#~ msgid	"I don't have any beepers left!"
+#~ msgstr	"No em queden brunzidors!"
+
+#~ msgid	"In line %d:\n"
+#~ 	"%s is not a valid direction -- use N, S, E, or W"
+#~ msgstr	"A la línia %d:\n"
+#~ 	"%s no és una direcció vàlida -- useu N, S, E, o O"
+
+#~ msgid	"Invalid input"
+#~ msgstr	"L'entrada és invàlida"
+
+#~ msgid	"Language to use"
+#~ msgstr	"Idioma a utilitzar"
+
+#~ msgid	"Language used"
+#~ msgstr	"Idioma utilitzat"
+
+#~ msgid	"Modified "
+#~ msgstr	"Modificat"
+
+#~ msgid	"New %s"
+#~ msgstr	"Nou %s"
+
+#~ msgid	"New program"
+#~ msgstr	"Programa nou"
+
+#~ msgid	"New world"
+#~ msgstr	"Món nou"
+
+#~ msgid	"Next to %d beepers"
+#~ msgstr	"Pròxim a %d brunzidors"
+
+#~ msgid	"Number of beepers > 100"
+#~ msgstr	"Nombre de brunzidors > 100"
+
+#~ msgid	"Ok"
+#~ msgstr	"D'acord!"
+
+#~ msgid	"Open Program..."
+#~ msgstr	"Obre un programa..."
+
+#~ msgid	"Open World..."
+#~ msgstr	"Obre un món..."
+
+#~ msgid	"Open a Guido program"
+#~ msgstr	"Obre un programa per a Guido"
+
+#~ msgid	"Open a file in the %s"
+#~ msgstr	"Obre un fitxer al %s"
+
+#~ msgid	"Open a program and edit it"
+#~ msgstr	"Obre un programa i edita'l"
+
+#~ msgid	"Open a world and edit it"
+#~ msgstr	"Obre un món i edita'l"
+
+#~ msgid	"Open a world for Guido to explore"
+#~ msgstr	"Obre un món a explorar per a Guido"
+
+#~ msgid	"Ouch! I hit a wall!"
+#~ msgstr	"Ai! M'he colpejat amb un mur!"
+
+#~ msgid	"Please open a 'world' file first.\n"
+#~ 	"The world will now be reset to a empty world."
+#~ msgstr	"Obriu un fitxer de món primer. \n"
+#~ 	"El món es posarà netejarà i es buidarà."
+
+#~ msgid	"Please use the 'quit' option in the 'file' menu"
+#~ msgstr	"Utilitzeu l'opció «Surt» al menú «Fitxer»"
+
+#~ msgid	"Quit the WorldBuilder"
+#~ msgstr	"Surt del creador de mons"
+
+#~ msgid	"Reset"
+#~ msgstr	"Neteja"
+
+#~ msgid	"Reset World"
+#~ msgstr	"Neteja el món"
+
+#~ msgid	"Robot has %d beepers"
+#~ msgstr	"El Robot té %d brunzidors"
+
+#~ msgid	"Robot has unlimited beepers"
+#~ msgstr	"El Robot té brunzidors il·limitats"
+
+#~ msgid	"S&ave Program As..."
+#~ msgstr	"&Anomena i desa el programa..."
+
+#~ msgid	"S&ave World As..."
+#~ msgstr	"&Anomena i desa el món..."
+
+#~ msgid	"Save"
+#~ msgstr	"Desa"
+
+#~ msgid	"Save the program you are currently editing"
+#~ msgstr	"Desa el programa que s'està editant"
+
+#~ msgid	"Save the program you are currently editing to a specific "
+#~ 	"file name"
+#~ msgstr	"Desa el programa que està s'editant amb un altre nom de "
+#~ 	"fitxer"
+
+#~ msgid	"Save the world you are currently editing"
+#~ msgstr	"Desa el món que s'està editant"
+
+#~ msgid	"Save the world you are currently editing under another file "
+#~ 	"name"
+#~ msgstr	"Desa el món que s'està editant amb un altre nom de fitxer"
+
+#~ msgid	"Save your world map into a GvR format"
+#~ msgstr	"Desa el vostre món amb el format GvR"
+
+#~ msgid	"Select the desired value, or sum of values as the number\n"
+#~ 	"of beepers in the robot's beeper bag."
+#~ msgstr	"Seleccioneu el valor dessitjat, o la suma de valors com el "
+#~ 	"nombre de brunzidors en la bossa de brunzidors del robot."
+
+#~ msgid	"Select the desired world dimensions (streets and avenues).\n"
+#~ 	"WARNING: The existing walls and beepers will be removed."
+#~ msgstr	"Seleccioneu les dimensions desitjades del món (carreres i "
+#~ 	"avingudes).\n"
+#~ 	"S'eliminaran els murs i brunzidors existents."
+
+#~ msgid	"Show/Hide the Program Window"
+#~ msgstr	"Mostra/amaga la finestra del programa"
+
+#~ msgid	"Show/Hide the World Builder"
+#~ msgstr	"Mostra/Amaga la finestra del creador de mons"
+
+#~ msgid	"Show/Hide the World Window"
+#~ msgstr	"Mostra/amaga la finestra del món"
+
+#~ msgid	"Size coordinates must be at least 7"
+#~ msgstr	"Les coordenades de la mida han de ser almenys 7"
+
+#~ msgid	"Size statement should have 2 integers"
+#~ msgstr	"La definició de la mida ha de tindre 2 enters"
+
+#~ msgid	"Step through one instruction"
+#~ msgstr	"Avança una instrucció"
+
+#~ msgid	"Success!"
+#~ msgstr	"Èxit!"
+
+#~ msgid	"Terminate the program"
+#~ msgstr	"Finalitza el programa"
+
+#~ msgid	"The %s file has been modified. Would you like to save it "
+#~ 	"before exiting?"
+#~ msgstr	"S'ha modificat el fitxer %s. Voleu desar-lo abans de sortir?"
+
+#~ msgid	"The world file, %s, is not readable."
+#~ msgstr	"El fitxer de món, %s, no es pot llegir."
+
+#~ msgid	"The world map seems to be missing information."
+#~ msgstr	"Al mapa del món sembla que manca informació"
+
+#~ msgid	"There was an error in the program\n"
+#~ 	"%s"
+#~ msgstr	"Hi ha un error al programa\n"
+#~ 	"%s"
+
+#~ msgid	"Turn off"
+#~ msgstr	"Apaga"
+
+#~ msgid	"User aborted program"
+#~ msgstr	"Programa avortat per l'usuari"
+
+#~ msgid	"World window"
+#~ msgstr	"Finestra del món"
+
+#~ msgid	"WorldBuilder question"
+#~ msgstr	"Pregunta del creador de mons"
+
+#~ msgid	"Would you like to create default directories for your worlds "
+#~ 	"and programs? "
+#~ msgstr	"Voleu crear els directoris per defecte pels vostres mons i "
+#~ 	"programes?"
+
+#~ msgid	"You may only have one robot definition."
+#~ msgstr	"Només podeu tenir una definició de robot"
+
+#~ msgid	"You may only have one size statement"
+#~ msgstr	"Només podeu tenir una definició de mida"
+
+#~ msgid	"You must be next to a beeper before you can pick it up."
+#~ msgstr	"Heu d'estar al costat d'un brunzidor abans de poder recollir-"
+#~ 	"lo."
+
+#~ msgid	"You must make sure that there is no wall in front of me!"
+#~ msgstr	"Heu d'assegurar-vos que no hi ha murs davant meu!"
+
+#~ msgid	"move failed.\n"
+#~ msgstr	"ha fallat el moviment.\n"
+
+#~ msgid	"pick_beeper failed.\n"
+#~ msgstr	"Ha fallat recull_brunzidor.\n"
+
+#~ msgid	"put_beeper failed.\n"
+#~ 	" You are not carrying any beepers."
+#~ msgstr	"ha fallat put_beeper.\n"
+#~ 	" No porteu cap brunzidor."
+
+#~ msgid	"window-xo"
+#~ msgstr	"Finestra-xo"

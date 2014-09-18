@@ -1,0 +1,7 @@
+[Activity]
+name = Guido van Robot
+activity_version = 1
+service_name = org.gvr.olpc.GvRng
+icon = activity-gvr
+class = start_activity.GvRngActivity
+show_launcher = yes

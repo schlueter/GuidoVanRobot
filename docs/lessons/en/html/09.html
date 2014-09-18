@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. --><script>function PrivoxyWindowOpen(){return(null);}</script>
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>You Missed Some</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+
+<h1>You Missed Some</h1>
+<h2>Tutorial</h2>
+<p>
+Recently, you wrote a program to have Guido go down 2nd Street and pick
+up trash.  You probably wrote code that used an <code>if</code> statement
+("if trash is here, pick it up") followed by a <code>move</code> statement.
+Then you copied and pasted that code until you had enough copies of it so
+Guido would go all the way down 2nd Street, picking up all the trash.  
+</p>
+<p>
+There is a better way to do a group of statements over and over again:
+the <code>do</code> instruction.  The <code>do</code> instruction allows you to 
+repeat a set of actions a given number of times.  For instance,
+</p>
+<pre>do 5:
+    move
+</pre>
+<p>
+moves Guido 5 intersections forward.  If you want to repeat multiple
+actions, group them together by indenting the instructions the same number
+of spaces:
+</p>
+<pre>do 5:
+    putbeeper
+    move
+</pre>
+<p>
+Using the same number of spaces to indent is mandatory if you want to repeat
+multiple actions. If you mistakenly write
+</p>
+<pre>do 5:
+    putbeeper
+move
+</pre>
+<p>
+This code would put 5 beepers at one place and then move forward just one
+intersection.  That's probably <em>not</em> what you wanted to happen.  Be
+careful to keep indentation the same to keep groups of instructions together
+as one block.
+</p>
+
+<h2>Your Turn</h2>
+<p>
+Guido is smarter now and knows about the iterate statement.  He is assigned
+once again to pick up trash along Second Street.  Rewrite your solution to 
+the previous assignment using Guido's new found power.
+</p>
+<p style="text-align: center;">
+<a href="08.html">Previous</a> | <a href="index.html">Index</a> | <a href="10.html">Next</a></p>
+
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

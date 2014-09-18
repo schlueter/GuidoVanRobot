@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>A Job to Do</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+<h1>A Job to Do</h1>
+<h2>Overview</h2>
+<p>
+You have learned a lot about programming Guido. Congratulations!  What you may
+not realize is that you have learned a lot about programming in any language.
+Most programs are a sequence of steps, interspersed with conditional decisions
+and groups of instructions that repeat. All of the projects have been
+successively more complex.
+</p>
+<p>
+Implementing the solutions to the assignments so far has required a little 
+more thought at each step. You understand the question and the desired result, 
+but it's not immediately clear sometimes how to get it done. You should have 
+realized that the way you would do it if you were Guido is often the way 
+Guido would do it, using the instructions available.
+</p>
+<p>
+Often, then, it's best to figure out how you would accomplish a task. Write 
+the steps down in your own words with pencil and paper. This is sometimes 
+called pseudocode because it isn't really instructions that Guido could use. 
+But it helps you understand what needs to happen. Then you code it -- write 
+the real instructions -- to create a GvR program.
+</p>
+<p>
+Be sure to think this assignment through before you start coding. First figure
+out the algorithm, or sequence of steps, required. Then, looking at the sample 
+world, simulate in your mind the execution of the program you are going to
+write.  If it does what you expect, then and only then should you start coding. 
+</p>
+
+<h2>Project</h2>
+<p>
+Guido's Dad is a farmer.  When Guido is not doing his homework, he helps
+in the field.  Today he has to harvest the crop.  The field always has
+6 rows and 6 columns, but the crop did not grow in all the locations, as
+shown.  Create a world with a mostly populated 6x6 field in the middle as
+shown.
+</p>
+<p><img alt="Step 15 image" src="15_files/step15.png"></p>
+<p>
+Harvest the crop using a nested iterate statement - one or more iterate 
+statements within an iterate statement - to perform the harvesting operation.  
+In <em>pseudocode</em>, this would be something like:
+</p>
+<pre>iterate six times 
+    go across, harvesting beepers
+    go back to left edge
+    go up one
+stop
+</pre>    
+<p>but the "go across, harvesting beepers" is an iteration itself:</p>
+<pre>iterate six times 
+    iterate six times
+        go one to the right
+        harvest if possible
+        go back to left edge
+        go up one
+stop
+</pre>
+<p>
+Note that <em>pseudocode</em> is not GvR code but a more <q>English-like</q>
+description of the algorithm in code-like structure.  Once the pseudocode is
+written, turn it into GvR code and execute it to complete this assignment.
+</p>
+<p>
+Here is a sample world file for this project, to save you some typing:
+</p>
+<pre>Robot 2 2 E 0
+
+Beepers 3 2 1
+Beepers 4 2 1
+Beepers 5 2 1
+Beepers 6 2 1
+Beepers 7 2 1
+Beepers 8 2 1
+
+Beepers 4 3 1
+Beepers 5 3 1
+Beepers 6 3 1
+Beepers 7 3 1
+Beepers 8 3 1
+
+Beepers 3 4 1
+Beepers 4 4 1
+Beepers 5 4 1
+Beepers 6 4 1
+Beepers 7 4 1
+Beepers 8 4 1
+
+Beepers 3 5 1
+Beepers 4 5 1
+Beepers 5 5 1
+Beepers 8 5 1
+
+Beepers 3 6 1
+Beepers 5 6 1
+Beepers 6 6 1
+Beepers 7 6 1
+Beepers 8 6 1
+
+Beepers 3 7 1
+Beepers 4 7 1
+Beepers 5 7 1
+Beepers 6 7 1
+Beepers 7 7 1
+Beepers 8 7 1
+</pre>
+<p style="text-align: center;">
+<a href="14.html">Previous</a> | <a href="index.html">Index</a> | <a href="16.html">Next</a></p>
+
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

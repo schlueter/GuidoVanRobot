@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>What's That Sound?</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+
+<h1>What's That Sound?</h1>
+<h2>Tutorial</h2>
+<p>
+You discovered that the initial robot placement was of the form:
+</p>
+<pre>Robot 1 2 N 0
+</pre>
+<p>
+where the numbers are:
+</p>
+<pre>row
+column
+initial direction (N, W, S, or E)
+number of beepers.
+</pre>
+<p>
+Beepers?  What are they?  A robot can carry beepers, which are little
+sound devices Guido can hear.  Guido can pick them up or put them down,
+all at your command.  A beeper is a device that Guido can hear only when
+it's located on the same corner he's on.  Guido has a beeper-bag he can
+use to carry beepers he picks up. He can also take beepers out of the bag
+and place them on the corner he occupies.  You specify the initial number
+of beepers in your world file.
+</p>
+<p>
+The commands to work with beepers are included in the basic
+robot commands you will explore.  The complete list is:
+</p>
+<pre>move
+turnleft
+pickbeeper
+putbeeper
+turnoff
+</pre>
+
+<h2>Your Turn</h2>
+<p>
+Put a robot with four beepers at the corner of 1st Avenue and 5th Street
+facing east.  He should go two blocks east, drop one beeper, and then
+continue going one block and dropping a beeper at each intersection until
+he is out of beepers.  Then he should take one more step and then turn off.
+When he has finished, the display should look like this:
+</p>
+<p><img alt="Step 2 image" src="02_files/step02.png"></p>
+<hr>
+<p style="text-align: center;">
+<a href="01.html">Previous</a> | <a href="index.html">Index</a> | <a href="03.html">Next</a></p>
+
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+
+</body>
+</html>

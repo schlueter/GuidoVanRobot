@@ -1,0 +1,87 @@
+Samenvatting van Guido's programmeertaal
+De vijf basis 'Guido van robot' instructies:
+
+	1. beweeg
+	2. linksaf
+	3. plaats_pieper
+	4. pak_pieper
+	5. zetuit
+
+Blok structuur:
+Elke Guido van Robot instructie moet op een aparte regel staan. Een aantal van
+Guido van Robot instructies kunnen als een enkele instructie beschouwd worden
+door ze een aantal spaties te laten inspringen.
+<instructie> refereert aan één van de van de vijf basis instructies hierboven,
+beslissing instructies en herhaling instructies, of een door de gebruiker gedefinieerde instructie.
+
+Condities/tests:
+GvR heeft achttien ingebouwde tests die verdeeld zijn in drie groepen.
+De eerste zes zijn blokkade tests, de volgende vier zijn pieper tests, en de
+laatste acht zijn richting tests.
+
+Muur tests:
+    	1. voorkant_is_vrij
+    	2. voorkant_is_versperd
+    	3. links_is_versperd
+    	4. links_is_vrij
+    	5. rechts_is_vrij
+   	6. rechts_is_versperd
+
+pieper tests:
+    	7. naast_een_pieper
+    	8. niet_naar_een_pieper
+    	9. enige_piepers_in_piepertas
+       10. geen_piepers_in_piepertas
+
+richting tests:
+       11. naar_noord
+       12. niet_naar_noord
+       13. naar_zuid
+       14. niet_naar_zuid
+       15. naar_oost
+       16. niet_naar_oost
+       17. naar_west
+       18. niet_naar_west
+
+Beslissingen:
+Beslissingen refereert aan de mogelijkheid die programma heeft om zijn werking
+te beïnvloeden naar aanleiding van de uitkomst van een conditie. De drie beslissingen in GvR zijn 'als', 'anders' en 'andersals'. <conditie> refereert 
+aan één van de tests hier boven.
+
+als <conditie>:
+        <instructie>
+
+als <conditie>:
+        <instructie>
+anders:
+        <instructie>
+
+als <conditie>:
+        <instructie>
+andersals <conditie>:
+        <instructie>
+anders:
+          <instructie>
+
+Herhalingen:
+Herhalingen refereert aan de mogelijkheid van een programma om instructies, of
+een blok instructies, te herhalen net zolang totdat een bepaalde test is geslaagd. De twee typen van herhalingen zijn 'doe' en 'terwijl'.
+<positief getal> moet een integer (geheel getal) zijn groter dan 0 (nul).
+ 
+doe <positief getal>:
+        <instructie>
+
+terwijl <conditie>:
+        <instructie>
+
+
+Eigen instructie:
+Nieuwe instructies kunnen gemaakt worden door het 'definieer' commando te
+gebruiken. <nieuwe naam> kan iedere verzameling zijn van letters of cijfers
+zolang het maar met een letter begint en dat de naam niet gelijk is aan een
+naam van een bestaande instructie. Letters zijn A..Z, a..z, en de 'underscore'
+karakter(_). Voor Guido van Robot zijn hoofdletters en kleine letters verschillend, dus 'Linksaf' en 'linksaf' zijn verschillende namen.
+
+definieer <nieuwe naam>:
+        <instructie>
+

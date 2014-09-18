@@ -1,0 +1,33 @@
+Robot 7 9 S 0
+Wall 1 15 N 22
+Wall 22 1 E 15
+Beepers 1 3 2
+Beepers 1 12 1
+Beepers 2 5 4
+Beepers 3 6 1
+Beepers 3 7 2
+Beepers 3 8 3
+Beepers 4 1 1
+Beepers 4 14 1
+Beepers 5 10 5
+Beepers 7 3 1
+Beepers 7 8 1
+Beepers 7 9 1
+Beepers 7 10 1
+Beepers 8 4 1
+Beepers 9 13 2
+Beepers 10 3 3
+Beepers 12 11 1
+Beepers 12 12 1
+Beepers 13 12 1
+Beepers 13 13 1
+Beepers 14 3 1
+Beepers 15 2 1
+Beepers 15 3 2
+Beepers 15 4 1
+Beepers 16 3 1
+Beepers 17 15 5
+Beepers 18 8 10
+Beepers 20 11 2
+Beepers 21 1 3
+Beepers 22 11 2

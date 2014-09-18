@@ -1,0 +1,14 @@
+Guido van Robot Worldbuilder Summary
+Editing world:
+    Left mouse button : Add or remove walls 
+    Middle mouse button: Set arguments for the robot statement
+    Right mouse button: Set arguments for the beeper statement
+            It's possible to alter the number of beepers by clicking
+            the right mouse button when the mouse pointer is at a
+            beepers location.
+            Give another number of beepers in the beeper dialog.
+            When you give 0 (zero) the beeper is removed from the world.
+Buttons:
+    Reload   : Reload the world from the editor window
+               into the worldbuilder.
+    Abort    : Quit the worldbuilder, *not* GvRng.

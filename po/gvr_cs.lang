@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="gvr_cs" version="1.0" _section="Scripts" 
+    mimetypes="text/x-gvr_cs">
+    
+    <escape-char>\</escape-char>
+
+    <string _name = "Multiline String" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&quot;&quot;&quot;</start-regex>
+        <end-regex>&quot;&quot;&quot;</end-regex>
+    </string>
+
+    <string _name = "Multiline String 2" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&apos;&apos;&apos;</start-regex>
+        <end-regex>&apos;&apos;&apos;</end-regex>
+    </string>
+
+    <string _name = "String" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&quot;</start-regex>
+        <end-regex>&quot;</end-regex>
+    </string>
+
+    <string _name = "String 2" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&apos;</start-regex>
+        <end-regex>&apos;</end-regex>
+    </string>
+
+    <line-comment _name = "Line Comment" style= "Comment">
+        <start-regex>#</start-regex>
+    </line-comment>
+    
+    <keyword-list _name = "World language" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>robot</keyword>
+        <keyword>zed</keyword>
+        <keyword>velikost</keyword>
+        <keyword>bzucaky</keyword>       
+    </keyword-list>
+
+    <keyword-list _name = "Program statements" style = "Keyword" case-sensitive="TRUE">
+        <keyword>jdi</keyword>
+        <keyword>doleva</keyword>
+        <keyword>poloz</keyword>
+        <keyword>seber</keyword>
+        <keyword>vypni</keyword>
+        <keyword>nauc</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program test" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>vpredu_volno</keyword>
+        <keyword>vpredu_zed</keyword>
+        <keyword>vlevo_volno</keyword>
+        <keyword>vlevo_zed</keyword>
+        <keyword>vpravo_volno</keyword>
+        <keyword>vpravo_zed</keyword>
+        <keyword>je_bzucak</keyword>
+        <keyword>neni_bzucak</keyword>
+        <keyword>jsou_bzucaky_v_pytli</keyword>
+        <keyword>nejsou_bzucaky_v_pytli</keyword>
+        <keyword>kouka_na_sever</keyword>
+        <keyword>nekouka_na_sever</keyword>
+        <keyword>kouka_na_jih</keyword>
+        <keyword>nekouka_na_jih</keyword>
+        <keyword>kouka_na_vychod</keyword>
+        <keyword>nekouka_na_vychod</keyword>
+        <keyword>kouka_na_zapad</keyword>
+        <keyword>nekouka_na_zapad</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program others" style = "Others" case-sensitive="TRUE">
+        <keyword>kdyz</keyword>
+        <keyword>jinak</keyword>
+        <keyword>nebo_kdyz</keyword>
+        <keyword>delej</keyword>
+        <keyword>dokud</keyword>
+    </keyword-list>
+
+    <pattern-item _name = "Decimal" style = "Decimal">
+        <regex>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</regex>
+    </pattern-item>
+
+</language>
+
+
+

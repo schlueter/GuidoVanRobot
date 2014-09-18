@@ -1,0 +1,101 @@
+Guido van Robot Programming Summary
+The Five Primitive Guido van Robot Instructions:
+
+   1. move
+   2. turnleft
+   3. pickbeeper
+   4. putbeeper
+   5. turnoff
+
+Block Structuring
+
+Each Guido van Robot instruction must be on a separate line.
+A sequence of Guido van Robot instructions can be treated as a single 
+instruction by indenting the same number of spaces.
+<instruction> refers to any of the five primitive instructions above, 
+the conditional branching or iteration instructions below, 
+or a user defined instruction.
+
+    <instruction>
+    <instruction>
+      ...
+    <instruction>
+
+Conditionals
+
+GvR has eighteen built-in tests that are divided into three groups: 
+the first six are wall tests, the next four are beeper tests, 
+and the last eight are compass tests:
+
+   1. front_is_clear
+   2. front_is_blocked
+   3. left_is_clear
+   4. left_is_blocked
+   5. right_is_clear
+   6. right_is_blocked
+   7. next_to_a_beeper
+   8. not_next_to_a_beeper
+   9. any_beepers_in_beeper_bag
+  10. no_beepers_in_beeper_bag
+  11. facing_north
+  12. not_facing_north
+  13. facing_south
+  14. not_facing_south
+  15. facing_east
+  16. not_facing_east
+  17. facing_west
+  18. not_facing_west
+
+Conditional Branching
+
+Conditional branching refers to the ability of a program to alter it's 
+flow of execution based on the result of the evaluation of a conditional. 
+The three types of conditional branching instructions in Guido van Robot 
+are if and if/else and if/elif/else.
+<test> refers to one of the eighteen conditionals above.
+
+if <test>:
+    <instruction>
+
+if <test>:
+    <instruction>
+else:
+    <instruction>
+
+if <test>:
+    <instruction>
+elif <test>:
+    <instruction>
+...
+elif <test>:
+    <instruction>
+else:
+    <instruction>
+
+
+Iteration
+
+Iteration refers to the ability of a program to repeate an 
+instruction (or block of instructions) over and over until some condition 
+is met. 
+The two types of iteration instructions are the do and while instructions.
+<positive_number> must be an integer greater than 0.
+
+do <positive_number>:
+    <instruction>
+
+while <test>:
+    <instruction>
+
+Defining a New Instruction:
+
+New instructions can be created for Guido van Robot using the define statement.
+ <new_name> can be any sequence of letters or digits as long as it begins with a
+letter and is not already used as an instruction.
+Letters for Guido van Robot are A..Z, a..z, and the underscore (_) character. 
+Guido van Robot is case sensitive, so TurnRight, turnright, and turnRight are all
+different names.
+
+define <new_name>:
+    <instruction>
+

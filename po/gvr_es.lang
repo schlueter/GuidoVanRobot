@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="gvr_es" version="1.0" _section="Scripts" 
+    mimetypes="text/x-gvr_es">
+    
+    <escape-char>\</escape-char>
+
+    <string _name = "Multiline String" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&quot;&quot;&quot;</start-regex>
+        <end-regex>&quot;&quot;&quot;</end-regex>
+    </string>
+
+    <string _name = "Multiline String 2" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&apos;&apos;&apos;</start-regex>
+        <end-regex>&apos;&apos;&apos;</end-regex>
+    </string>
+
+    <string _name = "String" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&quot;</start-regex>
+        <end-regex>&quot;</end-regex>
+    </string>
+
+    <string _name = "String 2" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&apos;</start-regex>
+        <end-regex>&apos;</end-regex>
+    </string>
+
+    <line-comment _name = "Line Comment" style= "Comment">
+        <start-regex>#</start-regex>
+    </line-comment>
+    
+    <keyword-list _name = "World language" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>robot</keyword>
+        <keyword>pared</keyword>
+        <keyword>tamaño</keyword>
+        <keyword>beeper</keyword>       
+    </keyword-list>
+
+    <keyword-list _name = "Program statements" style = "Comment" case-sensitive="TRUE">
+        <keyword>mover</keyword>
+        <keyword>girarizquierda</keyword>
+        <keyword>tomarzumbador</keyword>
+        <keyword>ponerzumbador</keyword>
+        <keyword>apagar</keyword>
+        <keyword>definir</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program test" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>frente_libre</keyword>
+        <keyword>frente_bloqueado</keyword>
+        <keyword>izquierda_libre</keyword>
+        <keyword>izquierda_bloqueado</keyword>
+        <keyword>derecha_libre</keyword>
+        <keyword>derecha_bloqueado</keyword>
+        <keyword>proximo_a_zumbador</keyword>
+        <keyword>no_proximo_a_zumbador</keyword>
+        <keyword>zumbadores_en_bolsa</keyword>
+        <keyword>sin_zumbadores_en_bolsa</keyword>
+        <keyword>viendo_norte</keyword>
+        <keyword>no_viendo_norte</keyword>
+        <keyword>viendo_sur</keyword>
+        <keyword>no_viendo_sur</keyword>
+        <keyword>viendo_este</keyword>
+        <keyword>no_viendo_este</keyword>
+        <keyword>viendo_oeste</keyword>
+        <keyword>no_viendo_oeste</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program others" style = "Others" case-sensitive="TRUE">
+        <keyword>si</keyword>
+        <keyword>sino</keyword>
+        <keyword>sinosi</keyword>
+        <keyword>hacer</keyword>
+        <keyword>mientras</keyword>
+    </keyword-list>
+
+    <pattern-item _name = "Decimal" style = "Decimal">
+        <regex>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</regex>
+    </pattern-item>
+
+</language>
+
+
+

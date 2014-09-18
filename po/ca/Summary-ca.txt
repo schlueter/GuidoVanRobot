@@ -1,0 +1,82 @@
+Resum de programació del Guido van Robot
+
+Les cinc instruccions bàsiques del Guido van Robot:
+
+   1. mou
+   2. giraesquerra
+   3. recullbrunzidor
+   4. desabrunzidor
+   5. apaga
+
+Estructuració de blocs
+
+Cada instrucció del Guido van Robot ha d'anar en una línia apart. Una seqüència d'instruccions del Guido van Robot es pot tractar com una instrucció única indentant amb el mateix nom d'espais. <instrucció> es refereix a una de les cinc instruccions bàsiques descrites anteriorment, les branques condicionals o intruccions d'iteracions que es descriuen a continuació, o una instrucció definida per l'usuari.
+
+    <instruction>
+    <instruction>
+      ...
+    <instruction>
+
+Condicionals
+
+GvR té divuit proves integrades que estan dividides en tres grups: les sis primeres són proves de murs, les següents quatre són proves de brunzidors i les vuit últimes són proves d'orientació:
+
+   1. davant_net
+   2. davant_bloquejat
+   3. esquerra_net
+   4. esquerra_bloquejat
+   5. dreta_net
+   6. dreta_bloquejat
+   7. junt_a_un_brunzidor
+   8. no_junt_a_un_brunzidor
+   9. algun_brunzidor_a_la_bossa
+  10. cap_brunzidor_a_la_bossa
+  11. encarat_nord
+  12. no_encarat_nord
+  13. encarat_sud
+  14. no_encarat_sud
+  15. encarat_est
+  16. no_encarat_est
+  17. encarat_oest
+  18. no_encarat_oest
+
+Branques condicionals
+
+Les branques condicionals són l'habilitat d'un programa per a alterar el flux de l'execució basant-se en el resultat de l'evaluació d'un condicional. Els tres tipus de branques condicionals al Guido van Robot són si, si/sino i si/osi/sino.  <prova> es refereix a una de les divuit condicions anteriors.
+
+si <prova>:
+    <instrucción>
+
+si <prova>:
+    <instrucció>
+sino:
+    <instrucció>
+
+si <prova>:
+    <instrucció>
+osi <prova>:
+    <instrucció>
+...
+osi <prova>:
+    <instrucció>
+sino:
+    <instrucció>
+
+Iteracions
+
+Les iteracions són l'habilitat d'un programa per a repetir una instrucció (o bloc d'instruccions) una i altra vegada fins que es compleix una condició. Els dos tipus d'instruccions iteratives són fes i mentre.  <nombre_positiu> ha de ser un enter més gran que 0.
+
+fes <nombre_positiu>:
+    <instrucció>
+
+mentre <prova>:
+    <instrucció>
+
+Definir una instrucció nova:
+
+Es poden crear instruccions noves per al Guido van Robot utilitzant l'ordre defineix.  <nom_nou> pot ser qualsevol seqüència de lletres o nombres sempre que comence per una lletra i no estiga utilitzat per una altra instrucció. Per a Guido van Robot, les lletres són A..Z, a..z i el caràcter de subratllat. Guido van Robot és sensible a majúscules i minúscules, així GiraDreta, giradreta i giraDreta són noms diferents.
+
+defineix <nom_nou>:
+    <instrucció>
+
+

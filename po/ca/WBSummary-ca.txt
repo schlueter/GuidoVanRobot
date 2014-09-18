@@ -1,0 +1,12 @@
+Resum del creador de mons del Guido van Robot
+Editant mons:
+    Botó esquerre del ratolí: Afegeix o suprimeix parets
+    Botó central del ratolí: Estableix arguments per a les sentències del robot
+    Botó dret del ratolí: Estableix arguments per a les sentències dels
+                          brunzidors
+
+Botons:
+    Torna a carregar: Torna a carregar el mon des de la finestra d'edició
+                      al creador de mons.
+    Avorta:           Surt del creador de mons, *no* del GvRng.
+

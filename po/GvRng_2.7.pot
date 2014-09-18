@@ -1,0 +1,546 @@
+#
+# GvRng Language File
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GvRng 2.7\n"
+"POT-Creation-Date: 2008-03-18 09:46:55.092971\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: utf-8\n"
+"Generated-By: generate_pot.py\n"
+
+#. file 'GvrModel.py', line 91
+msgid "Please load a world and program before executing."
+msgstr ""
+
+#. file 'GvrModel.py', line 146
+msgid "Robot turned off"
+msgstr ""
+
+#. file 'utils.py', line 246
+msgid ""
+"Failed to save the file.\n"
+""
+msgstr ""
+
+#. file 'utils.py', line 264
+msgid ""
+"Written the new configuration to disk\n"
+"You have to restart GvRng to see the effect"
+msgstr ""
+
+#. file 'guiWorld.py', line 31
+msgid "Ran into a wall"
+msgstr ""
+
+#. file 'guiWorld.py', line 43
+msgid "No beepers to put down."
+msgstr ""
+
+#. file 'guiWorld.py', line 47
+msgid "No beepers to pick up."
+msgstr ""
+
+#. file 'gvrparser.py', line 55
+msgid "any_beepers_in_beeper_bag"
+msgstr ""
+
+#. file 'gvrparser.py', line 56
+msgid "facing_north"
+msgstr ""
+
+#. file 'gvrparser.py', line 57
+msgid "facing_east"
+msgstr ""
+
+#. file 'gvrparser.py', line 58
+msgid "facing_south"
+msgstr ""
+
+#. file 'gvrparser.py', line 59
+msgid "facing_west"
+msgstr ""
+
+#. file 'gvrparser.py', line 60
+msgid "front_is_blocked"
+msgstr ""
+
+#. file 'gvrparser.py', line 61
+msgid "front_is_clear"
+msgstr ""
+
+#. file 'gvrparser.py', line 62
+msgid "no_beepers_in_beeper_bag"
+msgstr ""
+
+#. file 'gvrparser.py', line 63
+msgid "next_to_a_beeper"
+msgstr ""
+
+#. file 'gvrparser.py', line 64
+msgid "not_next_to_a_beeper"
+msgstr ""
+
+#. file 'gvrparser.py', line 65
+msgid "not_facing_north"
+msgstr ""
+
+#. file 'gvrparser.py', line 66
+msgid "not_facing_east"
+msgstr ""
+
+#. file 'gvrparser.py', line 67
+msgid "not_facing_south"
+msgstr ""
+
+#. file 'gvrparser.py', line 68
+msgid "not_facing_west"
+msgstr ""
+
+#. file 'gvrparser.py', line 69
+msgid "left_is_blocked"
+msgstr ""
+
+#. file 'gvrparser.py', line 70
+msgid "left_is_clear"
+msgstr ""
+
+#. file 'gvrparser.py', line 71
+msgid "right_is_blocked"
+msgstr ""
+
+#. file 'gvrparser.py', line 72
+msgid "right_is_clear"
+msgstr ""
+
+#. file 'gvrparser.py', line 76
+msgid "move"
+msgstr ""
+
+#. file 'gvrparser.py', line 77
+msgid "pickbeeper"
+msgstr ""
+
+#. file 'gvrparser.py', line 78
+msgid "putbeeper"
+msgstr ""
+
+#. file 'gvrparser.py', line 79
+msgid "turnleft"
+msgstr ""
+
+#. file 'gvrparser.py', line 80
+msgid "turnoff"
+msgstr ""
+
+#. file 'gvrparser.py', line 81
+msgid "cheat"
+msgstr ""
+
+#. file 'gvrparser.py', line 89
+msgid "define"
+msgstr ""
+
+#. file 'gvrparser.py', line 90
+#. file 'gvrparser.py', line 96
+msgid "end"
+msgstr ""
+
+#. file 'gvrparser.py', line 91
+msgid "if"
+msgstr ""
+
+#. file 'gvrparser.py', line 92
+msgid "elif"
+msgstr ""
+
+#. file 'gvrparser.py', line 93
+msgid "else"
+msgstr ""
+
+#. file 'gvrparser.py', line 94
+msgid "while"
+msgstr ""
+
+#. file 'gvrparser.py', line 95
+msgid "do"
+msgstr ""
+
+#. file 'gvrparser.py', line 331
+msgid "Your program must have commands."
+msgstr ""
+
+#. file 'gvrparser.py', line 338
+msgid ""
+"Line %i:\n"
+"%s"
+msgstr ""
+
+#. file 'gvrparser.py', line 342
+msgid ""
+"Expected positive integer\n"
+"Got: %s"
+msgstr ""
+
+#. file 'gvrparser.py', line 348
+msgid "Indentation error"
+msgstr ""
+
+#. file 'gvrparser.py', line 354
+msgid "Expected code to be indented here"
+msgstr ""
+
+#. file 'gvrparser.py', line 358
+msgid "'%s' statement is incomplete"
+msgstr ""
+
+#. file 'gvrparser.py', line 362
+msgid "Expected '%s' statement to end in ':'"
+msgstr ""
+
+#. file 'gvrparser.py', line 366
+msgid "\"%s\" not defined"
+msgstr ""
+
+#. file 'gvrparser.py', line 370
+msgid "\"%s\" is not a valid test"
+msgstr ""
+
+#. file 'gvrparser.py', line 374
+msgid "\"%s\" is not a valid name"
+msgstr ""
+
+#. file 'gvrparser.py', line 378
+msgid "\"%s\" has already been defined"
+msgstr ""
+
+#. file 'world.py', line 179
+msgid "Bad x value for positioning robot: %s"
+msgstr ""
+
+#. file 'world.py', line 181
+msgid "Bad y value for positioning robot: %s"
+msgstr ""
+
+#. file 'worldMap.py', line 20
+#. file 'worldMap.py', line 98
+msgid "ROBOT"
+msgstr ""
+
+#. file 'worldMap.py', line 21
+#. file 'worldMap.py', line 92
+msgid "WALL"
+msgstr ""
+
+#. file 'worldMap.py', line 22
+#. file 'worldMap.py', line 114
+msgid "BEEPERS"
+msgstr ""
+
+#. file 'worldMap.py', line 23
+#. file 'worldMap.py', line 119
+msgid "SIZE"
+msgstr ""
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 544
+#. file 'gui-gtk/Widgets.py', line 547
+msgid "N"
+msgstr ""
+
+#. file 'worldMap.py', line 46
+msgid "S"
+msgstr ""
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 537
+#. file 'gui-gtk/Widgets.py', line 540
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid "E"
+msgstr ""
+
+#. file 'worldMap.py', line 46
+msgid "W"
+msgstr ""
+
+#. file 'worldMap.py', line 135
+msgid ""
+"Error in line %s:\n"
+"%s\n"
+"Check your world file for syntax errors"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 102
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Number of beepers:"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 533
+msgid "wall"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 558
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid "robot"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 592
+msgid ""
+"Please give the number of beepers\n"
+"to place on %d,%d"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 593
+#. file 'gui-gtk/Widgets.py', line 605
+msgid "beepers"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 702
+msgid "Robots position is %s %s %s and carrying %s beepers"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 737
+msgid "Go back one page"
+msgstr ""
+
+#. file 'gui-gtk/Widgets.py', line 743
+msgid "Go one page forward"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 67
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid "Medium"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 224
+msgid "You don't have a world file loaded."
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 231
+msgid "You don't have a program file loaded."
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 285
+msgid "GvR - Worldbuilder"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 323
+msgid "Running Worldbuilder"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 363
+msgid ""
+"Can't find the lessons.\n"
+"Make sure you have installed the GvR-Lessons package.\n"
+"Check the GvR website for the lessons package.\n"
+"http://gvr.sf.net"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 528
+msgid "Worlds"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 533
+msgid "Programs"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 612
+msgid "No content to save"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 643
+msgid ""
+"The editor's content is changed.\n"
+"Do you want to save it?"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 718
+msgid "Selected path is not a program file"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 765
+msgid "Selected path is not a world file"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid "Instant"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid "Fast"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid "Slow"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Quit ?"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Do you really want to quit ?"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "About GvR"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Choose a file"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "GvR - Editor"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "_File"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "_Edit"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Set language"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid ""
+"Change the language used\n"
+"(After you restart GvR)"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid ""
+"Catalan\n"
+"Dutch\n"
+"English\n"
+"French\n"
+"Norwegian\n"
+"Romenian\n"
+"Spanish\n"
+"Italian"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Robot Speed"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Set Robot Speed"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid ""
+"Instant\n"
+"Fast\n"
+"Medium\n"
+"Slow"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Guido van Robot Programming Summary"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Guido van Robot - Robot arguments"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "<b>Alter the arguments for the 'robot' statement.</b>"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Direction robot is facing (N,E,S,W)"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Robots position on the y-axes:"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Robots position on the x-axes:"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "<b>World Editor</b>"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "_GvR"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Open worldbuilder"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "_Setup"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Set speed..."
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "_Help"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Gvr Lessons"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "GvR Worldbuilder"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "_About"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Reload"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Step"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Execute"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Abort"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "<b>Guido's World</b>"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Guido's World"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Language reference"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Lessons"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "Introduction"
+msgstr ""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid "<b>Code Editor</b>"
+msgstr ""

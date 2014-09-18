@@ -1,0 +1,97 @@
+Guido van Robot - Guido der Hamster 
+Überblick über die Programmierumgebung
+ 
+Die fünf elementaren Anweisungen lauten:
+ 
+   1. vor
+   2. linksum
+   3. nimm
+   4. gib
+   5. ruhe
+ 
+Blockstruktur
+ 
+Jede Anweisung verlangt eine eigene Programmzeile. Eine Folge von Anweisungen kann behandelt werden wie eine einzelne 
+Anweisung. Jede Anweisung benötigt eine Zeile. Allerdings müssen sie alle mit derselben Anzahl von Leerzeichen 
+eingerückt werden, wie die erste Anweisung der Folge. So entsteht eine leicht lesbare Blockstruktur. Ein abschließendes 
+Zeichen, wie etwa ein Semikolon oder Komma, entfällt. <Anweisung> bezeichnet eine der fünf elementaren Anweisungen von 
+oben, eine bedingte Anweisung(sfolge)sowie eine Wiederholungsanweisung oder eine vom Benutzer definierte neue Anweisung.
+ 
+    <Anweisung>
+    <Anweisung>
+      ...
+    <Anweisung>
+ 
+Bedingungen
+ 
+GvR verfügt über 18 vorgegebene Test die in drei Gruppen eingeteilt sind: die ersten sechs testen, ob eine Wand 
+vorhanden ist, die nächsten vier sind Körner-Tests, und die letzte acht prüfen die Himmelsrichtung:
+ 
+   1. vorn_frei
+   2. vorn_nicht_frei
+   3. links_frei
+   4. links_nicht_frei
+   5. rechts_frei
+   6. rechts_nicht_frei
+   7. korn_da
+   8. kein_korn_da
+   9. korn_in_backentasche
+  10. kein_korn_in_backentasche
+  11. blickrichtung_nord
+  12. blickrichtung_nicht_nord
+  13. blickrichtung_süd
+  14. blickrichtung_nicht_süd
+  15. blickrichtung_ost
+  16. blickrichtung_nicht_ost
+  17. blickrichtung_west
+  18. blickrichtung_nicht_west
+ 
+Fallunterscheidungen
+ 
+Die bedingte Verzweigung verweist auf die Möglichkeit eines Programms, den Ablauf  einer Anweisungsfolge vom Ergebnis 
+einer Bedingung abhängig zu machen. Die drei Typen der Fallunterscheidung in Guido der Hamster sind if sowie if/else und 
+if/elif/else. <test> verweist auf eine der 18 Bedingungen (siehe oben).
+ 
+if <test>:
+    <anweisung>
+ 
+if <test>:
+    <anweisung>
+else:
+    <anweisung>
+ 
+if <test>:
+    <anweisung>
+elif <test>:
+    <anweisung>
+...
+elif <test>:
+    <anweisung>
+else:
+    <anweisung>
+ 
+ 
+Wiederholung
+ 
+Wiederholungen beschreiben die Möglichkeit, in einem Programm eine Anweisung oder eine Anweisungsfolge zu wiederholen 
+und zwar so lange, bis eine Bedingung erfüllt ist. Die zwei Wiederholungsanweisungen sind do- und while-Anweisungen. 
+<positive_zahl> muss eine ganze Zahl größer als 0 sein.
+ 
+do <positive_zahl>:
+    <anweisung>
+ 
+while <test>:
+    <anweisung>
+ 
+Eine neue Anweisung definieren:
+ 
+Neue Anweisungen können mit dem Schlüsselwort define erläutert werden. <neuer_name> kann aus jeder Folge von Buchstaben 
+und Ziffern gebildet werden, so lange das Wort mit einem Buchstaben beginnt und die Folge nicht  bereits als Anweisung 
+definiert wurde. Buchstaben sind für Guido dem Hamster die Buchstaben A..Z, a..z und der Unterstrich (_). Guido der 
+Hamster unterscheidet Groß- und Kleinbuchstaben. Rechtsum und rechtsum sind also verschiedene Namen für Anweisungen.
+ 
+define <neuer_name>:
+    <anweisung>
+ 
+ 
+ 

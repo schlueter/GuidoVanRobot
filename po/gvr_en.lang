@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="gvr_en" version="1.0" _section="Scripts" 
+    mimetypes="text/x-gvr_en">
+    
+    
+    <escape-char>\</escape-char>
+
+    <string _name = "Multiline String" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&quot;&quot;&quot;</start-regex>
+        <end-regex>&quot;&quot;&quot;</end-regex>
+    </string>
+
+    <string _name = "Multiline String 2" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&apos;&apos;&apos;</start-regex>
+        <end-regex>&apos;&apos;&apos;</end-regex>
+    </string>
+
+    <string _name = "String" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&quot;</start-regex>
+        <end-regex>&quot;</end-regex>
+    </string>
+
+    <string _name = "String 2" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&apos;</start-regex>
+        <end-regex>&apos;</end-regex>
+    </string>
+
+    <line-comment _name = "Line Comment" style= "Comment">
+        <start-regex>#</start-regex>
+    </line-comment>
+    
+    <keyword-list _name = "World language" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>robot</keyword>
+        <keyword>wall</keyword>
+        <keyword>size</keyword>
+        <keyword>beepers</keyword>       
+    </keyword-list>
+
+    <keyword-list _name = "Program statements" style = "Comment" case-sensitive="TRUE">
+        <keyword>move</keyword>
+        <keyword>turnleft</keyword>
+        <keyword>pickbeeper</keyword>
+        <keyword>putbeeper</keyword>
+        <keyword>turnoff</keyword>
+        <keyword>define</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program test" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>front_is_clear</keyword>
+        <keyword>front_is_blocked</keyword>
+        <keyword>left_is_clear</keyword>
+        <keyword>left_is_blocked</keyword>
+        <keyword>right_is_clear</keyword>
+        <keyword>right_is_blocked</keyword>
+        <keyword>next_to_a_beeper</keyword>
+        <keyword>not_next_to_a_beeper</keyword>
+        <keyword>any_beepers_in_beeper_bag</keyword>
+        <keyword>no_beepers_in_beeper_bag</keyword>
+        <keyword>facing_north</keyword>
+        <keyword>not_facing_north</keyword>
+        <keyword>facing_south</keyword>
+        <keyword>not_facing_south</keyword>
+        <keyword>facing_east</keyword>
+        <keyword>not_facing_east</keyword>
+        <keyword>facing_west</keyword>
+        <keyword>not_facing_west</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program others" style = "Others" case-sensitive="TRUE">
+        <keyword>if</keyword>
+        <keyword>else</keyword>
+        <keyword>elif</keyword>
+        <keyword>do</keyword>
+        <keyword>while</keyword>
+    </keyword-list>
+
+    <pattern-item _name = "Decimal" style = "Decimal">
+        <regex>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</regex>
+    </pattern-item>
+
+</language>
+
+
+

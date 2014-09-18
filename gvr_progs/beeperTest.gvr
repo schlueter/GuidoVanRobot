@@ -1,0 +1,9 @@
+# run in escape1.wld
+putbeeper
+move
+turnleft
+turnleft
+move
+pickbeeper
+turnleft 
+move

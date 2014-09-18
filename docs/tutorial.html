@@ -1,0 +1,268 @@
+<h2>Getting started</h2>
+<p>
+Guido van Robot is a robot who can do a lot of things, but 
+only if you program him.  We're gonna gradually show how
+it's possible to teach Guido to navigate his world.
+</p>
+<p>
+Without our help, Guido already understands five primitive instructions:
+</p>
+<ul>
+    <li>turnleft</li>
+    <li>move</li>
+    <li>putbeeper</li>
+    <li>pickbeeper</li>
+    <li>turnoff</li>
+</ul>
+<p>
+The primitive instructions are called "builtin" instructions,
+because he already knows them before we ever give him a program
+to run.  Guido also understands the special words "define," "do," 
+"if," and "while," but let's start out simple. 
+</p>
+<h2>Using primitive instructions (<i>turnleft</i>, <i>move</i>, etc.)</h2>
+<p>
+You can write simple programs by combining the five builtin
+instructions turnleft, move, putbeeper, pickbeeper, and turnoff.
+</p>
+<p>
+For example, let's have guido move a square (move), turn 
+left (turnleft), move another square (move), put a beeper down (putbeeper), 
+then turn off (turnoff). 
+</p>
+<pre>
+move
+turnleft
+move
+putbeeper
+turnoff
+</pre>
+<p>
+That's a pretty simple program, but we have to format if very carefully
+for Guido.  Notice how every instruction is on its own line.  
+</p>
+<h2>Teaching Guido new things (</i>define</i>)</h2>
+<p>
+Let's modify the program so that instead of turning left, Guido turns right. 
+The problem is, Guido does not know how to turn right, so we teach him. 
+Look at the program below, and see how we teach Guido:
+</p>
+<p>
+<pre>
+define turnright:
+    turnleft
+    turnleft
+    turnleft
+
+move
+turnright
+move
+putbeeper
+turnoff
+</pre>
+<p>
+We take the first four lines of the program to define to Guido what 
+it means to "turnright."  Turning right is 3 left turns.  Try acting
+this yourself to see how it works.  Again, Guido is very particular
+about how you format your program.  Let's write a program with 
+two definitions now:
+</p>
+<pre>
+define turnright:
+    turnleft
+    turnleft
+    turnleft
+
+define move_ten_squares:
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+    move
+
+move_ten_squares
+turnright
+move_ten_squares
+putbeeper
+turnoff
+</pre>
+<p>
+Notice how all the instructions in each definition get indented at the 
+same level.  Guido needs you to format the instructions like that for
+him, or else he will get confused.  Remember, his brain is made out 
+of sand, and he does not possess human intelligence.  On the other
+hand, he is very loyal when you give him the right format.  So please
+bear with him.
+</p>
+<h2>Repeating instructions (<i>do</i>)</h2>
+<p>
+Since Guido has a computer brain, there is one thing he's very good
+at--counting.  If you want to tell him to do something ten times, just
+tell him to do it 10 times.  If you want to tell him to do something
+three times, again, just tell him:
+</p>
+<pre>
+define turnright:
+    do 3:
+        turnleft
+
+define move_ten_squares:
+    do 10:
+        move
+
+move_ten_squares
+turnright
+move_ten_squares
+putbeeper
+turnoff
+</pre>
+<p>
+The above program does exactly what the one before it did, but 
+we didn't have to type as much.  Also, Guido can repeat more
+than one instruction:
+</p>
+<pre>
+do 5:
+    move
+    pickbeeper
+turnoff
+</pre>
+The following program does the same thing:
+<pre>
+move
+pickbeeper    
+move
+pickbeeper    
+move
+pickbeeper    
+move
+pickbeeper    
+move
+pickbeeper    
+turnoff
+</pre>
+<p>
+But really, who wants to type all that?  It's better to use the "do"
+command.
+</p>
+<p>
+<h2>Making decisions (<i>if</i>, <i>else</i>)</h2>
+<p>
+So far Guido does exactly what we tell him, like a good loyal robot,
+but every now and then, we'd like for him to make decisions on his
+own.  Let's write a really small program for Guido to show his 
+decisionmaking ability.  We want him to move one square, unless
+there's a wall in front of him.  If there's a wall in front of him,
+we'd prefer for him not to run in the wall, so he can just turn off.
+</p>
+<pre>
+if front_is_clear:
+    move
+turnoff
+</pre>
+<p>
+Guido understand what "if" means.  He also knows what "front_is_clear"
+means.  He has already been wired to know those words.  Still, it's up
+to you tell him what to do "if" his "front_is_clear."  We are saying
+"if" his "front_is_clear," he can "move."  Then, regardless of the 
+situation, the next command is to "turnoff."
+</p>
+Let's give him a more complex instruction:
+<pre>
+if front_is_clear:
+   move
+   pickbeeper
+   pickbeeper
+   pickbeeper
+else:
+   turnleft
+   turnleft
+turnoff
+</pre>
+</p>
+Here we are telling him that if his front is clear, it's okay for him
+to move and then pick up three beepers.  Or "else," if his front is
+not clear, then we want him to turnleft twice.
+Then, regardless, he has to turnoff.
+</p>
+<h2>Other conditionals</h2>
+<p>
+We said earlier that Guido understand five commands without us 
+having to teach him anything--move, turnleft, putbeeper, pickbeeper,
+and turnoff.  Those were called "builtin" commands.
+</p>
+<p>
+We also introduced the idea that Guido can check for a condition--
+for example "front_is_clear."  The word "front_is_clear" is an 
+example of a builtin conditional.  It turns out there are 
+eighteen builtin conditionals:
+</p>
+<ul>
+    <li>front_is_clear
+    <li>front_is_blocked
+    <li>left_is_clear
+    <li>left_is_blocked
+    <li>right_is_clear
+    <li>right_is_blocked
+
+    <li>next_to_a_beeper
+    <li>not_next_to_a_beeper
+    <li>any_beepers_in_beeper_bag
+    <li>no_beepers_in_beeper_bag
+
+    <li>facing_north
+    <li>not_facing_north
+    <li>facing_south
+    <li>not_facing_south
+    <li>facing_east
+    <li>not_facing_east
+    <li>facing_west
+    <li>not_facing_west
+</ul>
+<p>
+All the conditionals can be used with the "if" keyword.  Here is an
+example program:
+</p>
+<pre>
+define pick_up_beeper_only_if_its_there:
+    if next_to_a_beeper:
+        pickbeeper
+
+define move_only_if_you_can:
+    if front_is_clear:
+        move
+
+pick_up_beeper_only_if_its_there
+move_only_if_you_can
+pick_up_beeper_only_if_its_there
+turnoff
+</pre>
+<h2>Repeating Conditionally (<i>while</i>)</h2>
+<p>
+One common task for Guido is that he wants to approach a wall,
+but of course he does not want to slam into it.
+<p>
+Here is a program that does this:
+<pre>
+while front_is_clear:
+    move
+</pre>
+<p>
+The "while" command is like the "if" and "do" commands; it 
+works with a block of commands.  Like the "if" command, the 
+"while" command only does its block if the condition is true.
+<p>
+In our example, the "while" command only does the "move" if
+"front_is_clear."
+<p>
+But the powerful thing about the "while" command is that it 
+keeps doing the "move" as long as "front_is_clear."  It
+repeats the command.  This is called "looping."  Guido
+keeps looping through the "while" statement and executing
+"move" as long as his front is clear.
+

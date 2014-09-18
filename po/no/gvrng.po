@@ -1,0 +1,573 @@
+# translation of PACKAGE.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# <>, 2005.
+# , fuzzy
+# <>, 2005.
+#
+#
+msgid	""
+msgstr	"Project-Id-Version: 1.3.4\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2008-03-18 09:46:55.092971\n"
+	"PO-Revision-Date: 2006-02-22 20:05+0100\n"
+	"Last-Translator: John Arthur M.Rokkones <rokkones@gmail.com>\n"
+	"Language-Team: Norwegian/Bokmaal\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=UTF-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+
+#. file 'gvrparser.py', line 378
+msgid	"\"%s\" has already been defined"
+msgstr	""
+
+#. file 'gvrparser.py', line 374
+msgid	"\"%s\" is not a valid name"
+msgstr	""
+
+#. file 'gvrparser.py', line 370
+msgid	"\"%s\" is not a valid test"
+msgstr	""
+
+#. file 'gvrparser.py', line 366
+msgid	"\"%s\" not defined"
+msgstr	""
+
+#. file 'gvrparser.py', line 358
+msgid	"'%s' statement is incomplete"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Alter the arguments for the 'robot' statement.</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Code Editor</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Guido's World</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>World Editor</b>"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Abort"
+msgstr	"Avbryt"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"About GvR"
+msgstr	"Om"
+
+#. file 'worldMap.py', line 22
+#. file 'worldMap.py', line 114
+msgid	"BEEPERS"
+msgstr	"ALARMER"
+
+#. file 'world.py', line 179
+msgid	"Bad x value for positioning robot: %s"
+msgstr	"Dårlig x verdi for posisjonering av robot:%s"
+
+#. file 'world.py', line 181
+msgid	"Bad y value for positioning robot: %s"
+msgstr	"Dårlig y verdi for posisjonering av robot:%s"
+
+#. file 'gui-gtk/gvr_gtk.py', line 363
+msgid	"Can't find the lessons.\n"
+	"Make sure you have installed the GvR-Lessons package.\n"
+	"Check the GvR website for the lessons package.\n"
+	"http://gvr.sf.net"
+msgstr	"Kan ikke finne leksjonene.\n"
+	"Sjekk at du har installert GvR leksjonen pakken\n"
+	"Se etter leksjonspakken på internettsidene til Gvr.\n"
+	"http://gvr.sf.net"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Catalan\n"
+	"Dutch\n"
+	"English\n"
+	"French\n"
+	"Norwegian\n"
+	"Romenian\n"
+	"Spanish\n"
+	"Italian"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Change the language used\n"
+	"(After you restart GvR)"
+msgstr	"Skift språk"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Choose a file"
+msgstr	"Velg en verden du vil åpne"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Direction robot is facing (N,E,S,W)"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Do you really want to quit ?"
+msgstr	"Vil du virkelig avslutte?\n"
+	"Alle endringer går tapt"
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 537
+#. file 'gui-gtk/Widgets.py', line 540
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid	"E"
+msgstr	"Ø"
+
+#. file 'worldMap.py', line 135
+msgid	"Error in line %s:\n"
+	"%s\n"
+	"Check your world file for syntax errors"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Execute"
+msgstr	"Kjør"
+
+#. file 'gvrparser.py', line 362
+msgid	"Expected '%s' statement to end in ':'"
+msgstr	""
+
+#. file 'gvrparser.py', line 354
+msgid	"Expected code to be indented here"
+msgstr	""
+
+#. file 'gvrparser.py', line 342
+msgid	"Expected positive integer\n"
+	"Got: %s"
+msgstr	""
+
+#. file 'utils.py', line 246
+msgid	"Failed to save the file.\n"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Fast"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 737
+msgid	"Go back one page"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 743
+msgid	"Go one page forward"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot - Robot arguments"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot Programming Summary"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido's World"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"GvR - Editor"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 285
+#, fuzzy
+msgid	"GvR - Worldbuilder"
+msgstr	"GvR Verdensbygger"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"GvR Worldbuilder"
+msgstr	"GvR Verdensbygger"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Gvr Lessons"
+msgstr	"GvR Leksjoner"
+
+#. file 'gvrparser.py', line 348
+msgid	"Indentation error"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Instant"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Instant\n"
+	"Fast\n"
+	"Medium\n"
+	"Slow"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Introduction"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Language reference"
+msgstr	"GvR språkreferanse"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Lessons"
+msgstr	"GvR Leksjoner"
+
+#. file 'gvrparser.py', line 338
+msgid	"Line %i:\n"
+	"%s"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 67
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Medium"
+msgstr	""
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 544
+#. file 'gui-gtk/Widgets.py', line 547
+msgid	"N"
+msgstr	"N"
+
+#. file 'guiWorld.py', line 47
+msgid	"No beepers to pick up."
+msgstr	""
+
+#. file 'guiWorld.py', line 43
+msgid	"No beepers to put down."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 612
+msgid	"No content to save"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 102
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Number of beepers:"
+msgstr	"Antall alarmer < 100"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Open worldbuilder"
+msgstr	"GvR Verdensbygger"
+
+#. file 'gui-gtk/Widgets.py', line 592
+msgid	"Please give the number of beepers\n"
+	"to place on %d,%d"
+msgstr	""
+
+#. file 'GvrModel.py', line 91
+msgid	"Please load a world and program before executing."
+msgstr	"Venligst åpne en verden og et program før du starter."
+
+#. file 'gui-gtk/gvr_gtk.py', line 533
+#, fuzzy
+msgid	"Programs"
+msgstr	"Nytt program"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Quit ?"
+msgstr	"Avslutt"
+
+#. file 'worldMap.py', line 20
+#. file 'worldMap.py', line 98
+msgid	"ROBOT"
+msgstr	"ROBOT"
+
+#. file 'guiWorld.py', line 31
+msgid	"Ran into a wall"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Reload"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robot Speed"
+msgstr	"Robotfart"
+
+#. file 'GvrModel.py', line 146
+msgid	"Robot turned off"
+msgstr	"Roboten slo seg av"
+
+#. file 'gui-gtk/Widgets.py', line 702
+msgid	"Robots position is %s %s %s and carrying %s beepers"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the x-axes:"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the y-axes:"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 323
+#, fuzzy
+msgid	"Running Worldbuilder"
+msgstr	"GvR Verdensbygger"
+
+#. file 'worldMap.py', line 46
+msgid	"S"
+msgstr	"S"
+
+#. file 'worldMap.py', line 23
+#. file 'worldMap.py', line 119
+msgid	"SIZE"
+msgstr	"STØERRELSE"
+
+#. file 'gui-gtk/gvr_gtk.py', line 718
+msgid	"Selected path is not a program file"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 765
+msgid	"Selected path is not a world file"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set Robot Speed"
+msgstr	"Velg robotfart"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Set language"
+msgstr	"Velg Språk..."
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"Set speed..."
+msgstr	"Velg F&art"
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Slow"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Step"
+msgstr	"Steg"
+
+#. file 'gui-gtk/gvr_gtk.py', line 643
+msgid	"The editor's content is changed.\n"
+	"Do you want to save it?"
+msgstr	""
+
+#. file 'worldMap.py', line 46
+msgid	"W"
+msgstr	"V"
+
+#. file 'worldMap.py', line 21
+#. file 'worldMap.py', line 92
+msgid	"WALL"
+msgstr	"VEGG"
+
+#. file 'gui-gtk/gvr_gtk.py', line 528
+#, fuzzy
+msgid	"Worlds"
+msgstr	"Ny Verden"
+
+#. file 'utils.py', line 264
+#, fuzzy
+msgid	"Written the new configuration to disk\n"
+	"You have to restart GvRng to see the effect"
+msgstr	"Den nye konfigurasjonen er skrevet til disk\n"
+	"Du må starte GvR på nytt for at endringene skal tre i kraft"
+
+#. file 'gui-gtk/gvr_gtk.py', line 231
+msgid	"You don't have a program file loaded."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.py', line 224
+msgid	"You don't have a world file loaded."
+msgstr	""
+
+#. file 'gvrparser.py', line 331
+msgid	"Your program must have commands."
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_About"
+msgstr	"Om"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Edit"
+msgstr	"A&vslutt"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_File"
+msgstr	"&Fil"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_GvR"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Help"
+msgstr	"Hjelp"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#, fuzzy
+msgid	"_Setup"
+msgstr	"&Brukervalg"
+
+#. file 'gvrparser.py', line 55
+msgid	"any_beepers_in_beeper_bag"
+msgstr	"noen_alarmer_i_sekken"
+
+#. file 'gui-gtk/Widgets.py', line 593
+#. file 'gui-gtk/Widgets.py', line 605
+#, fuzzy
+msgid	"beepers"
+msgstr	"Pipere"
+
+#. file 'gvrparser.py', line 81
+msgid	"cheat"
+msgstr	"juks"
+
+#. file 'gvrparser.py', line 89
+msgid	"define"
+msgstr	"definer"
+
+#. file 'gvrparser.py', line 95
+msgid	"do"
+msgstr	"gjør"
+
+#. file 'gvrparser.py', line 92
+msgid	"elif"
+msgstr	"ellhvis"
+
+#. file 'gvrparser.py', line 93
+msgid	"else"
+msgstr	"ellers"
+
+#. file 'gvrparser.py', line 90
+#. file 'gvrparser.py', line 96
+msgid	"end"
+msgstr	"slutt"
+
+#. file 'gvrparser.py', line 57
+msgid	"facing_east"
+msgstr	"vendt_øst"
+
+#. file 'gvrparser.py', line 56
+msgid	"facing_north"
+msgstr	"vendt_nord"
+
+#. file 'gvrparser.py', line 58
+msgid	"facing_south"
+msgstr	"vendt_sør"
+
+#. file 'gvrparser.py', line 59
+msgid	"facing_west"
+msgstr	"vendt_vest"
+
+#. file 'gvrparser.py', line 60
+msgid	"front_is_blocked"
+msgstr	"fronten_er_blokkert"
+
+#. file 'gvrparser.py', line 61
+msgid	"front_is_clear"
+msgstr	"fronten_er_fri"
+
+#. file 'gvrparser.py', line 91
+msgid	"if"
+msgstr	"hvis"
+
+#. file 'gvrparser.py', line 69
+msgid	"left_is_blocked"
+msgstr	"venstre_er_blokkert"
+
+#. file 'gvrparser.py', line 70
+msgid	"left_is_clear"
+msgstr	"venstre_er_fri"
+
+#. file 'gvrparser.py', line 76
+msgid	"move"
+msgstr	"flytt"
+
+#. file 'gvrparser.py', line 63
+msgid	"next_to_a_beeper"
+msgstr	"ved_en_alarm"
+
+#. file 'gvrparser.py', line 62
+msgid	"no_beepers_in_beeper_bag"
+msgstr	"ingen_alarmer_i_sekken"
+
+#. file 'gvrparser.py', line 66
+msgid	"not_facing_east"
+msgstr	"ikke_vendt_øst"
+
+#. file 'gvrparser.py', line 65
+msgid	"not_facing_north"
+msgstr	"ikke_vendt_nord"
+
+#. file 'gvrparser.py', line 67
+msgid	"not_facing_south"
+msgstr	"ikke_vendt_sør"
+
+#. file 'gvrparser.py', line 68
+msgid	"not_facing_west"
+msgstr	"ikke_vendt_vest"
+
+#. file 'gvrparser.py', line 64
+msgid	"not_next_to_a_beeper"
+msgstr	"ikke_ved_en_alarm"
+
+#. file 'gvrparser.py', line 77
+msgid	"pickbeeper"
+msgstr	"plukkalarm"
+
+#. file 'gvrparser.py', line 78
+msgid	"putbeeper"
+msgstr	"settalarm"
+
+#. file 'gvrparser.py', line 71
+msgid	"right_is_blocked"
+msgstr	"høyre_er_blokkert"
+
+#. file 'gvrparser.py', line 72
+msgid	"right_is_clear"
+msgstr	"høyre_er_fri"
+
+#. file 'gui-gtk/Widgets.py', line 558
+#. file 'gui-gtk/gvr_gtk.py', line 298
+#, fuzzy
+msgid	"robot"
+msgstr	"Robot"
+
+#. file 'gvrparser.py', line 79
+msgid	"turnleft"
+msgstr	"vendvenstre"
+
+#. file 'gvrparser.py', line 80
+msgid	"turnoff"
+msgstr	"slåav"
+
+#. file 'gui-gtk/Widgets.py', line 533
+#, fuzzy
+msgid	"wall"
+msgstr	"Vegg"
+
+#. file 'gvrparser.py', line 94
+msgid	"while"
+msgstr	"mens"
+
+#, fuzzy
+#~ msgid	"window-xo"
+#~ msgstr	"&Vindu"

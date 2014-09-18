@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="gvr_ca" version="1.0" _section="Scripts" 
+    mimetypes="text/x-gvr_ca">
+    
+    <escape-char>\</escape-char>
+
+    <string _name = "Multiline String" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&quot;&quot;&quot;</start-regex>
+        <end-regex>&quot;&quot;&quot;</end-regex>
+    </string>
+
+    <string _name = "Multiline String 2" style = "String" end-at-line-end = "FALSE">
+        <start-regex>[uUrR]?&apos;&apos;&apos;</start-regex>
+        <end-regex>&apos;&apos;&apos;</end-regex>
+    </string>
+
+    <string _name = "String" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&quot;</start-regex>
+        <end-regex>&quot;</end-regex>
+    </string>
+
+    <string _name = "String 2" style = "String" end-at-line-end = "TRUE">
+        <start-regex>[uUrR]?&apos;</start-regex>
+        <end-regex>&apos;</end-regex>
+    </string>
+
+    <line-comment _name = "Line Comment" style= "Comment">
+        <start-regex>#</start-regex>
+    </line-comment>
+    
+    <keyword-list _name = "World language" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>robot</keyword>
+        <keyword>mur</keyword>
+        <keyword>mida</keyword>
+        <keyword>beeper</keyword>       
+    </keyword-list>
+
+    <keyword-list _name = "Program statements" style = "Comment" case-sensitive="TRUE">
+        <keyword>mou</keyword>
+        <keyword>giraesquerra</keyword>
+        <keyword>recullbrunzidor</keyword>
+        <keyword>desabrunzidor</keyword>
+        <keyword>apaga</keyword>
+        <keyword>defineix</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program test" style = "Preprocessor" case-sensitive="TRUE">
+        <keyword>davant_net</keyword>
+        <keyword>davant_bloquejat</keyword>
+        <keyword>esquerra_net</keyword>
+        <keyword>esquerra_bloquejat</keyword>
+        <keyword>dreta_net</keyword>
+        <keyword>dreta_bloquejat</keyword>
+        <keyword>junt_a_un_brunzidor</keyword>
+        <keyword>no_junt_a_un_brunzidor</keyword>
+        <keyword>algun_brunzidor_a_la_bossa</keyword>
+        <keyword>cap_brunzidor_a_la_bossa</keyword>
+        <keyword>encarat_nord</keyword>
+        <keyword>no_encarat_nord</keyword>
+        <keyword>encarat_sud</keyword>
+        <keyword>no_encarat_sud</keyword>
+        <keyword>encarat_est</keyword>
+        <keyword>no_encarat_est</keyword>
+        <keyword>encarat_oest</keyword>
+        <keyword>no_encarat_oest</keyword>
+    </keyword-list>
+
+    <keyword-list _name = "Program others" style = "Others" case-sensitive="TRUE">
+        <keyword>si</keyword>
+        <keyword>sino</keyword>
+        <keyword>osi</keyword>
+        <keyword>fes</keyword>
+        <keyword>mentre</keyword>
+    </keyword-list>
+
+    <pattern-item _name = "Decimal" style = "Decimal">
+        <regex>\b([1-9][0-9]*|0)([Uu]([Ll]|LL|ll)?|([Ll]|LL|ll)[Uu]?)?\b</regex>
+    </pattern-item>
+
+</language>
+
+
+

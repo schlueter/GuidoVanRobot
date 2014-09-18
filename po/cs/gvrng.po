@@ -1,0 +1,557 @@
+msgid	""
+msgstr	"Project-Id-Version: GvRCzech 0.0.1\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2008-03-18 09:46:55.092971\n"
+	"PO-Revision-Date: 2008-01-08 19:34+0100\n"
+	"Last-Translator: Stas Zytkiewicz <stas.zytkiewicz@gmail.com>\n"
+	"Language-Team: Czech <jan.pipek@gmail.com>\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=UTF-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+	"X-Poedit-Language: Czech\n"
+	"X-Poedit-Country: CZECH REPUBLIC\n"
+
+#. file 'gvrparser.py', line 378
+msgid	"\"%s\" has already been defined"
+msgstr	"\"%s\" už bylo definováno"
+
+#. file 'gvrparser.py', line 374
+msgid	"\"%s\" is not a valid name"
+msgstr	"\"%s\" není platné jméno"
+
+#. file 'gvrparser.py', line 370
+msgid	"\"%s\" is not a valid test"
+msgstr	"\"%s\" není správně zadaná podmínka"
+
+#. file 'gvrparser.py', line 366
+msgid	"\"%s\" not defined"
+msgstr	"\"%s\" není definováno"
+
+#. file 'gvrparser.py', line 358
+msgid	"'%s' statement is incomplete"
+msgstr	"'%s' instrukce není úplná"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Alter the arguments for the 'robot' statement.</b>"
+msgstr	"<b>Změňte parametry příkazu 'robot'.</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Code Editor</b>"
+msgstr	"<b>Editor instrukcí</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>Guido's World</b>"
+msgstr	"<b>Guidův svět</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"<b>World Editor</b>"
+msgstr	"<b>Editor světa</b>"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Abort"
+msgstr	"Zastav"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"About GvR"
+msgstr	"O GvR"
+
+#. file 'worldMap.py', line 22
+#. file 'worldMap.py', line 114
+msgid	"BEEPERS"
+msgstr	"BZUCAKY"
+
+#. file 'world.py', line 179
+msgid	"Bad x value for positioning robot: %s"
+msgstr	"Špatná souřadnice x pro umístění robota: %s"
+
+#. file 'world.py', line 181
+msgid	"Bad y value for positioning robot: %s"
+msgstr	"Špatná souřadnice y pro umístění robota: %s"
+
+#. file 'gui-gtk/gvr_gtk.py', line 363
+msgid	"Can't find the lessons.\n"
+	"Make sure you have installed the GvR-Lessons package.\n"
+	"Check the GvR website for the lessons package.\n"
+	"http://gvr.sf.net"
+msgstr	"Nemohu najít lekce.\n"
+	"Zkontrolujte, zdali jste je nainstalovali.\n"
+	"Navštivte webové stránky GvR, kde je najdete.\n"
+	"http://www.bvr.sf.net"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Catalan\n"
+	"Dutch\n"
+	"English\n"
+	"French\n"
+	"Norwegian\n"
+	"Romenian\n"
+	"Spanish\n"
+	"Italian"
+msgstr	"Katalánsky\n"
+	"Holandsky\n"
+	"Anglicky\n"
+	"Francouzsky\n"
+	"Norsky\n"
+	"Rumunsky\n"
+	"Španělsky\n"
+	"Italsky"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Change the language used\n"
+	"(After you restart GvR)"
+msgstr	"Změňte použitý jazyk\n"
+	"(Projeví se po restartu GvR)"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Choose a file"
+msgstr	"Vyberte soubor"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Direction robot is facing (N,E,S,W)"
+msgstr	"Směr, kterým se robot kouká (S,V,J,Z)"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Do you really want to quit ?"
+msgstr	"Opravdu chcete skončit?"
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 537
+#. file 'gui-gtk/Widgets.py', line 540
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid	"E"
+msgstr	"V"
+
+#. file 'worldMap.py', line 135
+msgid	"Error in line %s:\n"
+	"%s\n"
+	"Check your world file for syntax errors"
+msgstr	"Chyba na řádku %s:\n"
+	"%s\n"
+	"Zkontrolujte, nejsou-li v souboru světa syntaktické chyby."
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Execute"
+msgstr	"Spusť"
+
+#. file 'gvrparser.py', line 362
+msgid	"Expected '%s' statement to end in ':'"
+msgstr	"Instrukce '%s' by měla končit dvojtečkou ':'"
+
+#. file 'gvrparser.py', line 354
+msgid	"Expected code to be indented here"
+msgstr	"Kód na tomto místě by měl být pravděpoobně odsazen."
+
+#. file 'gvrparser.py', line 342
+msgid	"Expected positive integer\n"
+	"Got: %s"
+msgstr	"Očekávano přirozené číslo\n"
+	"Místo toho jsem našel: %s"
+
+#. file 'utils.py', line 246
+msgid	"Failed to save the file.\n"
+msgstr	"Nepodařilo se uložit soubor.\n"
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Fast"
+msgstr	""
+
+#. file 'gui-gtk/Widgets.py', line 737
+msgid	"Go back one page"
+msgstr	"Vrať se o stranu zpět"
+
+#. file 'gui-gtk/Widgets.py', line 743
+msgid	"Go one page forward"
+msgstr	"Poskoč o stranu dopředu"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot - Robot arguments"
+msgstr	"Guido van Robot - parametry robota"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido van Robot Programming Summary"
+msgstr	"Shrnutí programování Guida van Robota"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Guido's World"
+msgstr	"Guidův svět"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"GvR - Editor"
+msgstr	"GvR - editor"
+
+#. file 'gui-gtk/gvr_gtk.py', line 285
+msgid	"GvR - Worldbuilder"
+msgstr	"GvR - Stavitel světa"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"GvR Worldbuilder"
+msgstr	"Stavitel světa GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Gvr Lessons"
+msgstr	"Lekce GvR"
+
+#. file 'gvrparser.py', line 348
+msgid	"Indentation error"
+msgstr	"Chyba odsazení"
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Instant"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Instant\n"
+	"Fast\n"
+	"Medium\n"
+	"Slow"
+msgstr	"Okamžitě\n"
+	"Rychle\n"
+	"Normálně\n"
+	"Pomalu"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Introduction"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Language reference"
+msgstr	"Přehled jazyka"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Lessons"
+msgstr	"Lekce"
+
+#. file 'gvrparser.py', line 338
+msgid	"Line %i:\n"
+	"%s"
+msgstr	"Řádek %i:\n"
+	"%s"
+
+#. file 'gui-gtk/gvr_gtk.py', line 67
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Medium"
+msgstr	""
+
+#. file 'worldMap.py', line 46
+#. file 'gui-gtk/Widgets.py', line 544
+#. file 'gui-gtk/Widgets.py', line 547
+msgid	"N"
+msgstr	"S"
+
+#. file 'guiWorld.py', line 47
+msgid	"No beepers to pick up."
+msgstr	"Nejsou tu žádné bzučáky, které by šly sebrat."
+
+#. file 'guiWorld.py', line 43
+msgid	"No beepers to put down."
+msgstr	"Nemám žádné bzučáky, nemůžu je položit."
+
+#. file 'gui-gtk/gvr_gtk.py', line 612
+msgid	"No content to save"
+msgstr	"Není co uložit."
+
+#. file 'gui-gtk/Widgets.py', line 102
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Number of beepers:"
+msgstr	"Počet bzučáků:"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Open worldbuilder"
+msgstr	"Stavitel světa GvR"
+
+#. file 'gui-gtk/Widgets.py', line 592
+msgid	"Please give the number of beepers\n"
+	"to place on %d,%d"
+msgstr	"Prosím zadej počet bzučáků\n"
+	"na pozici %d, %d"
+
+#. file 'GvrModel.py', line 91
+msgid	"Please load a world and program before executing."
+msgstr	"Prosím načtěte soubor světa a program, než robota spustíte."
+
+#. file 'gui-gtk/gvr_gtk.py', line 533
+msgid	"Programs"
+msgstr	"Soubory instrukcí"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Quit ?"
+msgstr	"Skončit?"
+
+#. file 'worldMap.py', line 20
+#. file 'worldMap.py', line 98
+msgid	"ROBOT"
+msgstr	"ROBOT"
+
+#. file 'guiWorld.py', line 31
+msgid	"Ran into a wall"
+msgstr	"Aúúú! Naboural jsem do zdi."
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Reload"
+msgstr	"Obnovit"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robot Speed"
+msgstr	"Rychlost robota"
+
+#. file 'GvrModel.py', line 146
+msgid	"Robot turned off"
+msgstr	"Robot vypnut"
+
+#. file 'gui-gtk/Widgets.py', line 702
+msgid	"Robots position is %s %s %s and carrying %s beepers"
+msgstr	"Robot je na místě %s %s %s a nese %s bzučáků"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the x-axes:"
+msgstr	"Souřadnice x robota:"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Robots position on the y-axes:"
+msgstr	"Souřadnice y robota:"
+
+#. file 'gui-gtk/gvr_gtk.py', line 323
+#, fuzzy
+msgid	"Running Worldbuilder"
+msgstr	"Stavitel světa GvR"
+
+#. file 'worldMap.py', line 46
+msgid	"S"
+msgstr	"J"
+
+#. file 'worldMap.py', line 23
+#. file 'worldMap.py', line 119
+msgid	"SIZE"
+msgstr	"VELIKOST"
+
+#. file 'gui-gtk/gvr_gtk.py', line 718
+msgid	"Selected path is not a program file"
+msgstr	"Zvolený soubor není platným programem."
+
+#. file 'gui-gtk/gvr_gtk.py', line 765
+msgid	"Selected path is not a world file"
+msgstr	"Vybraný soubor není platný soubor světa"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set Robot Speed"
+msgstr	"Nastav rychlost robota"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set language"
+msgstr	"Nastavte jazyk"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Set speed..."
+msgstr	"Nastavit rychlost..."
+
+#. file 'gui-gtk/gvr_gtk.py', line 811
+msgid	"Slow"
+msgstr	""
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"Step"
+msgstr	"Krok"
+
+#. file 'gui-gtk/gvr_gtk.py', line 643
+msgid	"The editor's content is changed.\n"
+	"Do you want to save it?"
+msgstr	"Obsah okna se změnil.\n"
+	"Chcete jej uložit?"
+
+#. file 'worldMap.py', line 46
+msgid	"W"
+msgstr	"Z"
+
+#. file 'worldMap.py', line 21
+#. file 'worldMap.py', line 92
+msgid	"WALL"
+msgstr	"ZED"
+
+#. file 'gui-gtk/gvr_gtk.py', line 528
+msgid	"Worlds"
+msgstr	"Soubory světa"
+
+#. file 'utils.py', line 264
+msgid	"Written the new configuration to disk\n"
+	"You have to restart GvRng to see the effect"
+msgstr	"Změny v nastavení byly uložena.\n"
+	"Projeví se po restartování GvR."
+
+#. file 'gui-gtk/gvr_gtk.py', line 231
+msgid	"You don't have a program file loaded."
+msgstr	"Nemáte načtený program."
+
+#. file 'gui-gtk/gvr_gtk.py', line 224
+msgid	"You don't have a world file loaded."
+msgstr	"Nemáte načtený soubor světa."
+
+#. file 'gvrparser.py', line 331
+msgid	"Your program must have commands."
+msgstr	"Ve vašem programu musí být alespoň jedna instrukce."
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_About"
+msgstr	"_O programu"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_Edit"
+msgstr	"Úpr_avy"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_File"
+msgstr	"_Soubor"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_GvR"
+msgstr	"_GvR"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_Help"
+msgstr	"_Nápověda"
+
+#. file 'gui-gtk/gvr_gtk.glade', line ?
+msgid	"_Setup"
+msgstr	"_Nastavení"
+
+#. file 'gvrparser.py', line 55
+msgid	"any_beepers_in_beeper_bag"
+msgstr	"jsou_bzucaky_v_pytli"
+
+#. file 'gui-gtk/Widgets.py', line 593
+#. file 'gui-gtk/Widgets.py', line 605
+msgid	"beepers"
+msgstr	"bzucaky"
+
+#. file 'gvrparser.py', line 81
+msgid	"cheat"
+msgstr	"svindluj"
+
+#. file 'gvrparser.py', line 89
+msgid	"define"
+msgstr	"nauc"
+
+#. file 'gvrparser.py', line 95
+msgid	"do"
+msgstr	"delej"
+
+#. file 'gvrparser.py', line 92
+msgid	"elif"
+msgstr	"nebo_kdyz"
+
+#. file 'gvrparser.py', line 93
+msgid	"else"
+msgstr	"jinak"
+
+#. file 'gvrparser.py', line 90
+#. file 'gvrparser.py', line 96
+msgid	"end"
+msgstr	"konec"
+
+#. file 'gvrparser.py', line 57
+msgid	"facing_east"
+msgstr	"kouka_na_vychod"
+
+#. file 'gvrparser.py', line 56
+msgid	"facing_north"
+msgstr	"kouka_na_sever"
+
+#. file 'gvrparser.py', line 58
+msgid	"facing_south"
+msgstr	"kouka_na_jih"
+
+#. file 'gvrparser.py', line 59
+msgid	"facing_west"
+msgstr	"kouka_na_zapad"
+
+#. file 'gvrparser.py', line 60
+msgid	"front_is_blocked"
+msgstr	"vpredu_zed"
+
+#. file 'gvrparser.py', line 61
+msgid	"front_is_clear"
+msgstr	"vpredu_volno"
+
+#. file 'gvrparser.py', line 91
+msgid	"if"
+msgstr	"kdyz"
+
+#. file 'gvrparser.py', line 69
+msgid	"left_is_blocked"
+msgstr	"vlevo_zed"
+
+#. file 'gvrparser.py', line 70
+msgid	"left_is_clear"
+msgstr	"vlevo_volno"
+
+#. file 'gvrparser.py', line 76
+msgid	"move"
+msgstr	"jdi"
+
+#. file 'gvrparser.py', line 63
+msgid	"next_to_a_beeper"
+msgstr	"je_bzucak"
+
+#. file 'gvrparser.py', line 62
+msgid	"no_beepers_in_beeper_bag"
+msgstr	"nejsou_bzucaky_v_pytli"
+
+#. file 'gvrparser.py', line 66
+msgid	"not_facing_east"
+msgstr	"nekouka_na_vychod"
+
+#. file 'gvrparser.py', line 65
+msgid	"not_facing_north"
+msgstr	"nekouka_na_sever"
+
+#. file 'gvrparser.py', line 67
+msgid	"not_facing_south"
+msgstr	"nekouka_na_jih"
+
+#. file 'gvrparser.py', line 68
+msgid	"not_facing_west"
+msgstr	"nekouka_na_zapad"
+
+#. file 'gvrparser.py', line 64
+msgid	"not_next_to_a_beeper"
+msgstr	"neni_bzucak"
+
+#. file 'gvrparser.py', line 77
+msgid	"pickbeeper"
+msgstr	"seber"
+
+#. file 'gvrparser.py', line 78
+msgid	"putbeeper"
+msgstr	"poloz"
+
+#. file 'gvrparser.py', line 71
+msgid	"right_is_blocked"
+msgstr	"vpravo_zed"
+
+#. file 'gvrparser.py', line 72
+msgid	"right_is_clear"
+msgstr	"vpravo_volno"
+
+#. file 'gui-gtk/Widgets.py', line 558
+#. file 'gui-gtk/gvr_gtk.py', line 298
+msgid	"robot"
+msgstr	"robot"
+
+#. file 'gvrparser.py', line 79
+msgid	"turnleft"
+msgstr	"doleva"
+
+#. file 'gvrparser.py', line 80
+msgid	"turnoff"
+msgstr	"vypni"
+
+#. file 'gui-gtk/Widgets.py', line 533
+msgid	"wall"
+msgstr	"zed"
+
+#. file 'gvrparser.py', line 94
+msgid	"while"
+msgstr	"dokud"
+
+#~ msgid	"window-xo"
+#~ msgstr	"Guido van Robot"

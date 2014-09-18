@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Roger Frank 
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<html>
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" --><title>Another Brick in the Wall</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+
+<h1>Just Another Brick in the Wall</h1>
+<h2>Tutorial</h2>
+<p>
+You can now program Guido to move around, pick up beepers, and drop them off
+anywhere in his world.   To make his world more interesting, we will add walls
+to the world file that Guido will have to avoid.  If Guido is about to run into 
+a wall, he does an error shut-off and your program stops.  This behavior is
+built-in to the robot.  If he is asked to do anything he cannot do, he shuts
+down.  For example, if you tell him to pick up a beeper that isn't there, he
+shuts off.  The same goes for <code>put_beeper</code> -- he shuts off if he
+doesn't have any in his beeper-bag.  So be careful and don't ask the robot to
+go into a wall!
+</p>
+<p>
+Here is an example of a world file with walls:
+</p>
+<pre>Robot 1 5 E 1
+Wall 2 4 N
+Wall 2 4 E
+Wall 3 4 E
+Wall 4 4 N 2
+Wall 2 5 N
+Wall 2 6 E
+Wall 3 6 E
+Wall 4 5 N 2
+</pre>
+<p>
+The format of a Wall descriptor is:
+</p>
+<pre>1st number: avenue
+2nd number: street 
+3rd number: intersection blocked to (N)orth, (S)outh, (E)ast, or (W)est
+4th number: (optional) wall length (extending East or North)
+</pre>
+<p>
+Using this world file, GVR's graphical display starts like this:
+</p>
+<p><img alt="Step 4a image" src="04_files/step04a.png"></p>
+
+<h2>Your Turn</h2>
+<p>
+Modify the world file to change Guido's world such that his path is completely
+enclosed as shown in this diagram.
+</p>
+<p><img alt="Step 4b image" src="04_files/step04b.png"></p>
+<p>
+The default length of a wall section is one block, but you can use an optional
+4th number to make the wall section as long as you wish.  Lengths always extend
+in either the North or East direction.  That means there are two ways to
+describe a given section of wall. The longest section of wall in the example
+above could be written as either <code>Wall 3 7 N 4</code> or
+<code>Wall 3 8 S 4</code>.
+</p>
+<p>
+You will find it much easier if you use a piece of grid paper to sketch the
+world and then mark the intersections and walls' positions.
+</p>
+<p>
+Put a robot with one beeper at the corner of 1st Avenue and 5th Street facing
+east as shown in the example world.  In your program, he should go two blocks
+east, drop the beeper, and continue three blocks ahead.  Facing a wall,
+he should turn left, go two blocks north, then three blocks west, then two
+south back to where he dropped the beeper.  Then he picks it up and carries it
+three blocks south, drops it again, goes one more block and turns off. 
+</p>
+<hr>
+<p>
+To lay out your world grid, here is a
+<a href="04_files/guido_grid.txt">printable map</a> 
+you may find useful.
+</p>
+<hr>
+<p style="text-align: center;">
+<a href="03.html">Previous</a> | <a href="index.html">Index</a> | <a href="05.html">Next</a></p>
+
+
+
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.rfrank.net/">Roger Frank</a>.
+</p>
+</body>
+</html>

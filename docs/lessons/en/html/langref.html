@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head><!-- The XHTML and PHP source for this page
+Copyright (c) 2003 Jeffrey Elkner
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2  or any later version published by the Free Software
+Foundation; with no Invariant Sections, with no Front-Cover Texts,
+and with no Back-Cover Texts. The full text of the license can be
+found at: http://www.gnu.org/copyleft/fdl.html
+
+This distribution includes a file named  fdl.txt that contains the
+text of the GNU Free Documentation License.  If it is missing, you
+can obtain it from www.gnu.org or by writing to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. -->
+<!-- base href="http://gvr.sourceforge.net/lessons/rfrank/" -->
+
+<title>GvR Lessons</title>
+
+<link href="main.css" type="text/css" rel="stylesheet"></head>
+
+
+<body>
+<h1><em>The Roger Frank Lessons</em><br>
+Introduction to Computer Science: GvR Unit</h1>
+<h2>Guido van Robot Programming Summary</h2>
+<p>
+<h3>The Five Primitive Guido van Robot Instructions:</h3>
+<br>
+<pre>
+   1. move
+   2. turnleft
+   3. pickbeeper
+   4. putbeeper
+   5. turnoff
+</pre>
+<p>
+<h3>Block Structuring</h3>
+<br>
+Each Guido van Robot instruction must be on a separate line.
+A sequence of Guido van Robot instructions can be treated as a single
+instruction by indenting the same number of spaces.
+&lt;instruction&gt; refers to any of the five primitive instructions above,
+the conditional branching or iteration instructions below,
+or a user defined instruction.
+<pre>
+    &lt;instruction&gt;
+    &lt;instruction&gt;
+      ...
+    &lt;instruction&gt;
+</pre>
+<p>
+<h3>Conditionals</h3>
+<br>
+GvR has eighteen built-in tests that are divided into three groups:
+the first six are wall tests,<br>
+the next four are beeper tests,<br>
+and the last eight are compass tests:<br>
+<pre>
+   1. front_is_clear
+   2. front_is_blocked
+   3. left_is_clear
+   4. left_is_blocked
+   5. right_is_clear
+   6. right_is_blocked
+   7. next_to_a_beeper
+   8. not_next_to_a_beeper
+   9. any_beepers_in_beeper_bag
+  10. no_beepers_in_beeper_bag
+  11. facing_north
+  12. not_facing_north
+  13. facing_south
+  14. not_facing_south
+  15. facing_east
+  16. not_facing_east
+  17. facing_west
+  18. not_facing_west
+</pre>
+<h3>Conditional Branching</h3>
+<br>
+Conditional branching refers to the ability of a program to alter it's flow of
+execution based on the result of the evaluation of a conditional.<br>
+The three types of conditional branching instructions in Guido van Robot
+are <b>if</b> and <b>if/else</b> and <b>if/elif/else</b>.
+<b>&lt;test&gt;</b> refers to one of the eighteen conditionals above.
+<br>
+<pre>
+if <test>:
+    <instruction>
+
+if <test>:
+    <instruction>
+else:
+    <instruction>
+
+if <test>:
+    <instruction>
+elif <test>:
+    <instruction>
+...
+elif <test>:
+    <instruction>
+else:
+    <instruction>
+</pre>
+<p>
+<h3>Iteration</h3>
+<br>
+Iteration refers to the ability of a program to repeate an instruction
+(or block of instructions) over and over until some condition is met.
+The two types of iteration instructions are the do and while instructions.
+&lt;positive_number&gt; must be an integer greater than 0.
+<pre>
+do <positive_number>:
+    <instruction>
+
+while <test>:
+    <instruction>
+</pre>
+<p>
+<h3>Defining a New Instruction:</h3>
+<br>
+New instructions can be created for Guido van Robot using the define statement.
+&lt;new_name&gt; can be any sequence of letters or digits as long as it begins with
+a letter and is not already used as an instruction.
+Letters for Guido van Robot are A..Z, a..z, and the underscore (_) character.
+Guido van Robot is case sensitive, so TurnRight, turnright, and turnRight are
+all different names.
+<pre>
+define <new_name>:
+    <instruction>
+</pre>
+<p style="text-align: center;">
+<a href="18.html">Previous</a> | <a href="index.html">Index</a></p>
+<p class="copyleft">
+<a href="http://www.gnu.org/copyleft/copyleft.html">
+Copyright</a> © 2003 <a href="http://www.elkner.net/">Jeffrey Elkner</a>.
+</p>
+</body>
+</html>

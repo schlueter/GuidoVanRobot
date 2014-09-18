@@ -1,0 +1,100 @@
+Oppsummering Guido van Robot programmering
+De fem grunnleggende Guido van Robot instruksjonene:
+
+1.flytt
+2.vendvenstre
+3.plukkpiper
+4.settpiper
+5.slaav
+
+Blokk strukturering
+
+Enhver Guido van Robot instruksjon må være på separat linje.
+En sekvens av Guido van Robot instruksjoner kan behandles som en singel
+instruksjon ved gi alle instruksjonene i sekvensen lik antall innrykk.
+<instruksjon> refererer til alle de grunnleggende instruksjonene over, de betingede
+fordelingene eller gjentakende instruksjoner under, eller en brukerdefinert instruksjon.
+
+	<instruksjon>
+	<instruksjon>
+	....
+	<instruksjon>
+
+Betingelser
+
+GvR har atten innebygde tester som er fordelt på tre grupper:
+de seks første er veggtester
+de fire neste pipertester
+og de åtte siste er kompasstester
+
+1.fronten_er_blokkert
+2.fronten_er_fri
+3.venstre_er_blokkert
+4.venstre_er_fri
+5.hoeyre_er_blokkert
+6.hoeyre_er_fri
+7.ved_en_piper
+8.ikke_ved_en_piper
+9.noen_pipere_i_sekken
+10.ingen_pipere_i_sekken
+11.vendt_nord
+12.ikke_vendt_nord
+13.vendt_oest
+14.ikke_vendt_oest
+15.vendt_soer
+16.ikke_vendt_soer
+17.vendt_vest
+18.ikke_vendt_vest
+
+Betinget forgrening 
+
+Betinget forgrening referer til et programs evne til å forandre dets rekkefølge av igangsettelser
+basert på evalueringer av en betingelse. De tre typene av betinget forgrenings instruksjoner i Guido van Robot er hvis, hvis/ellers og  hvis/ellhvis/ellers.
+<test> referer til en av de atten betingelsene over.
+
+hvis <test>:
+         <instruksjon>
+
+hvis <test>:
+         <instruksjon>
+ellers:
+         <instruksjon>
+
+hvis <test>:
+         <instruksjon>
+ellhvis <test>:
+          <instruksjon>
+....
+ellhvis <test>:
+           <instruksjon>
+ellers:
+           <instruksjon>
+
+Gjentagelse:
+
+Gjentagelse referer til et programs evne til å repetere en instruksjon (eller blokk
+av instruksjoner) om og om igjen til noen betingelser blir møtt. De to typene av 
+gjentagelse instruksjoner er gjør og mens instruksjonene.
+<positivt_nummer> må være et heltall større enn 0.
+
+gjoer <positivt_nummer>
+         <instruksjon>
+
+mens <test>
+       <instruksjon>
+
+Definering av en ny instruksjon:
+
+Nye instruksjoner for Guido van Robot kan lages med definer utsagnet.
+<nytt_navn> kan være hvilken som helst sekvens av bokstaver og siffer så
+lenge det starter med en bokstav og ikke allerede er i bruk som en instruksjon.
+Bokstaver for Guido van Robot er A..Z, a..z og understrek (_) tegnet.
+Guido er var på liten og stor bokstav, så VendHoeyre, vendhoeyre og vendHoeyre er alle forskjellige navn.(kommandoer kan ikke ha særnorske bokstaver)
+
+definer <nytt_navn>
+      <instruksjon>
+
+
+
+
+

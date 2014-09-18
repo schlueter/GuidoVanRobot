@@ -1,0 +1,12 @@
+Guido van Robot Wereld constructeur
+Editing wereld:
+    Linker muisknop : Plaats of verwijder muren 
+    Middelste muisknop: Zet de argumenten voor het robot statement
+    Rechter muisknop : Zet de argumenten voor het bieper statement
+    
+Knoppen:
+    Herlaad   : Herlaad de wereld vanuit het editor venster in
+		    de wereld constructeur. 
+    Stop    : Beeindig de wereld constructeur, niet GvRng.
+
+

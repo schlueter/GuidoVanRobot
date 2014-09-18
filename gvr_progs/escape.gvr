@@ -1,0 +1,47 @@
+#
+define turnright:
+    do 3:
+        turnleft
+
+define sidestep_right:
+    turnright
+    move
+    turnleft
+
+define sidestep_back_left:
+    turnleft
+    move
+    turnright
+
+define shuffle:
+    sidestep_right
+    if front_is_clear:
+        sidestep_back_left
+        move
+
+define go_to_wall:
+    while front_is_clear:
+        if right_is_blocked:
+            turnright
+        else:
+            shuffle
+
+define follow_perimeter:
+    if front_is_clear:
+        move
+    else:
+        turnleft
+
+define follow_until_door_is_on_right:
+    while right_is_blocked:
+        follow_perimeter
+
+define exit_door:
+    turnright
+    move
+
+go_to_wall
+turnleft
+follow_until_door_is_on_right
+exit_door
+turnoff

@@ -1,0 +1,159 @@
+gvr-xo (4.4)
+    * Bugfix release.
+    * Fixed the issue that an extra line is inserted when a beeper is placed
+      in wbuilder.
+
+gvr_xo (4.3)
+    * Bugfix release.
+    * Fixed bug that prevented the beepers to be drawn correctly when moving
+      the robot.
+    * Added a check to save the editor content when openening a new editor.
+
+gvr_xo (4.2)
+    * Fixed bug #2517392 No auto indent.
+    * Fixed a bug in the worldbuilder where manual alterations in the world
+      editor made the worldbuilder lost sync.
+    * Removed in the GUI, 'set language' from the 'set' menu.
+    * Fixed GUI resize bug which prevented the 'world' screen to resize.
+    * Added proper extension to saved files when the user doesn't add an 
+      extension to the name. 
+    * Fixed bug that allowed the number of beepers set to negative in
+      worldbuilder.  
+    * Added the possibility to remove a beeper by giving a zero as beeper
+      value in the beeper dialog.
+    * Set the entry widget in the beepers dialog to grab the focus.
+    * Updated the help text for the worldbuilder. 
+    * Added syntax check for missing robot direction argument.
+    * Added better syntax error reporting.
+    * Greatly improved the error reporting to the user.
+    * Added check for wall length argument.
+    * Added a warning dialog when the user gives a value less than zero in
+      the beeper dialog.
+    * Fixed a bug which prevented the statusbar to be updated on beeper actions.
+    * Fixed bug in the wbuilder that caused manually deleted worldfile items
+      to reappear on a reload action.
+    
+gvr_xo (4.1)
+    * Fixed: 2456178 Gvr don't return to "main map" from "open worldbuilder"
+    
+gvr_xo (4.0)
+    * New release.
+    * Redesigned the layout of the editors.
+      They are now placed in a notebook widget to get more space for the 
+      code editor. Also the editors can now be resized independently
+    *  Fixed the bug which prevented a new code editor window to be opened.
+
+gvr_xo (3.5)
+    * Bugfix release.
+    * Changed the dimensions of the code editor to get more space.
+
+gvr_xo (3.4)
+    * Bugfix release.
+    * Fixed language support bug in the gvr language:
+       Changed the way the translations tables are constructed as it seems 
+       that later Python version (2.5?) has an gettext that behaves a bit differently.
+       The fix was tested on Python 2.4 and 2.5.
+    * Fixed a crash on XO 767. This was caused by yet another gtksourceview API change
+       in the olpc gtksourceview module.
+       
+gvr_xo (3.3.2)
+    * Fixed some i18n issues.
+    * Minor bugfixes.
+
+gvr_xo (3.3)
+    * Fixed problem that no new editor was created when using menu > new (Only on XO).
+    * Fixed problem that prevented loading of files from disk (Only on XO)
+    * Fixed localization problems in worldbuilder.
+    * Fixed the drawing routines in the worldbuilder so that the drawing is almost instant.
+    * Added Dutch introduction text
+
+gvr_xo (3.2)
+    * Fixed bug in the worldbuilder which prevented the builder to start on XO.
+    * Fixed caps problem in Dutch localization which prevented syntax highlighting
+      in the worldbuilder.
+
+gvr_xo (3.1)
+    * Fixed bug in the GTK version which leads to a crash.
+
+gvr_xo (3.0)
+    * Set intro tab as current page when gvr is started the first time.
+    * Applied patch from Sergio: Loading default lessons.
+    * Fixed localization bug which prevented the GUI from being localized
+    * Updated Dutch translation.
+    * Added Czech localization.
+    * Fixed HTML syntax errors in the English lessons.
+    * Fixed syntax highlighting in gtksourceview version 1 and 2.
+    * Fixed GUI layout.
+    * Added support for gtksourceview 1 and 2 and the version that's on the XO
+    
+gvr_xo(2.9)
+    * Fixed multiple bugs in the way the various parts are drawn
+      in the "world" canvas.
+    * Make the drawing of the robot and beepers "pixel perfect".
+    * Make the statusbar update properly.
+    * Moved the world image to the left to get a slithly larger world.
+    * Many bug fixes in the worldbuilder which is now useable.
+    * Changed the color combinations used in worldbuilder to make it 
+      differ from the normal world.
+    * Added a introduction tab with a short text.
+    * Set the reference and intro tab to non-editable.
+
+gvr_xo (2.8)
+    * forcing an expose event so that the canvas is updated when
+      beepers are drawn. 
+    * Fixed multiple bugs in the worldbuilder.
+    * Fixed bugs in the logic when users cancel save operations.
+
+gvr_xo (2.7.2)
+    * Bugfix release.
+    * Fixed wrong activity.close call in the exception catch
+
+gvr_xo (2.7.1)
+    * Fixed paths related to the lessons.
+    * Added a catch all exception catch which will close the activity to
+      prevent a stale application.
+    * Set logging level to debug.
+    
+gvr_xo (2.7)
+    * Added window icon.
+    * Redesigned the way gettext po files are created to make
+      it easier for translators to translated all the strings in
+      the python files and the Glade file.
+    * Removed gtksourceview editor as XO doesn't seems to include it.
+
+gvr_xo (2.6)
+    * Fixed some small bugs
+    * Embed hulahop.webview as the lessons viewer.
+    * Added simple navigating toolbar to the webview tab.
+    * Added the lessons.
+    * Removed the language reference menu option as we now
+      use notebook tabs.
+    * Non_XO: Removed lessons notebook tab.
+
+gvr_xo (2.5)
+    * Removing print and other debugging stuff and replacing it
+      with Python logging module.
+    * Using gtksourceview iso our own editors.
+    * Intergrate into Sugar with toolbox etc.
+    * Using a notebook layout for the world, reference and lessons.
+      (Lessons not yet available)
+
+gvr-xo (2.4)
+    *Updating to latest Sugar.
+    
+gvr-xo (2.3)
+    * Fixed localization bug in the gtk parts.
+    * Cleanedup some error messages.
+    
+gvr-xo (2.2)
+    * Name change.
+
+GvRng-XO (2.1)
+    * Fixed bug: 'utils.set_locale' is called twice.
+    * Fixed bug: When editing file from scratch the buttons aren't activated.
+    * Fixed bug: When reload button is hit the world isn't redrawn until next
+      expose event.
+
+GvRng-XO (2.0)
+    * Initial release.
+    

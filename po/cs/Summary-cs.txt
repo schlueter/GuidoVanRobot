@@ -1,0 +1,96 @@
+Guido van Robot - Stručný přehled instrukcí
+Pět základních příkazů Guido van Robota:
+
+   1. jdi
+   2. doleva
+   3. seber
+   4. poloz
+   5. vypni
+
+Psaní příkazů
+
+Každý příkaz pro Guida musí být napsán na novém řádku.
+Skupinu příkazů pro Guida můžete považovat jako jeden dlouhý příkaz,
+když jsou napsány pod sebou a každý řádek s příkazem začíná
+stejným počtem mezer.
+Místo slova <instrukce> můžete použít kterýkoliv z pěti základních
+příkazů, podmínku, opakování nebo dokonce vlastní příkazy.
+
+    <instrukce>
+    <instrukce>
+      ...
+    <instrukce>
+
+Podmínky
+
+GvR má osmnáct zabudovaných podmínek, které se dělí do třech skupin:
+prvních šest kontroluje zdi, další čtyři na bzučáky a posledních osm zjišťuje, kam se robot dívá.
+
+   1. vpredu_volno
+   2. vpredu_zed
+   3. vlevo_volno
+   4. vlevo_zed
+   5. vpravo_volno
+   6. vpravo_zed
+   7. je_bzucak
+   8. neni_bzucak
+   9. jsou_bzucaky_v_pytli
+  10. nejsou_bzucaky_v_pytli
+  11. kouka_na_sever
+  12. nekouka_na_sever
+  13. kouka_na_jih
+  14. nekouka_na_jih
+  15. kouka_na_vychod
+  16. nekouka_na_vychod
+  17. kouka_na_zapad
+  18. nekouka_na_zapad
+
+Větvení na základě podmínek
+
+Robot se může rozhodnout, co bude dále dělat, na základě zjištění, jestli
+je splněna nějaká podmínka. Tři typy větvících příkazů pro Guida van Robota
+jsou kdyz, kdyz/jinak a kdyz/nebo_kdyz/jinak/.
+<podmínka> značí jednu z osmnácti výše uvedených podmínek
+
+kdyz <podmínka>:
+    <instrukce>
+
+kdyz <podmínka>:
+    <instrukce>
+jinak:
+    <instrukce>
+
+kdyz <podmínka>:
+    <instrukce>
+nebo_kdyz <podmínka>:
+    <instrukce>
+...
+nebo_kdyz <podmínka>:
+    <instrukce>
+jinak:
+    <instrukce>
+
+
+Opakování
+
+Robot může opakovat jeden příkaz (nebo skupinu příkazů), dokud je splněna nějaká
+podmínka. Dva typy opakovacích příkazů jsou delej a dokud.
+<přirozené číslo> musí být větší než 0.
+
+delej <přirozené číslo>:
+    <instrukce>
+
+dokud <podmínka>:
+    <instrukce>
+
+Naučení nového příkazu
+
+Guido van Robota můžete naučit nové příkazy pomocí příkazu nauc.
+<nový příkaz> je libovolné jméno skládající se z písmen, číslic nebo podtržítka (_).
+Jméno příkazu ale nesmí začínat číslem a nesmí se shodovat s některým ze slov,
+kterým už Guido rozumí. Guido ale rozlišuje velká a malá písmena, takže vpravo_vbok,
+VPRAVO_vbok a Vpravo_Vbok jsou všechno jiná jména.
+
+nauc <nový příkaz>:
+    <instrukce>
+
